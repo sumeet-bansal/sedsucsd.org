@@ -10,9 +10,7 @@ Primary use:    MultiPurpose Template
 
 @import "font-awesome.min.css";
 @import "et-line.css";
-@import url(https://fonts.googleapis.com/css?family=Open+Sans:400italic,700italic,400,300,700);
-@import url(https://fonts.googleapis.com/css?family=Dosis:300,400,700);
-@import url('https://fonts.googleapis.com/css?family=Roboto Condensed+Condensed:300,400,700|Roboto Condensed:300,400,700');
+@import url('https://fonts.googleapis.com/css?family=Dosis:300,400,700|Open+Sans:300,400,700|Roboto+Condensed:300,400,700|Roboto:300,400,700');
 
 /*------------------------------------------------------------------
 [Table of contents]
@@ -361,7 +359,7 @@ img:not([draggable]), embed, object, video{
 body{
     color: #111;
     font-size: 14px;
-    font-family: "Roboto Condensed", arial, sans-serif;
+    font-family: "Roboto", arial, sans-serif;
     line-height: 1.6;    
     -webkit-font-smoothing: antialiased;
 }
@@ -449,6 +447,12 @@ hr.black{
     text-transform: uppercase;
     letter-spacing: 0.2em;
 }
+
+.font-condensed{
+    font-family: "Roboto Condensed", arial, sans-serif;
+    text-transform: none;
+}
+
 .serif{
     font-family: "Times New Roman", Times, serif;
     font-style: italic;
@@ -1496,7 +1500,9 @@ a.logo:hover{
     left: 0;
     text-align: left;
     background: rgba(255,255,255, .97);
-    
+
+    font-family: "Open Sans", "Roboto Condensed", sans-serif;
+
     -webkit-box-shadow: 0 1px 0 rgba(0,0,0,.05);
     -moz-box-shadow: 0 1px 0 rgba(0,0,0,.05);
     box-shadow:  0 1px 0 rgba(0,0,0,.05);
@@ -1526,7 +1532,7 @@ a.logo:hover{
 .inner-nav ul{
     float: right;
     margin: auto;
-    font-size: 11px;
+    font-size: 13px;
     font-weight: 400;
     letter-spacing: 1px;
     text-transform: uppercase;
@@ -1540,7 +1546,7 @@ a.logo:hover{
 }
 .inner-nav ul li a{
     color: #777;
-    letter-spacing: 2px;
+    letter-spacing: 1px;
     display: inline-block;
     -moz-box-sizing: border-box;
     -webkit-box-sizing: border-box;
@@ -2366,7 +2372,7 @@ a.logo:hover{
     -moz-box-sizing: border-box;
     box-sizing: border-box;
     
-    padding: 140px 0;
+    padding: 70px 0;
 }
 .small-section{
     padding: 70px 0;
@@ -2430,7 +2436,7 @@ a.logo:hover{
 .bg-color-alfa-70,
 .bg-color-alfa-90,
 .bg-color-alfa{
-    color: #fff;
+    color: #ffffff;
 }
 .bg-dark a,
 .bg-dark-lighter a,
@@ -2498,7 +2504,7 @@ a.logo:hover{
 .bg-color-alfa-70 .white,
 .bg-color-alfa-90 .white,
 .bg-color-alfa .white{
-    color: #fff;
+    color: #ffffff;
 }
 
 
@@ -2678,7 +2684,7 @@ a.logo:hover{
     margin-bottom: 15px;
     font-size: 18px;
     font-weight: 400;
-    text-transform: uppercase;
+    text-transform: none;
     text-align: center;
     letter-spacing: 0.5em;
     line-height: 1.4;
