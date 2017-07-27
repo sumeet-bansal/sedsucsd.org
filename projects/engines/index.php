@@ -13,15 +13,15 @@
         <link rel="shortcut icon" href="assets/images/favicon.png">
 
         <!-- CSS -->
-        <link rel="stylesheet" href="../assets/css/bootstrap.min.css">
-        <link rel="stylesheet" href="../assets/css/style.css">
-        <link rel="stylesheet" href="../assets/css/style-responsive.css">
-        <link rel="stylesheet" href="../assets/css/animate.min.css">
-        <link rel="stylesheet" href="../assets/css/vertical-rhythm.min.css">
-        <link rel="stylesheet" href="../assets/css/owl.carousel.css">
-        <link rel="stylesheet" href="../assets/css/magnific-popup.css">
-        <link rel="stylesheet" href="../assets/css/YTPlayer.css">
-        <link rel="stylesheet" href="../assets/css/margin-padding-text.css">
+        <link rel="stylesheet" href="/assets/css/bootstrap.min.css">
+        <link rel="stylesheet" href="/assets/css/style.css">
+        <link rel="stylesheet" href="/assets/css/style-responsive.css">
+        <link rel="stylesheet" href="/assets/css/animate.min.css">
+        <link rel="stylesheet" href="/assets/css/vertical-rhythm.min.css">
+        <link rel="stylesheet" href="/assets/css/owl.carousel.css">
+        <link rel="stylesheet" href="/assets/css/magnific-popup.css">
+        <link rel="stylesheet" href="/assets/css/YTPlayer.css">
+        <link rel="stylesheet" href="/assets/css/margin-padding-text.css">
 
 
     </head>
