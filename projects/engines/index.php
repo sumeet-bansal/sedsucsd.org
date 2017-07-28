@@ -36,11 +36,11 @@
         <!-- Page Wrap -->
         <div class="page" id="top">
 			
-			<?php include '/assets/blocks/nav_bar.php';?>
+			<?php include($_SERVER["DOCUMENT_ROOT"].'/assets/blocks/nav_bar.php') ;?>
 
         
 			<!-- Head Section -->
-            <section class="page-section bg-dark bg-dark-alfa-70" data-background="https://sedsucsd.org/../assets/images/sponsors/sponsor_header.jpg">
+            <section class="page-section bg-dark bg-dark-alfa-70" data-background="https://sedsucsd.org/../../assets/images/sponsors/sponsor_header.jpg">
 				<div class="divider"> &nbsp; </div>
 				<div class="relative container align-left">                 
                     <div class="row">                        
@@ -89,7 +89,7 @@
                         <li class="work-item mix platinum">
                             <a href="https://www.nasa.gov/" class="work-lightbox-link mfp-image">
                                 <div class="work-img">
-                                    <img src="../assets/images/sponsors/nasa.png" alt="nasa" />
+                                    <img src="../../assets/images/sponsors/nasa.png" alt="nasa" />
                                 </div>
                                 <div class="work-intro">
                                     <h3 class="work-title">NASA</h3>
@@ -100,7 +100,7 @@
                         <li class="work-item mix platinum">
                             <a href="http://www.mtialbany.com/" class="work-lightbox-link mfp-image">
                                 <div class="work-img">
-                                    <img src="../assets/images/sponsors/mti.png" alt="mti" />
+                                    <img src="../../assets/images/sponsors/mti.png" alt="mti" />
                                 </div>
                                 <div class="work-intro">
                                     <h3 class="work-title">Metal Technology</h3>
@@ -111,7 +111,7 @@
                         <li class="work-item mix platinum">
                             <a href="http://gpiprototype.com/" class="work-lightbox-link mfp-image">
                                 <div class="work-img">
-                                    <img src="../assets/images/sponsors/gpi.png" alt="gpi" />
+                                    <img src="../../assets/images/sponsors/gpi.png" alt="gpi" />
                                 </div>
                                 <div class="work-intro">
                                     <h3 class="work-title">GPI Prototyping</h3>
@@ -122,7 +122,7 @@
                         <li class="work-item mix platinum">
                             <a href="http://www.jacobsschool.ucsd.edu/GordonCenter/" class="work-lightbox-link mfp-image">
                                 <div class="work-img">
-                                    <img src="../assets/images/sponsors/gordon.png" alt="gordon" />
+                                    <img src="../../assets/images/sponsors/gordon.png" alt="gordon" />
                                 </div>
                                 <div class="work-intro">
                                     <h3 class="work-title">Gordon Center</h3>
@@ -133,7 +133,7 @@
                         <li class="work-item mix platinum">
                             <a href="https://www.cadence.com/en/default.aspx" class="work-lightbox-link mfp-image">
                                 <div class="work-img">
-                                    <img src="../assets/images/sponsors/cadence.png" alt="cadence" />
+                                    <img src="../../assets/images/sponsors/cadence.png" alt="cadence" />
                                 </div>
                                 <div class="work-intro">
                                     <h3 class="work-title">Cadence</h3>
@@ -144,7 +144,7 @@
                         <li class="work-item mix platinum">
                             <a href="http://www.altium.com/" class="work-lightbox-link mfp-image">
                                 <div class="work-img">
-                                    <img src="../assets/images/sponsors/altium.png" alt="altium" />
+                                    <img src="../../assets/images/sponsors/altium.png" alt="altium" />
                                 </div>
                                 <div class="work-intro">
                                     <h3 class="work-title">Altium</h3>
@@ -155,7 +155,7 @@
                         <li class="work-item mix platinum">
                             <a href="http://gantnerinstruments.com/" class="work-lightbox-link mfp-image">
                                 <div class="work-img">
-                                    <img src="../assets/images/sponsors/gantner.png" alt="gantner" />
+                                    <img src="../../assets/images/sponsors/gantner.png" alt="gantner" />
                                 </div>
                                 <div class="work-intro">
                                     <h3 class="work-title">Gantner Instruments</h3>
@@ -166,7 +166,7 @@
 						<li class="work-item mix gold">
                             <a href="http://www.solidworks.com/" class="work-lightbox-link mfp-image">
                                 <div class="work-img">
-                                    <img src="../assets/images/sponsors/solidworks.png" alt="solidworks" />
+                                    <img src="../../assets/images/sponsors/solidworks.png" alt="solidworks" />
                                 </div>
                                 <div class="work-intro">
                                     <h3 class="work-title">Solidworks</h3>
@@ -177,7 +177,7 @@
 						<li class="work-item mix gold">
                             <a href="http://www.tecplot.com/" class="work-lightbox-link mfp-image">
                                 <div class="work-img">
-                                    <img src="../assets/images/sponsors/tecplot.png" alt="tecplot" />
+                                    <img src="../../assets/images/sponsors/tecplot.png" alt="tecplot" />
                                 </div>
                                 <div class="work-intro">
                                     <h3 class="work-title">Tecplot</h3>
@@ -188,7 +188,7 @@
 						<li class="work-item mix gold">
                             <a href="https://www.qualcomm.com/" class="work-lightbox-link mfp-image">
                                 <div class="work-img">
-                                    <img src="../assets/images/sponsors/qualcomm.png" alt="qualcomm" />
+                                    <img src="../../assets/images/sponsors/qualcomm.png" alt="qualcomm" />
                                 </div>
                                 <div class="work-intro">
                                     <h3 class="work-title">Qualcomm</h3>
@@ -199,7 +199,7 @@
 						<li class="work-item mix gold">
                             <a href="http://www.opensourcemakerlabs.com/" class="work-lightbox-link mfp-image">
                                 <div class="work-img">
-                                    <img src="../assets/images/sponsors/osml.png" alt="osml" />
+                                    <img src="../../assets/images/sponsors/osml.png" alt="osml" />
                                 </div>
                                 <div class="work-intro">
                                     <h3 class="work-title">Open Source Maker Labs</h3>
@@ -210,7 +210,7 @@
 						<li class="work-item mix silver">
                             <a href="hhttp://www.internationalsupersensors.com/" class="work-lightbox-link mfp-image">
                                 <div class="work-img">
-                                    <img src="../assets/images/sponsors/international_sensors.png" alt="iss" />
+                                    <img src="../../assets/images/sponsors/international_sensors.png" alt="iss" />
                                 </div>
                                 <div class="work-intro">
                                     <h3 class="work-title">International Super Sensors</h3>
@@ -221,7 +221,7 @@
 						<li class="work-item mix silver">
                             <a href="http://www.spacemicro.com/" class="work-lightbox-link mfp-image">
                                 <div class="work-img">
-                                    <img src="../assets/images/sponsors/space_micro.png" alt="space micro" />
+                                    <img src="../../assets/images/sponsors/space_micro.png" alt="space micro" />
                                 </div>
                                 <div class="work-intro">
                                     <h3 class="work-title">Space Micro</h3>
@@ -232,7 +232,7 @@
 						<li class="work-item mix silver">
                             <a href="http://mecam.me/" class="work-lightbox-link mfp-image">
                                 <div class="work-img">
-                                    <img src="../assets/images/sponsors/mecam.png" alt="mecam" />
+                                    <img src="../../assets/images/sponsors/mecam.png" alt="mecam" />
                                 </div>
                                 <div class="work-intro">
                                     <h3 class="work-title">MeCam</h3>
@@ -243,7 +243,7 @@
 						<li class="work-item mix silver">
                             <a href="http://www.astroaluminum.com/" class="work-lightbox-link mfp-image">
                                 <div class="work-img">
-                                    <img src="../assets/images/sponsors/astro.png" alt="astro alumninum" />
+                                    <img src="../../assets/images/sponsors/astro.png" alt="astro alumninum" />
                                 </div>
                                 <div class="work-intro">
                                     <h3 class="work-title">Astro Aluminum Treating Company Inc.</h3>
@@ -254,7 +254,7 @@
 						<li class="work-item mix silver">
                             <a href="http://propulsion-analysis.com/" class="work-lightbox-link mfp-image">
                                 <div class="work-img">
-                                    <img src="../assets/images/sponsors/rpa.png" alt="rpa" />
+                                    <img src="../../assets/images/sponsors/rpa.png" alt="rpa" />
                                 </div>
                                 <div class="work-intro">
                                     <h3 class="work-title">Rocket Propulsion Analysis</h3>
@@ -265,7 +265,7 @@
 						<li class="work-item mix silver">
                             <a href="http://blink.ucsd.edu/sponsor/CRMS/" class="work-lightbox-link mfp-image">
                                 <div class="work-img">
-                                    <img src="../assets/images/sponsors/crms.png" alt="crms" />
+                                    <img src="../../assets/images/sponsors/crms.png" alt="crms" />
                                 </div>
                                 <div class="work-intro">
                                     <h3 class="work-title">Campus Research Machine Shop</h3>
@@ -276,7 +276,7 @@
 						<li class="work-item mix silver">
                             <a href="http://hofferflow.com/" class="work-lightbox-link mfp-image">
                                 <div class="work-img">
-                                    <img src="../assets/images/sponsors/hoffer.png" alt="hoffer" />
+                                    <img src="../../assets/images/sponsors/hoffer.png" alt="hoffer" />
                                 </div>
                                 <div class="work-intro">
                                     <h3 class="work-title">Hoffer Flow Controls</h3>
@@ -287,7 +287,7 @@
 						<li class="work-item mix silver">
                             <a href="http://friendsofamateurrocketry.org/" class="work-lightbox-link mfp-image">
                                 <div class="work-img">
-                                    <img src="../assets/images/sponsors/far.png" alt="far" />
+                                    <img src="../../assets/images/sponsors/far.png" alt="far" />
                                 </div>
                                 <div class="work-intro">
                                     <h3 class="work-title">Friends of Amateur Rocketry</h3>
@@ -298,7 +298,7 @@
 						<li class="work-item mix silver">
                             <a href="http://www.interfaceforce.com/index.php" class="work-lightbox-link mfp-image">
                                 <div class="work-img">
-                                    <img src="../assets/images/sponsors/interface.png" alt="interface" />
+                                    <img src="../../assets/images/sponsors/interface.png" alt="interface" />
                                 </div>
                                 <div class="work-intro">
                                     <h3 class="work-title">Interface </h3>
@@ -309,7 +309,7 @@
 						<li class="work-item mix silver">
                             <a href="http://www.sentechmeas.com/" class="work-lightbox-link mfp-image">
                                 <div class="work-img">
-                                    <img src="../assets/images/sponsors/sentech.png" alt="sentech" />
+                                    <img src="../../assets/images/sponsors/sentech.png" alt="sentech" />
                                 </div>
                                 <div class="work-intro">
                                     <h3 class="work-title">Sentech Measurements</h3>
@@ -320,7 +320,7 @@
 						<li class="work-item mix silver">
                             <a href="https://www.8020.net/" class="work-lightbox-link mfp-image">
                                 <div class="work-img">
-                                    <img src="../assets/images/sponsors/8020.png" alt="8020" />
+                                    <img src="../../assets/images/sponsors/8020.png" alt="8020" />
                                 </div>
                                 <div class="work-intro">
                                     <h3 class="work-title">80/20 Inc.</h3>
@@ -331,7 +331,7 @@
 						<li class="work-item mix silver">
                             <a href="https://www.8020.net/" class="work-lightbox-link mfp-image">
                                 <div class="work-img">
-                                    <img src="../assets/images/sponsors/advanced_circuits.png" alt="advanced circuits" />
+                                    <img src="../../assets/images/sponsors/advanced_circuits.png" alt="advanced circuits" />
                                 </div>
                                 <div class="work-intro">
                                     <h3 class="work-title">Advanced Circuits</h3>

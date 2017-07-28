@@ -1,7 +1,7 @@
 <?php
 /* Menu bar
  * 
- * To include on a page, use <?php include nav_bar.php; ?>
+ * To include on a page, use <?php include($_SERVER["DOCUMENT_ROOT"].'/assets/blocks/nav_bar.php') ;?>
  * 
  * The server will check if the requested page meets on of the page conditions.
  * If it does, it will add the "bold" class to the menu element, indicating to
@@ -173,7 +173,7 @@
 								</li>
 								<li>
 									<?php if ($_SERVER['REQUEST_URI'] == "/projects/engines/") {
-										echo '<a href="/projects/engines/" class="active">Engines/a>';
+										echo '<a href="/projects/engines/" class="active">Engines</a>';
 									}
 									else {
 										echo '<a href="/projects/engines/">Engines</a>';
