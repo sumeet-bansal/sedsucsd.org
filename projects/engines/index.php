@@ -12,16 +12,7 @@
         <!-- Favicons -->
         <link rel="shortcut icon" href="assets/images/favicon.png">
 
-        <!-- CSS -->
-        <link rel="stylesheet" href="/assets/css/bootstrap.min.css">
-        <link rel="stylesheet" href="/assets/css/style.css">
-        <link rel="stylesheet" href="/assets/css/style-responsive.css">
-        <link rel="stylesheet" href="/assets/css/animate.min.css">
-        <link rel="stylesheet" href="/assets/css/vertical-rhythm.min.css">
-        <link rel="stylesheet" href="/assets/css/owl.carousel.css">
-        <link rel="stylesheet" href="/assets/css/magnific-popup.css">
-        <link rel="stylesheet" href="/assets/css/YTPlayer.css">
-        <link rel="stylesheet" href="/assets/css/margin-padding-text.css">
+        <?php include($_SERVER["DOCUMENT_ROOT"].'/assets/blocks/css_header.php') ;?>
 
 
     </head>
@@ -360,68 +351,15 @@
 
 
 
-             <!-- Foter -->
-            <footer class="page-section bg-dark footer pb-60">
-                <div class="container">                  
-                    <!-- Social Links -->
-                    <div class="footer-social-links mb-40 mb-xs-30">
-                        <a href="http://www.facebook.com/sedsucsd" title="Facebook" target="_blank"><i class="fa fa-facebook"></i></a>
-						<a href="http://instagram.com/seds.ucsd" title="Instagram" target="_blank"><i class="fa fa-instagram"></i></a>
-                        <a href="http://twitter.com/SEDS_UCSD" title="Twitter" target="_blank"><i class="fa fa-twitter"></i></a>		
-                    </div>
-                    <!-- End Social Links -->                      
-                    <!-- Footer Text -->
-                    <div class="footer-text">                      
-                        <!-- Copyright -->
-                        <div class="footer-copy font-alt">
-                           &copy; 2017 SEDS UC San Diego
-                        </div>
-                        <!-- End Copyright -->                      
-                        <div class="muted">
-                            Designed by Albert Lin.
-                        </div>                       
-                    </div>
-                    <!-- End Footer Text -->                  
-                 </div>               
-
-            </footer>
-            <!-- End Foter --> 
+            <?php include($_SERVER["DOCUMENT_ROOT"].'/assets/blocks/footer.php') ;?>
 
 
 
         </div>
         <!-- End Page Wrap -->
 
+        <?php include($_SERVER["DOCUMENT_ROOT"].'/assets/blocks/js_footer.php') ;?>
 
-        <!-- JS -->
-        <script type="text/javascript" src="/assets/js/jquery-1.11.2.min.js"></script>
-        <script type="text/javascript" src="/assets/js/jquery.easing.1.3.js"></script>
-        <script type="text/javascript" src="/assets/js/bootstrap.min.js"></script>
-        <!--<script type="text/javascript" src="assets/js/SmoothScroll.js"></script>-->
-        <script type="text/javascript" src="/assets/js/jquery.scrollTo.min.js"></script>
-        <script type="text/javascript" src="/assets/js/jquery.localScroll.min.js"></script>
-        <script type="text/javascript" src="/assets/js/jquery.viewport.mini.js"></script>
-        <!--<script type="text/javascript" src="assets/js/jquery.countTo.js"></script>-->
-        <script type="text/javascript" src="/assets/js/jquery.appear.js"></script>
-        <script type="text/javascript" src="/assets/js/jquery.sticky.js"></script>
-        <script type="text/javascript" src="/assets/js/jquery.parallax-1.1.3.js"></script>
-        <script type="text/javascript" src="/assets/js/jquery.fitvids.js"></script>
-        <script type="text/javascript" src="/assets/js/owl.carousel.min.js"></script>
-        <script type="text/javascript" src="/assets/js/isotope.pkgd.min.js"></script>
-        <script type="text/javascript" src="/assets/js/imagesloaded.pkgd.min.js"></script>
-        <script type="text/javascript" src="/assets/js/jquery.magnific-popup.min.js"></script>
-        <!-- Replace test API Key "AIzaSyAZsDkJFLS0b59q7cmW0EprwfcfUA8d9dg" with your own one below
-        **** You can get API Key here - https://developers.google.com/maps/documentation/javascript/get-api-key -->
-        <!--<script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAZsDkJFLS0b59q7cmW0EprwfcfUA8d9dg"></script>-->
-        <!--<script type="text/javascript" src="assets/js/gmap3.min.js"></script>
-        <script type="text/javascript" src="assets/js/wow.min.js"></script>-->
-        <script type="text/javascript" src="/assets/js/masonry.pkgd.min.js"></script>
-        <!--<script type="text/javascript" src="assets/js/jquery.simple-text-rotator.min.js"></script>-->
-        <script type="text/javascript" src="/assets/js/all.js"></script>
-        <!--<script type="text/javascript" src="assets/js/contact-form.js"></script>-->
-        <!--<script type="text/javascript" src="assets/js/jquery.ajaxchimp.min.js"></script>-->
-        <script type="text/javascript" src="/assets/js/jquery.mb.YTPlayer.js"></script>
-        <!--[if lt IE 10]><script type="text/javascript" src="assets/js/placeholder.js"></script><![endif]-->
-
+     
     </body>
 </html>
