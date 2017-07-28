@@ -13,7 +13,7 @@
 		<!-- Logo ( * your text or image into link tag *) -->
 		<div class="nav-logo-wrap local-scroll">
 			<a href="mp-index.html" class="logo" style="max-width: 250px;">
-        <?php echo '<img src="'.$_SERVER["DOCUMENT_ROOT"].'/assets/images/nav-logo.png" alt="" style="height: 75%; display: inline;"/>';
+        <?php echo '<img src="//'.$_SERVER["SERVER_NAME"].'/assets/images/nav-logo.png" alt="" style="height: 75%; display: inline;"/>';
         ?>
 
 
