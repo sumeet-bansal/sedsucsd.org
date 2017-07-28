@@ -6,7 +6,7 @@
  */
 
 echo '<!-- JS -->';
-echo '<script tyle="text/javascript" src="//'.$_SERVER["SERVER_NAME"].'/assets/js/jquery-1.11.2.min.js"></script>' \n;
+echo '<script tyle="text/javascript" src="//'.$_SERVER["SERVER_NAME"].'/assets/js/jquery-1.11.2.min.js"></script>';
 echo '<script tyle="text/javascript" src="//'.$_SERVER["SERVER_NAME"].'/assets/js/jquery.easing.1.3.js"></script>';
 echo '<script tyle="text/javascript" src="//'.$_SERVER["SERVER_NAME"].'/assets/js/jquery.scrollTo.min.js"></script>';
 echo '<script tyle="text/javascript" src="//'.$_SERVER["SERVER_NAME"].'/assets/js/jquery.localScroll.min.js"></script>';
