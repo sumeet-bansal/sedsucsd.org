@@ -1,0 +1,285 @@
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:400italic,700italic,400,300,700);
+
+@import url(https://fonts.googleapis.com/css?family=Abel|Dosis:300,400,700|Open+Sans:300i,400,400i,700,700i|Titillium+Web);
+
+.toggle>dt		{background-color: #d2d2d2;
+				font-size: 24px;
+				color: white;
+				}
+				
+#vulcan-1-assy-diagram-mobile dt {font-size: 16px;}		
+				
+#vulcan-1-assy-diagram-section
+						{font-family: Abel, 'Open Sans', Oxygen, Calibri, Helvetica, Arial, sans-serif !important;
+						}
+						
+
+#assy-name				{font-size: 72px;
+						font-weight: 300;
+						color: white;
+						text-transform: uppercase;
+						text-align: right;
+						}
+				
+#assy-designed			{font-size: 44px;
+						top: 16px;
+						color: white;}
+
+.assy-divider			{height: 30px;
+						display: block;
+						}
+					
+.assy-part-left			{text-align: right;
+						font-size: 38px;
+						color: white;
+						text-transform: uppercase;
+						line-height: 55px;
+						position: relative;
+						}
+				
+.assy-description-left	{text-align: right;
+						font-size: 18px;
+						text-transform: uppercase;
+						letter-spacing: 0.5px;
+						position: relative;
+						}
+						
+.assy-part-right		{text-align: left;
+						font-size: 38px;
+						color: white;
+						text-transform: uppercase;
+						line-height: 55px;
+						position: relative;
+						}
+				
+.assy-description-right	{text-align: left;
+						font-size: 18px;
+						text-transform: uppercase;
+						letter-spacing: 0.5px;
+						position: relative;
+						}	
+			
+.assy-subdescription-left
+						{display: none;
+						z-index: 999;
+						position: absolute;
+						background-color: rgba(0,61,104,0.88);
+						text-align: left;
+						font-size: 14px;
+						padding-top: 4px;
+						padding-bottom: 4px;
+						padding-left: 8px;
+						padding-right: 8px;
+						text-transform: uppercase;
+						letter-spacing: 0.5px;
+						width: 378px;
+						border: 1px solid rgb(0,61,104);
+						border-radius: 4px;
+						}
+
+.assy-subdescription-right
+						{display: none;
+						z-index: 11;
+						position: absolute;
+						left: -80px;
+						background-color: rgba(0,61,104,0.88);
+						text-align: left;
+						font-size: 14px;
+						padding-top: 4px;
+						padding-bottom: 4px;
+						padding-left: 8px;
+						padding-right: 8px;
+						text-transform: uppercase;
+						letter-spacing: 0.5px;						
+						border: 1px solid rgb(0,61,104);
+						border-radius: 4px;
+						}
+						
+.nav-toggle				{color: white;
+						background-color: #0E76BC;
+						margin-top: 8px;
+						padding: 3px 5px 3px 5px;
+						text-decoration: underline;
+						transition: 0.5s color ease-out;	
+						transition: 0.5s background-color ease-out; 
+						border: #0E76BC 1px solid;
+						border-radius: 5px;
+						}
+				
+.nav-toggle:hover		{color: #0E76BC;
+						background-color: #FFFFFF;
+						text-decoration: underline;
+						transition: 0.5s color ease-out;	
+						transition: 0.5s background-color ease-out; 
+						}			
+					
+	
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+.left-shell-1			{position: relative;
+						bottom: 1120px;
+						left: 88px;		
+						z-index: 10;
+						transition: 0.5s left ease-out	
+						}					
+						
+.right-shell-1			{position: relative;
+						bottom: 1120px;
+						left: 49px;		
+						z-index: 10;			
+						transition: 0.5s left ease-out						
+						}							
+						
+.middle:hover .left-shell-1
+						{position: relative;
+						bottom: 1120px;
+						left: 10px;		
+						transition: 0.5s left ease-out
+						}	
+						
+.middle:hover .right-shell-1
+						{position: relative;
+						bottom: 1120px;
+						left: 120px;	
+						transition: 0.5s left ease-out					
+						}							
+						
+.left-shell-2			{position: relative;
+						bottom: 888px;
+						left: 88px;		
+						z-index: 10;
+						transition: 0.5s left ease-out	
+						}					
+						
+.right-shell-2			{position: relative;
+						bottom: 888px;
+						left: 49px;		
+						z-index: 10;			
+						transition: 0.5s left ease-out						
+						}							
+						
+.middle:hover .left-shell-2
+						{position: relative;
+						bottom: 888px;
+						left: 10px;		
+						transition: 0.5s left ease-out
+						}	
+						
+.middle:hover .right-shell-2
+						{position: relative;
+						bottom: 888px;
+						left: 120px;	
+						transition: 0.5s left ease-out					
+						}							
+												
+						
+.left-shell-3			{position: relative;
+						bottom: 678px;
+						left: 88px;		
+						z-index: 10;
+						transition: 0.5s left ease-out	
+						}					
+						
+.right-shell-3			{position: relative;
+						bottom: 678px;
+						left: 49px;		
+						z-index: 10;			
+						transition: 0.5s left ease-out							
+						}							
+						
+.middle:hover .left-shell-3
+						{position: relative;
+						bottom: 678px;
+						left: 10px;		
+						transition: 0.5s left ease-out;
+						}	
+						
+.middle:hover .right-shell-3
+						{position: relative;
+						bottom: 678px;
+						left: 120px;	
+						transition: 0.5s left ease-out;											
+						}							
+
+#engine-img1			{height: 114px; 
+						width: auto;
+						position: relative;
+						left: 194px;	
+						top: 9px;
+						z-index: 990;
+						opacity: 0;
+						display: inline-block;
+						transition: 0.5s opacity;					
+						transition-timing-function: ease-out;
+						}
+						
+.engine:hover #engine-img1				
+						{position: relative;
+						left: 194px;
+						top: 9px;
+						z-index: 990;
+						opacity: 1;
+						display: inline-block;
+						transition: 0.5s opacity;					
+						transition-timing-function: ease-out;
+						}				
+						
+#engine-img2			{height: 114px; 
+						width: auto;
+						position: relative;
+						left: 193px;
+						top: -63px;
+						z-index: 990;
+						opacity: 0;
+						display: inline-block;
+						transition: 0.5s opacity;					
+						transition-timing-function: ease-out;
+						}
+						
+.engine:hover #engine-img2				
+						{position: relative;
+						left: 193px;
+						top: -63px;
+						z-index: 990;
+						opacity: 1;
+						display: inline-block;
+						transition: 0.5s opacity;					
+						transition-timing-function: ease-out;
+						}							
+						
