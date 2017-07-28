@@ -17,11 +17,3 @@
 	<!--<link rel="stylesheet" href="/assets/css/YTPlayer.css">-->
 	<link rel="stylesheet" href="/assets/css/margin-padding-text.css">
 
-
-
-
-
-
-
-
-?>
