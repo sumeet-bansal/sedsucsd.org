@@ -93,6 +93,34 @@ Section Text:       15px/1.7 "Roboto Condensed", arial, sans-serif;
 
 -------------------------------------------------------------------*/
 
+/* ===============================
+   Custom Styles 
+   =============================== */
+.officer_name		{padding-top: 10px;
+					padding-bottom: 2px;
+					font-size: 20px;
+					font-weight: bold;
+					letter-spacing: 2px;
+					text-transform: uppercase;
+					}
+
+.officer_role		{padding-top: 2px;
+					padding-bottom: 5px;
+					font-size: 14px;
+					font-weight: light;
+					letter-spacing: 1.2px;
+					text-transform: uppercase;
+					font-family: "Roboto Condensed", "Roboto", sans-serif;
+					}
+
+
+.linkedin			{padding-left: 3px;
+					padding-bottom: 4px;}
+
+.linkedinlink		{text-decoration: none;
+					display: block;
+					}
+
 
 /* ==============================
    Common styles
@@ -1269,7 +1297,7 @@ a.btn-mod:focus{
     position: relative;
     font-size: 16px;
     font-weight: 400;
-    letter-spacing: 0.3em;
+    letter-spacing: 0.2em;
     line-height: 1.2;
     opacity: .75;
 }
@@ -2379,10 +2407,10 @@ a.logo:hover{
     -moz-box-sizing: border-box;
     box-sizing: border-box;
     
-    padding: 70px 0;
+    padding: 60px 0;
 }
 .small-section{
-    padding: 70px 0;
+    padding: 60px 0;
 }
 .small-title{
     padding: 0;
@@ -5511,7 +5539,8 @@ section:hover .small-item-carousel .owl-next{
     padding: 0;
     border: 1px solid #e5e5e5;
     margin: -1px 0 0 -1px;
-    font-size: 13px;
+    font-size: 15px;
+	font-weight: 500;
 }
 .fa-examples > div:hover{
     background: #f0f0f0;
@@ -5529,8 +5558,9 @@ section:hover .small-item-carousel .owl-next{
 }
 .fa-examples > div > .muted{
     margin-left: 5px;
-    color: #999;
-    font-size: 12px;
+    color: #777;
+    font-size: 13px;
+	font-weight: normal;
 }
 .fa-sm{
     width: 20px;
