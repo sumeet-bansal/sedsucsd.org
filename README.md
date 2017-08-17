@@ -1,6 +1,6 @@
 # sedsnew 
 
-This is a refresh of the SEDS UCSD site. It includes PHP for more automation and making future changes more easily.
+This is a refresh of the SEDS UCSD site. It provides a facelift, cleaner, and more modern styling for the existing site. Future versions will be built (with PHP) in artemis' internal CMS.
 
 
 <hr>
@@ -21,6 +21,7 @@ Structure
 	<li>apply</li>
 	<li>assets
     <ul>
+    <li>Images</li>
     <li>JS/CSS/Blocks</li>
     </ul>
     </li>
@@ -33,7 +34,6 @@ Structure
 			<li>engines</li>
 			<li>triteia</li>
 			<li>vulcan</li>
-			<li>tri-d</li>
 		</ul>
 	</li>
 	<li>sponsors</li>
