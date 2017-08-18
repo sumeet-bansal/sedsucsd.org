@@ -65,7 +65,6 @@ Primary use:    MultiPurpose Template
 28. Special demos
 29. Bootstrap multicolumn grid
 
-
 /*------------------------------------------------------------------
 # [Color codes]
 
@@ -79,7 +78,6 @@ Primary use:    MultiPurpose Template
 # Borders #e9e9e9
 
 # */
-
 
 /*------------------------------------------------------------------
 [Typography]
@@ -100,7 +98,7 @@ Section Text:       15px/1.7 "Roboto Condensed", arial, sans-serif;
 					padding-bottom: 2px;
 					font-size: 20px;
 					font-weight: bold;
-					letter-spacing: 2px;
+					letter-spacing: 0.8px;
 					text-transform: uppercase;
 					}
 
