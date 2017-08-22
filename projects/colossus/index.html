@@ -566,6 +566,17 @@
         <!--<script type="text/javascript" src="../../assets/js/jquery.ajaxchimp.min.js"></script>-->
         <!--<script type="text/javascript" src="../../assets/js/jquery.mb.YTPlayer.js"></script>-->     
         <!--[if lt IE 10]><script type="text/javascript" src="../../assets/js/placeholder.js"></script><![endif]-->
+		
+		<!-- Skroller -->
+		<script type="text/javascript" src="../../assets/js/skrollr/dist/skrollr.min.js"></script>
+		<script type="text/javascript">
+			var s = skrollr.init();
+			
+			if (s.isMobile()) {
+				s.destroy();
+			}
+		</script>
+
         
     </body>
 </html>
