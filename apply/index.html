@@ -22,12 +22,40 @@
         <link rel="stylesheet" href="../assets/css/magnific-popup.css">
         <link rel="stylesheet" href="../assets/css/margin-padding-text.css">      
 		
+		<script type="text/javascript" src="../assets/js/dropzone.js"></script>
+		
 		<style type="text/css">
 		input		{color: black;
 					padding-left: 2px;}
 		label		{font-weight: 300;}
 		.event-row	{border-bottom: 1px solid rgba(255,255,255,0.6);}
+        #submit-button		{display: none;}
+
+        </style>
 		</style>
+		
+		<script type="text/javascript">
+		function changeSubmit() {
+			if (document.getElementById('ensure').checked) {
+				document.getElementById('submit-button').style.display = "block";
+
+			} 
+			else {
+				 document.getElementById('submit-button').style.display = "none";
+			}
+		}
+		
+		function getExtension(filename) {
+			var parts = filename.split('.');
+			return parts[parts.length - 1];
+		}
+
+		function isPDF(filename) {
+			var ext = getExtension(filename).toLowerCase();
+			
+			return false;
+		}
+		</script>
         
     </head>
     <body class="appear-animate">
@@ -168,13 +196,14 @@
                         <div class="home-text">
 							<div class="row">
 								<!-- Form Side -->
-								<div class="col-md-5 col-md-offset-1 col-sm-12 pull-sm-12" style="background-color: rgba(255,0,0,0.3);">
+								<div class="col-md-5 col-md-offset-1 col-sm-10 col-sm-offset-1" style="background-color: rgba(255,0,0,0.3);">
 									<h1 class="font-condensed align-left mt-10 mb-20 mb-sm-20">
                                         Apply     
 										<br>
 										<!-- this page is so broken on mobile lmao dont even try -->
                                     </h1>
-									<form class="font-s-16" action="../assets/operations/apply.php" method="POST" enctype="multipart/form-data">
+									<form class="font-s-16" action="../assets/operations/apply.php" class="dropzone" method="POST" enctype="multipart/form-data">
+										<input type="hidden" name="phone"> <!-- If filled, throw away application -->
 										<div class="row">
 											<div class="col-md-6">
 												<label for="first">First Name:</label><br>
@@ -185,13 +214,30 @@
 												<input type="text" name="last" class="fit-width" required>
 											</div>
 										</div>
+										<div class="row mt-20">
+											<div class="col-sm-6">
+												<label for="resume">Upload your resume (.pdf)</label><br>											
+												<input required type="file" name="resume" id="resume" style="margin-top: 3px; color: white;">
+											</div>
+											
+											<div class="col-sm-6">
+												<input type="checkbox" onclick="changeSubmit();" id="ensure" name="ensure" value="1" class="" style="width: 15px; height: 15px;">
+                                                I understand that I will not be able to change my information later.
+											</div>
+										</div>
+										
+										<div class="row mt-20">
+											<div class="col-sm-4 col-sm-offset-4">
+												<input disabled type="submit" name="submit" class="fit-width" value="Submit" id="submit-button">
+											</div>
+										</div>
 									</form>
 								
 								
 								</div>
 								
 								<!-- Events Side -->
-								<div class="col-md-5 col-sm-12 push-sm-12" style="background-color: rgba(0,255,0,0.3);">
+								<div class="col-md-5" style="background-color: rgba(0,255,0,0.3);">
 									<h1 class="font-condensed align-left mt-10 mb-20 mb-sm-20">
                                         Events     
 										<br>
@@ -258,6 +304,17 @@
 										</div>
 									</div>
 									
+									<div class="row font-s-16 event-row">
+										<div class="col-md-4">
+											Info Session	
+										</div>
+										<div class="col-md-4">
+											Tue. 10/03 
+										</div>
+										<div class="col-md-4">
+											TBA
+										</div>
+									</div>
 									
 									
 								
