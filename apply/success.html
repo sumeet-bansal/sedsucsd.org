@@ -35,40 +35,6 @@
         </style>
 		</style>
 		
-		<script type="text/javascript">        
-
-        function changeSubmit() {
-            if (document.getElementById('ensure').checked) {
-                document.getElementById('submit-button').style.display = "block";
-            } 
-            else {
-                 document.getElementById('submit-button').style.display = "none";
-            }
-        }
-
-        function checkFile(){
- 
-        var  sel_files  = document.getElementById('upload').files;
-        var len = sel_files.length;
- 
-        for (var i = 0; i < len; i++) {
-
-            var file = sel_files[i];
-         
-            if (!(file.type==='application/pdf')) {
-                document.getElementById('submit-button').disabled = true;
-                document.getElementById('error').innerHTML = "File must be a PDF";
-                continue;
-            }
-            else {
-                document.getElementById('error').innerHTML = "";
-                document.getElementById('submit-button').disabled = false;
-            }
-        }
-
-         }; 
-		</script>
-        
     </head>
     <body class="appear-animate">
         
@@ -211,130 +177,20 @@
                                 <!-- Form Side -->
                                 <div class="col-md-5 col-md-offset-1 col-sm-12 pull-sm-12">
                                     <h1 class="font-condensed align-left mt-10 mb-20 mb-sm-20">
-                                        Apply     
+                                        Thanks for applying $first
                                         <br>
                                         <!-- this page is so broken on mobile lmao dont even try -->
                                     </h1>
-                                    <form class="font-s-16" action="https://artemis.sedsucsd.org/assets/operations/application/apply.php" method="POST" enctype="multipart/form-data">
-                                        <div class="row">
-                                            <div class="col-md-6">
-                                                <label for="first">First Name:</label><br>
-                                                <input type="text" name="first" class="fit-width" placeholder="First" required>
-                                            </div>
-                                            <div class="col-md-6">
-                                                <label for="last">Last Name:</label><br>
-                                                <input type="text" name="last" class="fit-width" placeholder="Last" required>
-                                            </div>
-                                        </div>
-                                        <div class="row mt-20">
-                                            <div class="col-sm-6">
-                                                <label for="resume">Upload your resume (.pdf)</label><br>                                           
-                                                <input required type="file" onchange="checkFile();" name="resume" id="upload" style="margin-top: 2px; color: white;">
-                                            </div>
-
-                                            <div class="col-sm-6">
-                                                <div class="fit-width font-s-16 mt-30" style="background-color: rgba(255,0,0,0.3); padding-left: 4px;" id="error"></div>
-                                            </div>
-                                        </div>
-
+                                    <div class="font-s-18">
                                         <div class="row mt-20">
                                             <div class="col-sm-12">
-                                                <input type="checkbox" onclick="changeSubmit();" id="ensure" name="ensure" value="1" class="" style="width: 15px; height: 15px;">
-                                                I understand that I will not be able to change my information later. Any resume not in <strong>.pdf</strong> format will not be considered.
-                                            </div>
-                                        </div>
-                                        
-                                        <div class="row mt-10">
-                                            <div class="col-sm-4 col-sm-offset-4">
-                                                <input disabled type="submit" name="submit" class="fit-width" value="Submit" id="submit-button">
+                                                We'll email you with any updates. 
                                             </div>
                                         </div>
 
-                                    </form>
-                                
-                                
-                                </div>
-                                
-                                <!-- Events Side -->
-                                <div class="col-md-5 col-sm-12 push-sm-12" style="border-left: 1px solid white;">
-                                    <h1 class="font-condensed align-left mt-10 mb-20 mb-sm-20">
-                                        Events     
-                                        <br>
-                                    </h1>
-                                    
-                                    <div class="row font-s-16 event-row">
-                                        <div class="col-md-4">
-                                            PHYS Orientation    
-                                        </div>
-                                        <div class="col-md-4">
-                                            Mon. 09/25 12-12:30pm
-                                        </div>
-                                        <div class="col-md-4">
-                                            TBA
-                                        </div>
+
                                     </div>
 
-                                    
-                                    <div class="row font-s-16 event-row">
-                                        <div class="col-md-4">
-                                            ECE Orientation 
-                                        </div>
-                                        <div class="col-md-4">
-                                            Tue. 09/26 10am-12pm
-                                        </div>
-                                        <div class="col-md-4">
-                                            WLH 2001
-                                        </div>
-                                    </div>
-                                    
-                                    <div class="row font-s-16 event-row">
-                                        <div class="col-md-4">
-                                            CSE Orientation 
-                                        </div>
-                                        <div class="col-md-4">
-                                            Tue. 09/26 9-11am
-                                        </div>
-                                        <div class="col-md-4">
-                                            PC Theater
-                                        </div>
-                                    </div>
-                                    
-                                    <div class="row font-s-16 event-row">
-                                        <div class="col-md-4">
-                                            MAE Orientation 
-                                        </div>
-                                        <div class="col-md-4">
-                                            Wed. 09/27 9-11am
-                                        </div>
-                                        <div class="col-md-4">
-                                            WLH 2001
-                                        </div>
-                                    </div>
-                                    
-                                    <div class="row font-s-16 event-row">
-                                        <div class="col-md-4">
-                                            Engineers on the Green  
-                                        </div>
-                                        <div class="col-md-4">
-                                            Mon. 10/02 4-7pm
-                                        </div>
-                                        <div class="col-md-4">
-                                            Matthews Quad
-                                        </div>
-                                    </div>
-                                     <div class="row font-s-16">
-                                        <div class="col-md-4">
-                                            &nbsp;
-                                        </div>
-                                        <div class="col-md-4">
-                                        </div>
-                                        <div class="col-md-4">
-                                        </div>
-                                    </div>
-
-                                    
-                                    
-                                    
                                 
                                 
                                 </div>
