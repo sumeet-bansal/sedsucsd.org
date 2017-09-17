@@ -1,3 +1,7 @@
+<?php 
+session_start();
+?>
+
 <!DOCTYPE html>
 <html lang="en-US">
     <head>
@@ -177,7 +181,7 @@
                                 <!-- Form Side -->
                                 <div class="col-md-5 col-md-offset-1 col-sm-12 pull-sm-12">
                                     <h1 class="font-condensed align-left mt-10 mb-20 mb-sm-20">
-                                        Thanks for applying $first
+                                        Thanks for applying <?php echo $_SESSION["first"]; ?>
                                         <br>
                                         <!-- this page is so broken on mobile lmao dont even try -->
                                     </h1>
