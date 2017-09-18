@@ -179,7 +179,6 @@
                                     <h1 class="font-condensed align-left mt-10 mb-20 mb-sm-20">
                                         Thanks for applying <?php echo $_GET["first"]; ?>
                                         <br>
-                                        <!-- this page is so broken on mobile lmao dont even try -->
                                     </h1>
                                     <div class="font-s-18">
                                         <div class="row mt-20">

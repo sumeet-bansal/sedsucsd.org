@@ -31,6 +31,7 @@
 		.event-row	{border-bottom: 1px solid rgba(255,255,255,0.6);
                     margin-left: 1px;}
         #submit-button		{display: none;}
+        #error-block    {display: none;}
 
         </style>
 		</style>
@@ -57,11 +58,11 @@
          
             if (!(file.type==='application/pdf')) {
                 document.getElementById('submit-button').disabled = true;
-                document.getElementById('error').innerHTML = "File must be a PDF";
+                document.getElementById('error-block').style.display = "block";
                 continue;
             }
             else {
-                document.getElementById('error').innerHTML = "";
+                document.getElementById('error-block').style.display = "none";
                 document.getElementById('submit-button').disabled = false;
             }
         }
@@ -209,31 +210,44 @@
                             
                             <div class="row align-left">
                                 <!-- Form Side -->
-                                <div class="col-md-5 col-md-offset-1 col-sm-12 pull-sm-12">
-                                    <h1 class="font-condensed align-left mt-10 mb-20 mb-sm-20">
+                                <div class="col-sm-5 col-sm-offset-1 col-xs-12 pull-xs-12">
+                                    <h1 class="font-condensed align-left mt-10 mb-10">
                                         Apply     
                                         <br>
                                         <!-- this page is so broken on mobile lmao dont even try -->
                                     </h1>
                                     <form class="font-s-16" action="https://artemis.sedsucsd.org/assets/operations/application/apply.php" method="POST" enctype="multipart/form-data">
                                         <div class="row">
-                                            <div class="col-md-6">
+                                            <div class="col-sm-6">
                                                 <label for="first">First Name:</label><br>
                                                 <input type="text" name="first" class="fit-width" placeholder="First" required>
                                             </div>
-                                            <div class="col-md-6">
+                                            <div class="col-sm-6">
                                                 <label for="last">Last Name:</label><br>
                                                 <input type="text" name="last" class="fit-width" placeholder="Last" required>
                                             </div>
                                         </div>
+
+                                        <div class="row mt-20">
+                                            <div class="col-sm-6">
+                                                <label for="email">Email:</label><br>
+                                                <input type="text" name="email" class="fit-width" placeholder="email@domain.com" required>
+                                            </div>
+                                            <div class="col-sm-6 pt-20">
+                                                This should be an email you check frequently. 
+                                            </div>
+                                        </div>
+
                                         <div class="row mt-20">
                                             <div class="col-sm-6">
                                                 <label for="resume">Upload your resume (.pdf)</label><br>                                           
                                                 <input required type="file" onchange="checkFile();" name="resume" id="upload" style="margin-top: 2px; color: white;">
                                             </div>
+                                        </div>
 
-                                            <div class="col-sm-6">
-                                                <div class="fit-width font-s-16 mt-30" style="background-color: rgba(255,0,0,0.3); padding-left: 4px;" id="error"></div>
+                                        <div class="row" id="error-block">
+                                            <div class="col-sm-12">
+                                                <div class="fit-width font-s-16 mt-10" style="background-color: rgba(255,0,0,0.3); padding-left: 6px;" id="error-message">File type must be .pdf</div>
                                             </div>
                                         </div>
 
@@ -256,8 +270,8 @@
                                 </div>
                                 
                                 <!-- Events Side -->
-                                <div class="col-md-5 col-sm-12 push-sm-12" style="border-left: 1px solid white;">
-                                    <h1 class="font-condensed align-left mt-10 mb-20 mb-sm-20">
+                                <div class="col-sm-5 col-xs-12 push-xs-12" style="border-left: 1px solid white;">
+                                    <h1 class="font-condensed align-left mt-10 mb-10">
                                         Events     
                                         <br>
                                     </h1>
@@ -310,6 +324,18 @@
                                             WLH 2001
                                         </div>
                                     </div>
+
+                                    <div class="row font-s-16 event-row">
+                                        <div class="col-md-4">
+                                            SEDS Mixer #1 
+                                        </div>
+                                        <div class="col-md-4">
+                                            Wed. 09/27 TBA
+                                        </div>
+                                        <div class="col-md-4">
+                                            TBA
+                                        </div>
+                                    </div>
                                     
                                     <div class="row font-s-16 event-row">
                                         <div class="col-md-4">
@@ -322,6 +348,44 @@
                                             Matthews Quad
                                         </div>
                                     </div>
+
+                                    <div class="row font-s-16 event-row">
+                                        <div class="col-md-4">
+                                            SEDS Mixer #2
+                                        </div>
+                                        <div class="col-md-4">
+                                            Tue. 10/03 TBA
+                                        </div>
+                                        <div class="col-md-4">
+                                            TBA
+                                        </div>
+                                    </div>
+
+                                    <div class="row font-s-16 event-row">
+                                        <div class="col-md-4">
+                                            SEDS Mixer #3
+                                        </div>
+                                        <div class="col-md-4">
+                                            Wed. 10/04 TBA
+                                        </div>
+                                        <div class="col-md-4">
+                                            TBA
+                                        </div>
+                                    </div>
+
+
+                                    <div class="row font-s-16 event-row" style="background-color: rgba(255,0,0,0.15)";>
+                                        <div class="col-md-4">
+                                            Applications Due
+                                        </div>
+                                        <div class="col-md-4">
+                                            Fri. 10/06 11:59pm
+                                        </div>
+                                        <div class="col-md-4">
+                                            &nbsp;
+                                        </div>
+                                    </div>
+
                                      <div class="row font-s-16">
                                         <div class="col-md-4">
                                             &nbsp;
