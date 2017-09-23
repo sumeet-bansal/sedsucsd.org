@@ -21,9 +21,7 @@
         <link rel="stylesheet" href="../assets/css/owl.carousel.css">
         <link rel="stylesheet" href="../assets/css/magnific-popup.css">
         <link rel="stylesheet" href="../assets/css/margin-padding-text.css">      
-		
-		<script type="text/javascript" src="../assets/js/dropzone.js"></script>
-		
+				
 		<style type="text/css">
 		input		{color: black;
 					padding-left: 2px;}
@@ -55,16 +53,42 @@
         for (var i = 0; i < len; i++) {
 
             var file = sel_files[i];
+
+            var filesize = document.getElementById('upload').files[0].size;
+            var filesizeMB = filesize/1024/1024;
+            console.log(filesizeMB);
          
             if (!(file.type==='application/pdf')) {
                 document.getElementById('submit-button').disabled = true;
                 document.getElementById('error-block').style.display = "block";
-                continue;
+                if(filesizeMB > 4) {
+                    document.getElementById('error-message').innerHTML = "File must be less than 4MB. <br> File must be a pdf.";
+                }
+                else {
+                    document.getElementById('error-message').innerHTML = "File must be a pdf.";
+                }
+                //continue;
             }
             else {
-                document.getElementById('error-block').style.display = "none";
-                document.getElementById('submit-button').disabled = false;
+                if(filesizeMB > 4) {
+                    document.getElementById('submit-button').disabled = true;
+                    document.getElementById('error-block').style.display = "block";
+                    document.getElementById('error-message').innerHTML = "File must be less than 4MB.";
+                }
+                else {
+                    document.getElementById('error-block').style.display = "none";
+                    document.getElementById('submit-button').disabled = false;
+                }
+
+
+
+
+                
             }
+
+          
+                   
+            
         }
 
          }; 
@@ -247,7 +271,7 @@
 
                                         <div class="row" id="error-block">
                                             <div class="col-sm-12">
-                                                <div class="fit-width font-s-16 mt-10" style="background-color: rgba(255,0,0,0.3); padding-left: 6px;" id="error-message">File type must be .pdf</div>
+                                                <div class="fit-width font-s-16 mt-10" style="background-color: rgba(255,0,0,0.3); padding-left: 6px;" id="error-message"></div>
                                             </div>
                                         </div>
 
