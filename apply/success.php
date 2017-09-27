@@ -22,7 +22,15 @@
         <link rel="stylesheet" href="../assets/css/magnific-popup.css">
         <link rel="stylesheet" href="../assets/css/margin-padding-text.css">      
 		
-		<script type="text/javascript" src="../assets/js/dropzone.js"></script>
+		<!-- Google Analytics -->
+        <script async src="https://www.googletagmanager.com/gtag/js?id=UA-64987797-1"></script>
+        <script>
+            window.dataLayer = window.dataLayer || [];
+            function gtag(){dataLayer.push(arguments)};
+            gtag('js', new Date());
+
+            gtag('config', 'UA-64987797-1');
+        </script>
 		
 		<style type="text/css">
 		input		{color: black;
