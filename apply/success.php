@@ -216,9 +216,8 @@
                 <div class="container">                  
                     <!-- Social Links -->
                     <div class="footer mb-40 mb-xs-30">
-
                         <a class="footer-social animate" href="http://www.facebook.com/sedsucsd" title="Facebook" target="_blank"><i class="fa fa-facebook"></i></a>
-                        <a class="footer-social animate" href="http://instagram.com/seds.ucsd" title="Instagram" target="_blank"><i class="fa fa-instagram"></i></a>
+                        <a class="footer-social animate" href="http://instagram.com/seds_ucsd" title="Instagram" target="_blank"><i class="fa fa-instagram"></i></a>
                         <a class="footer-social animate" href="http://twitter.com/SEDS_UCSD" title="Twitter" target="_blank"><i class="fa fa-twitter"></i></a>      
                         <p class="font-s-14">Stay connected for the latest updates</p>
                     </div>
@@ -262,14 +261,10 @@
         <script type="text/javascript" src="../assets/js/isotope.pkgd.min.js"></script>
         <script type="text/javascript" src="../assets/js/imagesloaded.pkgd.min.js"></script>
         <script type="text/javascript" src="../assets/js/jquery.magnific-popup.min.js"></script>
-        <!--<script type="text/javascript" src="../assets/js/gmap3.min.js"></script>
         <script type="text/javascript" src="../assets/js/wow.min.js"></script>-->
         <script type="text/javascript" src="../assets/js/masonry.pkgd.min.js"></script>
         <!--<script type="text/javascript" src="../assets/js/jquery.simple-text-rotator.min.js"></script>-->
         <script type="text/javascript" src="../assets/js/all.js"></script>
-        <!--<script type="text/javascript" src="../assets/js/contact-form.js"></script>-->
-        <!--<script type="text/javascript" src="../assets/js/jquery.ajaxchimp.min.js"></script>-->
-        <!--<script type="text/javascript" src="../assets/js/jquery.mb.YTPlayer.js"></script>-->
         <!--[if lt IE 10]><script type="text/javascript" src="../assets/js/placeholder.js"></script><![endif]-->
         
     </body>
