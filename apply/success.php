@@ -224,7 +224,7 @@
                     <div class="footer-text">                      
                         <!-- Copyright -->
                         <div class="footer-copy font-alt">
-                           &copy; 2017 SEDS UC San Diego
+                           &copy; 2018 SEDS UC San Diego
                         </div>
                         <!-- End Copyright -->                      
                         <div class="muted">
@@ -254,7 +254,7 @@
         <script type="text/javascript" src="../assets/js/jquery.appear.js"></script>
         <script type="text/javascript" src="../assets/js/jquery.sticky.js"></script>
         <script type="text/javascript" src="../assets/js/jquery.parallax-1.1.3.js"></script>
-        <script type="text/javascript" src="../assets/js/jquery.fitvids.js"></script>
+        <!--<script type="text/javascript" src="../assets/js/jquery.fitvids.js"></script>-->
         <script type="text/javascript" src="../assets/js/owl.carousel.min.js"></script>
         <script type="text/javascript" src="../assets/js/isotope.pkgd.min.js"></script>
         <script type="text/javascript" src="../assets/js/imagesloaded.pkgd.min.js"></script>
