@@ -176,6 +176,9 @@
                                                 <a href="https://www.sedsucsd.org/teams/vulcan/">Vulcan-1</a>
                                             </li>
                                             <li>
+                                                <a href="https://www.sedsucsd.org/teams/vulcan2/">Vulcan-II</a>
+                                            </li>
+                                            <li>
                                                 <a href="https://www.sedsucsd.org/teams/alumni/">Alumni</a>
                                             </li>
                                         </ul>
@@ -202,6 +205,9 @@
                                             </li>
                                             <li>
                                                 <a href="https://www.sedsucsd.org/projects/vulcan/">Vulcan-1</a>
+                                            </li>
+                                            <li>
+                                                <a href="https://www.sedsucsd.org/projects/vulcan2/">Vulcan-II</a>
                                             </li>
                                         </ul>
                                     </li>
@@ -239,16 +245,74 @@
                                         <br>
                                         <!-- this page is so broken on mobile lmao dont even try -->
                                     </h1>
-                                    <h3>
-                                    Thanks for your interest. We are no longer accepting applications for Fall 2017. Please check back in winter or spring for upcoming recruitments.
-                                    </h3>
+                                    <form class="font-s-16" action="https://artemis.sedsucsd.org/assets/operations/application/apply.php" method="POST" enctype="multipart/form-data">
+                                        <div class="row">
+                                            <div class="col-sm-6">
+                                                <label for="first">First Name:</label><br>
+                                                <input type="text" name="first" class="fit-width" placeholder="First" required>
+                                            </div>
+                                            <div class="col-sm-6">
+                                                <label for="last">Last Name:</label><br>
+                                                <input type="text" name="last" class="fit-width" placeholder="Last" required>
+                                            </div>
+                                        </div>
+
+                                        <div class="row mt-10">
+                                            <div class="col-sm-6">
+                                                <label for="email">Email:</label><br>
+                                                <input type="text" name="email" class="fit-width" placeholder="email@domain.com" required>
+                                            </div>
+                                            <div class="col-sm-6 pt-20">
+                                                This should be an email you check frequently. 
+                                            </div>
+                                        </div>
+
+                                        <div class="row mt-10">
+                                            <div class="col-sm-6">
+                                                <label for="resume">Upload your resume (.pdf)</label><br>                                           
+                                                <input required type="file" onchange="checkFile();" name="resume" id="upload" style="margin-top: 2px; color: white;">
+                                            </div>
+                                        </div>
+
+                                        <div class="row" id="error-block">
+                                            <div class="col-sm-12">
+                                                <div class="fit-width font-s-16 mt-10" style="background-color: rgba(255,0,0,0.3); padding-left: 6px;" id="error-message"></div>
+                                            </div>
+                                        </div>
+
+                                        <div class="row mt-10">
+                                            <div class="col-sm-12">
+                                                <label for="email">How did you hear about SEDS?</label><br>
+                                                <input type="text" name="reason" class="fit-width" placeholder="Heard from (person)." required>
+                                            </div>
+                                        </div>
+
+                                        <div class="row mt-10">
+                                            <div class="col-sm-12">
+                                                <label for="email">Anything you think we should know?</label><br>
+                                                <input type="text" name="reason" class="fit-width" placeholder="I really like fire" required>
+                                            </div>
+                                        </div>
+
+                                        <div class="row mt-10">
+                                            <div class="col-sm-12">
+                                                <input type="checkbox" onclick="changeSubmit();" id="ensure" name="ensure" value="1" class="" style="width: 15px; height: 15px;">
+                                                I understand that I will not be able to change my information later. Any resume not in <strong>.pdf</strong> format will not be considered.
+                                            </div>
+                                        </div>
+                                        
+                                        <div class="row mt-10">
+                                            <div class="col-sm-4 col-sm-offset-4">
+                                                <input disabled type="submit" name="submit" class="fit-width" value="Submit" id="submit-button">
+                                            </div>
+                                        </div>
+
+                                    </form>
+                                
                                 
                                 </div>
                                 
-                                <!-- Events Side -->
-                                <div class="col-sm-5 col-xs-12 push-xs-12" style="border-left: 1px solid white;">
-                                    
-                                </div> <!-- End Events Side -->
+                               
                             </div> <!-- Row -->
                         </div>
                     </div>
@@ -310,7 +374,7 @@
         <script type="text/javascript" src="../assets/js/isotope.pkgd.min.js"></script>
         <script type="text/javascript" src="../assets/js/imagesloaded.pkgd.min.js"></script>
         <script type="text/javascript" src="../assets/js/jquery.magnific-popup.min.js"></script>
-        <script type="text/javascript" src="../assets/js/wow.min.js"></script>-->
+        <script type="text/javascript" src="../assets/js/wow.min.js"></script>
         <script type="text/javascript" src="../assets/js/masonry.pkgd.min.js"></script>
         <!--<script type="text/javascript" src="../assets/js/jquery.simple-text-rotator.min.js"></script>-->
         <script type="text/javascript" src="../assets/js/all.js"></script>
