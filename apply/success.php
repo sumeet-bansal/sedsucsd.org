@@ -121,7 +121,10 @@
                                                 <a href="https://www.sedsucsd.org/teams/triteia/">Triteia CubeSat</a>
                                             </li>
                                             <li>
-                                                <a href="https://www.sedsucsd.org/teams/vulcan/">Vulcan-1</a>
+                                                <a href="https://www.sedsucsd.org/teams/vulcan/">Vulcan-II</a>
+                                            </li>
+                                            <li>
+                                                <a href="https://www.sedsucsd.org/teams/vulcan2/">Vulcan-II</a>
                                             </li>
                                             <li>
                                                 <a href="https://www.sedsucsd.org/teams/alumni/">Alumni</a>
@@ -149,7 +152,7 @@
                                                 <a href="https://www.sedsucsd.org/projects/triteia/">Triteia CubeSat</a>
                                             </li>
                                             <li>
-                                                <a href="https://www.sedsucsd.org/projects/vulcan/">Vulcan-1</a>
+                                                <a href="https://www.sedsucsd.org/projects/vulcan/">Vulcan-I</a>
                                             </li>
                                         </ul>
                                     </li>
