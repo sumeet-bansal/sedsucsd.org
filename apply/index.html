@@ -226,32 +226,126 @@
             </nav>
             <!-- End Navigation panel -->
 
-             <!-- Home Section -->
-            <section class="home-section bg-dark-alfa-70" data-background="header.jpg" id="home">
-                <div class="js-height-full">
-                    
-                    <!-- Hero Content -->
-                    <div class="home-content container">
-                        <div class="home-text">
-                            
-                            <div class="row align-left">
-                                <!-- Form Side -->
-                                <div class="col-sm-5 col-sm-offset-1 col-xs-12 pull-xs-12">
-                                    <h2>Recruitment for Winter 2018 has ended. Check back in Spring for future opportunities. </h2>
-                                
-                                </div>
-                                
-                                <!-- Events Side -->
-                                <div class="col-sm-5 col-xs-12 push-xs-12" style="border-left: 1px solid white;">
-                                    
-                                </div> <!-- End Events Side -->
-                            </div> <!-- Row -->
+             <!-- Head Section -->
+            <section class="page-section bg-dark bg-dark-alfa-70" style="background: url('header.jpg'); background-position: center; background-size: cover;">
+                <div class="divider"> &nbsp; </div>
+                <div class="relative container align-left">                 
+                    <div class="row">                        
+                        <div class="col-md-6">
+                            <h1 class="hs-line-11 font-alt mb-20 mb-xs-0">Apply</h1>
+                            <div class="hs-line-4 font-alt">
+                                <br>
+                                2018 Spring Recruitment
+                                <br>
+                            </div>
+                        </div>
+                        <div class="col-md-2 mt-15">
+                            &nbsp;
                         </div>
                     </div>
-                    <!-- End Hero Content -->
                 </div>
             </section>
-            <!-- End Home Section -->
+            <!-- End Head Section -->
+
+            <!-- Head Section -->
+            <section class="page-section bg-alfa-70 pt-20">
+                <div class="relative container align-left">                 
+                    <div class="row">                        
+                        <div class="col-md-8 col-md-offset-2">
+                        	<h3>Apply for general Engineering positions</h3>
+                            <form class="font-s-16" action="https://artemis.sedsucsd.org/assets/operations/application/apply.php" method="POST" enctype="multipart/form-data">
+                                        <div class="row">
+                                            <div class="col-sm-6">
+                                                <label for="first">First Name:</label><br>
+                                                <input type="text" name="first" class="fit-width" placeholder="First" required>
+                                            </div>
+                                            <div class="col-sm-6">
+                                                <label for="last">Last Name:</label><br>
+                                                <input type="text" name="last" class="fit-width" placeholder="Last" required>
+                                            </div>
+                                        </div>
+
+                                        <div class="row mt-20">
+                                            <div class="col-sm-6">
+                                                <label for="email">Email:</label><br>
+                                                <input type="text" name="email" class="fit-width" placeholder="email@domain.com" required>
+                                            </div>
+                                            <div class="col-sm-6 pt-20">
+                                                This should be an email you check frequently. 
+                                            </div>
+                                        </div>
+
+                                        <div class="row mt-20">
+                                            <div class="col-sm-6">
+                                                <label for="resume">Upload your resume (.pdf)</label><br>                                           
+                                                <input required type="file" onchange="checkFile();" name="resume" id="upload" style="margin-top: 2px;">
+                                            </div>
+                                        </div>
+
+                                        <div class="row" id="error-block">
+                                            <div class="col-sm-12">
+                                                <div class="fit-width font-s-16 mt-10" style="background-color: rgba(255,0,0,0.25); padding-left: 6px; border-radius: 4px;" id="error-message"></div>
+                                            </div>
+                                        </div>
+
+                                        <div class="row mt-20">
+                                            <div class="col-sm-6">
+                                                <label for="email">Team you're interested in joining:</label><br>
+                                                <select required class="fit-width" name="preferred">
+                                                	<option value="Any">Any</option>
+                                                    <option value="Business">Business</option>
+                                                    <option value="Propulsion">Propulsion</option>
+                                                    <option value="Aurora">Aurora</option>
+                                                    <option value="Colossus">Colossus</option>
+                                                    <option value="Vulcan-II">Vulcan-II</option>
+                                                </select>
+                                            </div>
+
+                                            <div class="col-sm-6">
+                                                <label for="email">Choose a backup:</label><br>
+                                                <select required class="fit-width" name="backup">
+                                                	<option value="Any">Any</option>
+                                                    <option value="Business">Business</option>
+                                                    <option value="Propulsion">Propulsion</option>
+                                                    <option value="Aurora">Aurora</option>
+                                                    <option value="Colossus">Colossus</option>
+                                                    <option value="Vulcan-II">Vulcan-II</option>
+                                                </select>
+                                            </div>
+                                        </div>
+
+                                        <div class="row mt-20">
+                                            <div class="col-sm-6">
+                                                <label for="reason">How did you hear about SEDS?</label><br>
+                                                <input type="text" name="reason" class="fit-width" placeholder="Heard from (person)." required>
+                                            </div>
+
+                                            <div class="col-sm-6">
+                                                <label for="comments">Anything you think we should know?</label><br>
+                                                <input type="text" name="comments" class="fit-width" placeholder="I really like fire" required>
+                                            </div>
+                                        </div>
+
+                                        <div class="row mt-20">
+                                            <div class="col-sm-12">
+                                                <input type="checkbox" onclick="changeSubmit();" id="ensure" name="ensure" value="1" class="" style="width: 15px; height: 15px;" required>
+                                                I understand that I will not be able to change my information later. Any resume not in <strong>.pdf</strong> format will not be considered.
+                                            </div>
+                                        </div>
+                                        
+                                        <div class="row mt-20">
+                                            <div class="col-sm-4 col-sm-offset-4">
+                                                <input disabled type="submit" name="submit" class="fit-width" value="Submit" id="submit-button">
+                                            </div>
+                                        </div>
+
+                                    </form>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <!-- End Head Section -->
+
 
 
            <footer class="page-section bg-dark footer pb-60">
