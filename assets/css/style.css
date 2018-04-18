@@ -1519,6 +1519,7 @@ a.btn-mod:focus{
 .nav-logo-wrap .logo:after{
     display: none;
 }
+/*
 .logo,
 a.logo:hover{
     font-family: Dosis, arial, sans-serif;
@@ -1529,6 +1530,7 @@ a.logo:hover{
     text-decoration: none;
     color: rgba(0,0,0, .9);
 }
+*/
 
 /*
  * Desktop nav
