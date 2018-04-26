@@ -108,7 +108,7 @@
 
 
 		<!-- Head Section -->
-		<section class="page-section bg-dark bg-dark-alfa-10 pb-0 panel intro" style="background: url('images/bg3.jpg') fixed center no-repeat;background-size: cover; height: 100vh;" data-section-name="Intro">
+		<section class="page-section bg-dark bg-dark-alfa-10 pb-0 panel intro" style="background: url('images/bg4.jpg') fixed center no-repeat;background-size: cover; height: 100vh;" data-section-name="Intro">
 			<div class="container">
 
 				<div class="row" style="background: url('images/graphic.png') no-repeat; background-size: 1920px 1080px; background-position: center; height: 100vh;">
@@ -187,29 +187,49 @@
 				
 			</div>
 		</section>
-		<!-- End Section -->		
+		<!-- End Section -->
 
-		<!-- Call Action Section -->
-		<section class="small-section bg-dark pt-20 pb-40" style="background-color: #0E76BC;">
-			<div class="container relative">                   
-				<div class="align-center">
-					<h3>Questions, concerns, or just curious?</h3>
-					<div>
-						<a href="https://sedsucsd.org/about/contact" class="btn btn-mod btn-w btn-medium btn-round">Contact Us</a>
-					</div>
+		<!-- Section -->
+		<section class="page-section panel testimonials" style="background: url('images/bg1.jpg') fixed center no-repeat;background-size: cover; height: 100vh;" data-section-name="Testimonials">
+			<div class="container relative">
+				<div class="row">
+					<h1 class="font-condensed align-left mt-30 mb-20 mb-sm-20">
+						Who Loves SpaceVision?
+					</h1>
 				</div>
+			
+				<div class="row">
+					<div class="col-lg-12 col-md-12 col-sm-12 section-text">
+						
+						<blockquote>
+							"In my opinion, SpaceVision is the best place for the next generation of space leaders to connect with each other and with the leaders of today. It's also a best chance for companies to find rising superstars that will make fantastic employees. The students who participate in SpaceVision are a self-selected bunch who are extraordinary not only for their passion for space exploration but also for their ability to take action; they are exactly the kind of people we like to hire."
+
+						</blockquote>
+						<p>
+							- Will Pomerantz | Vice President for Special Projects, Virgin Orbit
+						</p>
+						<p>
+							Experience our interdisciplinary approach to the future of space development and witness our commitment to student leadership in aerospace and STEM fields.
+						</p>
+						<p>
+							The University of California, San Diego is a thriving preeminent research university located in north of San Diego in La Jolla. 
+						</p>
+					</div>				
+				</div>
+
+				
 			</div>
 		</section>
-		<!-- End Call Action Section -->
+		<!-- End Section -->	
 
-		<footer class="page-section bg-dark footer pb-60">
+		<footer class="page-section bg-dark footer pb-60 panel footer" data-section-name="Footer">
 			<div class="container">                  
 				<!-- Social Links -->
 				<div class="footer mb-40 mb-xs-30">
 
-					<a class="footer-social animate" href="http://www.facebook.com/sedsucsd" title="Facebook" target="_blank"><i class="fa fa-facebook"></i></a>
-					<a class="footer-social animate" href="http://instagram.com/seds_ucsd" title="Instagram" target="_blank"><i class="fa fa-instagram"></i></a>
-					<a class="footer-social animate" href="http://twitter.com/SEDS_UCSD" title="Twitter" target="_blank"><i class="fa fa-twitter"></i></a>      
+					<a class="footer-social" href="http://www.facebook.com/sedsucsd" title="Facebook" target="_blank"><i class="fa fa-facebook"></i></a>
+					<a class="footer-social" href="http://instagram.com/seds_ucsd" title="Instagram" target="_blank"><i class="fa fa-instagram"></i></a>
+					<a class="footer-social" href="http://twitter.com/SEDS_UCSD" title="Twitter" target="_blank"><i class="fa fa-twitter"></i></a>      
 					<p class="font-s-14">Stay connected for the latest updates</p>
 				</div>
 				<!-- End Social Links -->                      
@@ -292,6 +312,10 @@
 		        }
 		    });
 		});
+
+		if( /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent) ) {
+		 	$.scrollify.disable();
+		}
 
     </script>
 	
