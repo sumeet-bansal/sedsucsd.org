@@ -20,7 +20,7 @@
 		});
 	}
 
-	// remove skrollr from the global scope after each test is run 
+	// remove skrollr from the global scope after each test is run
 	QUnit.testDone(function() {
 		if(typeof window.skrollr !== 'undefined'){
 			delete window.skrollr;

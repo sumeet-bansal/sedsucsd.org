@@ -1438,7 +1438,7 @@
     },
 
     onDraw: function(e, data){
-      
+
       if (data.sourceIsSprite){
         drawSprite(data);
       } else{
@@ -1468,20 +1468,20 @@
       data.images.push(img);
       data.offsets.push(-size + (data.width - img[0].width) / 2);
       size += img[0].width;
-      
+
       img.css({ opacity : 0.25 });
     }
     data.stage.css({ width : size });
     data.images[data.oldFrame].animate({ opacity : 1 }, data.speed);
   };
-  
+
   Module.onDraw = function(e, data){
     if ((data.oldFrame !== data.frame) && data.offsets){
       data.stage.stop(true, false);
-      data.stage.animate({ 
+      data.stage.animate({
         "left" : data.offsets[data.frame]
       }, data.speed);
-      
+
       data.images[data.oldFrame].animate({ opacity : data.opacity }, data.speed);
       data.oldFrame = data.frame;
       data.images[data.oldFrame].animate({ opacity : 1 }, data.speed);
@@ -1492,7 +1492,7 @@
       });
     }
   };
-  
+
   Module.resetInput = function(e, data){
     if (!data.onDrag){
       data.stage.animate({

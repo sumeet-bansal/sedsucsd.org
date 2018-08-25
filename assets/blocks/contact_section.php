@@ -8,7 +8,7 @@
 
 <!-- Contact Section -->
 <section class="small-section bg-dark pt-20 pb-40" style="background-color: #0E76BC;">
-	<div class="container relative">                   
+	<div class="container relative">
 		<div class="align-center">
 			<h3>Questions, concerns, or just curious?</h3>
 				<div>

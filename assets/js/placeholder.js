@@ -12,44 +12,44 @@
 (function($) {
 
 	$.fn.placeholder_clear = function() {
-	
+
 		var arPlaceholders = $(this).data("placeholders");
 
 		$(this).find("input[placeholder], textarea[placeholder]").each(function(){
-		
+
 			var field_name = $(this).attr("name");
 
 			if(field_name in arPlaceholders)
-				if($(this).val()==arPlaceholders[field_name]) 
+				if($(this).val()==arPlaceholders[field_name])
 					$(this).val("");
-		
+
 		});
 
 	};
 
 
 	$.fn.placeholder_focus = function(caption) {
-	
+
 		if(this.val()==caption) {
 			this.val("");
 			this.removeClass($.fn.placeholder_options.placeholded_class);
 		}
-	
+
 	};
 
 	$.fn.placeholder_blur = function(caption) {
-	
+
 		if(this.val()=="") {
 			this.val(caption);
 			this.addClass($.fn.placeholder_options.placeholded_class);
 		}
-	
+
 	};
 
 	$.fn.placeholder_password_focus = function(caption) {
 
 		if(!this.is(':password')) {
-	
+
 			if(this.val()==caption) {
 				var new_input = $('<input type="password" name="' + this.attr('name') + '" value="" />');
 				new_input.attr("placeholder",caption);
@@ -61,15 +61,15 @@
 				new_input.focus();
 				new_input.focus();
 			}
-			
+
 		}
-	
+
 	};
 
 	$.fn.placeholder_password_blur = function(caption) {
 
 		if(this.is(':password')) {
-	
+
 			if(this.val()=="") {
 				var new_input = $('<input type="text" name="' + this.attr('name') + '" value="' + caption + '" />');
 				new_input.attr("placeholder",caption);
@@ -79,15 +79,15 @@
 				new_input.focus(function(){	new_input.placeholder_password_focus(caption); });
 				this.replaceWith(new_input);
 			}
-			
+
 		}
-	
+
 	};
 
 	$.fn.placeholder = function(opts) {
-	
-		if(opts!=null) 
-			for(var index in opts) 
+
+		if(opts!=null)
+			for(var index in opts)
 				if($.fn.placeholder_options[index]!=null)
 					$.fn.placeholder_options[index]=opts[index];
 
@@ -103,11 +103,11 @@
 				}
 			});
 		}
-	
+
 		elements.each(function() {
-    	
+
     		var input = $(this);
-    	
+
     		var caption = $.fn.placeholder_options.caption_prefix + input.attr("placeholder") + $.fn.placeholder_options.caption_postfix;
 
     		var pform = input.parents('form:first');
@@ -115,27 +115,27 @@
     		if(!(pdata instanceof Array)) pdata = [];
     		//pdata.push({ name: input.attr("name"), caption: caption });
     		pdata[input.attr("name")] = caption;
-    		
+
     		pform.data("placeholders",pdata);
     		pform.unbind("submit",$.fn.placeholder_clear).bind("submit",$.fn.placeholder_clear);
-    	
+
     		if(input.is(':password'))
     		{
 
     			input.placeholder_password_blur(caption);
     			input.focus(function(){	input.placeholder_password_focus(caption); });
     			input.blur(function(){ input.placeholder_password_blur(caption); });
-    			
+
     		} else {
-    	
+
     			input.placeholder_blur(caption);
     			input.focus(function(){	input.placeholder_focus(caption); });
     			input.blur(function(){ input.placeholder_blur(caption);	});
-    			
+
     		}
 
     	});
-	
+
 	};
 
 	// default options
@@ -148,14 +148,14 @@
     	container_selector: ".form-field-container",
     	caption_selector: ".form-field-caption"
     };
-	
+
 
 })(jQuery);
 
 
 $().ready(function(){
 
-	$(":input[placeholder], textarea[placeholder]").placeholder();	
+	$(":input[placeholder], textarea[placeholder]").placeholder();
 	//$(":input[placeholder], textarea[placeholder]").placeholder({container: true});
-	
+
 });

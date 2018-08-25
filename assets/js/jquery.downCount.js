@@ -1,18 +1,18 @@
 // Countdown Init Init
 $(document).ready(function(){
-    
+
     var countdown = $(".countdown");
     var data_finish_date = countdown.attr("data-finish-date");
     var data_UTC = countdown.attr("data-UTC");
     var data_finish_message = countdown.attr("data-finish-message");
-    
+
     countdown.downCount({
         date: data_finish_date,
         offset: data_UTC
     }, function(){
         alert(data_finish_message);
     });
-    
+
 });
 
 
@@ -114,7 +114,7 @@ $(document).ready(function(){
             container.find('.minutes_ref').text(ref_minutes);
             container.find('.seconds_ref').text(ref_seconds);
         };
-        
+
         // start
         var interval = setInterval(countdown, 300);
     };

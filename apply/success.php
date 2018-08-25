@@ -18,8 +18,8 @@
         <link rel="stylesheet" href="../assets/css/vertical-rhythm.min.css">
         <link rel="stylesheet" href="../assets/css/owl.carousel.css">
         <link rel="stylesheet" href="../assets/css/magnific-popup.css">
-        <link rel="stylesheet" href="../assets/css/margin-padding-text.css">      
-		
+        <link rel="stylesheet" href="../assets/css/margin-padding-text.css">
+
 		<!-- Google Analytics -->
         <script async src="https://www.googletagmanager.com/gtag/js?id=UA-64987797-1"></script>
         <script>
@@ -29,7 +29,7 @@
 
             gtag('config', 'UA-64987797-1');
         </script>
-		
+
 		<style type="text/css">
 		input		{color: black;
 					padding-left: 2px;}
@@ -40,16 +40,16 @@
 
         </style>
 		</style>
-		
+
     </head>
     <body class="appear-animate">
-        
-        <!-- Page Loader -->        
+
+        <!-- Page Loader -->
         <div class="page-loader">
             <div class="loader">Loading...</div>
         </div>
         <!-- End Page Loader -->
-        
+
         <!-- Page Wrap -->
         <div class="page" id="top">
 
@@ -177,11 +177,11 @@
              <!-- Home Section -->
             <section class="home-section bg-dark-alfa-70" data-background="../assets/images/about/contact.jpg" id="home">
                 <div class="js-height-full">
-                    
+
                     <!-- Hero Content -->
                     <div class="home-content container">
                         <div class="home-text">
-                            
+
                             <div class="row align-left">
                                 <!-- Form Side -->
                                 <div class="col-md-5 col-md-offset-1 col-sm-12 pull-sm-12">
@@ -192,18 +192,18 @@
                                     <div class="font-s-18">
                                         <div class="row mt-20">
                                             <div class="col-sm-12">
-                                                We'll email you with any updates. 
+                                                We'll email you with any updates.
                                             </div>
                                         </div>
 
 
                                     </div>
 
-                                
-                                
+
+
                                 </div>
                             </div>
-                            
+
                         </div>
                     </div>
                     <!-- End Hero Content -->
@@ -214,41 +214,41 @@
             <!-- End Home Section -->
 
            <footer class="page-section bg-dark footer pb-60">
-                <div class="container">                  
+                <div class="container">
                     <!-- Social Links -->
                     <div class="footer mb-40 mb-xs-30">
                         <a class="footer-social animate" href="http://www.facebook.com/sedsucsd" title="Facebook" target="_blank"><i class="fa fa-facebook"></i></a>
                         <a class="footer-social animate" href="http://instagram.com/seds_ucsd" title="Instagram" target="_blank"><i class="fa fa-instagram"></i></a>
-                        <a class="footer-social animate" href="http://twitter.com/SEDS_UCSD" title="Twitter" target="_blank"><i class="fa fa-twitter"></i></a>      
+                        <a class="footer-social animate" href="http://twitter.com/SEDS_UCSD" title="Twitter" target="_blank"><i class="fa fa-twitter"></i></a>
                         <p class="font-s-14">Stay connected for the latest updates</p>
                     </div>
-                    <!-- End Social Links -->                      
+                    <!-- End Social Links -->
                     <!-- Footer Text -->
-                    <div class="footer-text">                      
+                    <div class="footer-text">
                         <!-- Copyright -->
                         <div class="footer-copy font-alt">
                            &copy; 2018 SEDS UC San Diego
                         </div>
-                        <!-- End Copyright -->                      
+                        <!-- End Copyright -->
                         <div class="muted">
                             Designed by Albert Lin.
-                        </div>                       
+                        </div>
                     </div>
-                    <!-- End Footer Text -->                  
-                 </div>               
+                    <!-- End Footer Text -->
+                 </div>
             </footer>
-        
-        
+
+
         </div>
         <!-- End Page Wrap -->
 
 
-        
-        
+
+
         <!-- JS -->
         <script type="text/javascript" src="../assets/js/jquery-1.11.2.min.js"></script>
         <script type="text/javascript" src="../assets/js/jquery.easing.1.3.js"></script>
-        <script type="text/javascript" src="../assets/js/bootstrap.min.js"></script>        
+        <script type="text/javascript" src="../assets/js/bootstrap.min.js"></script>
         <!--<script type="text/javascript" src="../assets/js/SmoothScroll.js"></script>-->
         <script type="text/javascript" src="../assets/js/jquery.scrollTo.min.js"></script>
         <script type="text/javascript" src="../assets/js/jquery.localScroll.min.js"></script>
@@ -267,6 +267,6 @@
         <!--<script type="text/javascript" src="../assets/js/jquery.simple-text-rotator.min.js"></script>-->
         <script type="text/javascript" src="../assets/js/all.js"></script>
         <!--[if lt IE 10]><script type="text/javascript" src="../assets/js/placeholder.js"></script><![endif]-->
-        
+
     </body>
 </html>

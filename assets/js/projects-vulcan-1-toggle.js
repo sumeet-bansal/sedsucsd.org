@@ -1,11 +1,11 @@
-//Avionics 
+//Avionics
 $(document).ready(function(){
 			$("#avionics-toggle").click(function(){
 			$("#avionics-subdescription").toggle();
 			});
 			});
 
-//Aeroshell		
+//Aeroshell
 $(document).ready(function(){
 			$("#aero-toggle").click(function(){
 			$("#aeroshell-subdescription").toggle();

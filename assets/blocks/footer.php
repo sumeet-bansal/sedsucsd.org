@@ -10,27 +10,27 @@
 
 <!-- Footer -->
 <footer class="page-section bg-dark footer pb-60">
-	<div class="container">                  
+	<div class="container">
 		<!-- Social Links -->
 		<div class="footer-social-links mb-40 mb-xs-30">
 			<a href="http://www.facebook.com/sedsucsd" title="Facebook" target="_blank"><i class="fa fa-facebook"></i></a>
 			<a href="http://instagram.com/seds.ucsd" title="Instagram" target="_blank"><i class="fa fa-instagram"></i></a>
-			<a href="http://twitter.com/SEDS_UCSD" title="Twitter" target="_blank"><i class="fa fa-twitter"></i></a>		
+			<a href="http://twitter.com/SEDS_UCSD" title="Twitter" target="_blank"><i class="fa fa-twitter"></i></a>
 		</div>
-		<!-- End Social Links -->                      
+		<!-- End Social Links -->
 		<!-- Footer Text -->
-		<div class="footer-text">                      
+		<div class="footer-text">
 			<!-- Copyright -->
 			<div class="footer-copy font-alt">
 				&copy; 2017 SEDS UC San Diego
 			</div>
-			<!-- End Copyright -->                      
+			<!-- End Copyright -->
 			<div class="muted">
 				Designed by Albert Lin.
-			</div>                       
+			</div>
 		</div>
-		<!-- End Footer Text -->                  
-	</div>               
+		<!-- End Footer Text -->
+	</div>
 </footer>
 <!-- End Footer -->
 
