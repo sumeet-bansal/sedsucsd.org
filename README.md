@@ -65,7 +65,6 @@ This is a refresh of the SEDS UCSD site. It's a facelist with cleaner, more mode
 + update members page
 	+ change the LinkedIn icons to the font-awesome SVGs
 + fix `/projects/engines` height attributes in engine tables and Ignus-1 text getting cut off
-+ `/launch`? redirect to `projects/vulcan`?
 + standardize style
 	+ trailing whitespace
 	+ those carriage returns
