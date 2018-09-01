@@ -1,590 +1,563 @@
 <!DOCTYPE html>
 <html lang="en-US">
-    <head>
-        <title>Colossus SFS | SEDS UCSD</title>
-        <meta name="description" content="">
-        <meta name="keywords" content="">
-        <meta charset="utf-8">
-        <meta name="author" content="Albert Lin">
-        <!--[if IE]><meta http-equiv='X-UA-Compatible' content='IE=edge,chrome=1'><![endif]-->
-        <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0" />
-        <link rel="shortcut icon" href="https://sedsucsd.org/assets/images/misc/icon.png">
+<head>
+	<title>Colossus SFS | SEDS UCSD</title>
+	<meta name="description" content="">
+	<meta name="keywords" content="">
+	<meta charset="utf-8">
+	<meta name="author" content="Albert Lin">
+	<!--[if IE]><meta http-equiv='X-UA-Compatible' content='IE=edge,chrome=1'><![endif]-->
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0" />
+	<link rel="shortcut icon" href="https://sedsucsd.org/assets/images/misc/icon.png">
 
-        <!-- CSS -->
-        <link rel="stylesheet" href="../../assets/css/bootstrap.min.css">
-        <link rel="stylesheet" href="../../assets/css/style.css">
-        <link rel="stylesheet" href="../../assets/css/style-responsive.css">
-        <link rel="stylesheet" href="../../assets/css/animate.min.css">
-        <link rel="stylesheet" href="../../assets/css/vertical-rhythm.min.css">
-        <link rel="stylesheet" href="../../assets/css/owl.carousel.css">
-        <link rel="stylesheet" href="../../assets/css/magnific-popup.css">
-        <link rel="stylesheet" href="../../assets/css/margin-padding-text.css">
+	<!-- CSS -->
+	<link rel="stylesheet" href="../../assets/css/bootstrap.min.css">
+	<link rel="stylesheet" href="../../assets/css/style.css">
+	<link rel="stylesheet" href="../../assets/css/style-responsive.css">
+	<link rel="stylesheet" href="../../assets/css/animate.min.css">
+	<link rel="stylesheet" href="../../assets/css/vertical-rhythm.min.css">
+	<link rel="stylesheet" href="../../assets/css/owl.carousel.css">
+	<link rel="stylesheet" href="../../assets/css/magnific-popup.css">
+	<link rel="stylesheet" href="../../assets/css/margin-padding-text.css">
 
-        <!-- Google Analytics -->
-        <script async src="https://www.googletagmanager.com/gtag/js?id=UA-64987797-1"></script>
-        <script>
-            window.dataLayer = window.dataLayer || [];
-            function gtag(){dataLayer.push(arguments)};
-            gtag('js', new Date());
+	<!-- Google Analytics -->
+	<script async src="https://www.googletagmanager.com/gtag/js?id=UA-64987797-1"></script>
+	<script>
+		window.dataLayer = window.dataLayer || [];
+		function gtag(){dataLayer.push(arguments)};
+		gtag('js', new Date());
 
-            gtag('config', 'UA-64987797-1');
-        </script>
+		gtag('config', 'UA-64987797-1');
+	</script>
 
-		<style type="text/css">
-		.part			{font-size: 34px;
-						color: white;
-						font-family: 'Roboto Condensed', 'Roboto', 'Lato', sans-serif;
-						}
-		.description	{width: 300px;
-						font-size: 20px;
-						color: white;
-						font-family: 'Roboto Condensed', 'Roboto', 'Lato', sans-serif;
-						}
+	<style type="text/css">
+	.part {
+		font-size: 34px;
+		color: white;
+		font-family: 'Roboto Condensed', 'Roboto', 'Lato', sans-serif;
+	}
+	.description {
+		width: 300px;
+		font-size: 20px;
+		color: white;
+		font-family: 'Roboto Condensed', 'Roboto', 'Lato', sans-serif;
+	}
+	.mobile-bg {
+		background-color: rgba(0,0,0,0.35);
+		color: white;
+		padding: 0px 0px 5px 20px;
+	}
+	.spec		{ font-size: 20px; }
+	.filler		{
+		display: inline-block;
+		width: 40px;
+		height: 52px;
+		position: relative;
+		top: -8px;
+	}
+	</style>
 
-		.mobile-bg		{background-color: rgba(0,0,0,0.35);
-						color: white;
-						padding: 0px 0px 5px 20px;}
+</head>
+<body class="appear-animate">
 
-		.spec			{font-size: 20px;}
+	<!-- Page Loader -->
+	<div class="page-loader">
+		<div class="loader">Loading...</div>
+	</div>
+	<!-- End Page Loader -->
 
-		.filler			{display: inline-block;
-						width: 40px;
-						height: 52px;
-						position: relative;
-						top: -8px;}
-		</style>
-    </head>
-    <body class="appear-animate">
+	<!-- Page Wrap -->
+	<div class="page" id="top">
 
-        <!-- Page Loader -->
-        <div class="page-loader">
-            <div class="loader">Loading...</div>
-        </div>
-        <!-- End Page Loader -->
+		<!-- Navigation panel -->
+		<nav class="main-nav dark transparent stick-fixed">
+			<div class="full-wrapper relative clearfix">
+				<!-- Logo ( * your text or image into link tag *) -->
+				<div class="nav-logo-wrap local-scroll">
+					<a href="https://sedsucsd.org" class="logo" style="max-width: 250px;">
+						<img src="../../assets/images/nav-logo.png" alt="" style="height: 75%; display: inline;" />
+					</a>
 
-        <!-- Page Wrap -->
-        <div class="page" id="top">
+				</div>
+				<div class="mobile-nav">
+					<i class="fa fa-bars"></i>
+				</div>
 
-        <!-- Navigation panel -->
-            <nav class="main-nav dark transparent stick-fixed">
-                <div class="full-wrapper relative clearfix">
-                    <!-- Logo ( * your text or image into link tag *) -->
-                    <div class="nav-logo-wrap local-scroll">
-                        <a href="https://sedsucsd.org" class="logo" style="max-width: 250px;">
-                            <img src="../../assets/images/nav-logo.png" alt="" style="height: 75%; display: inline;" />
-                        </a>
+				<!-- Main Menu -->
+				<div class="inner-nav desktop-nav">
+					<ul class="clearlist">
+						<li>
+							<a href="https://sedsucsd.org" class="mn">Home</a>
+						</li>
+						<li>
+							<a href="https://sedsucsd.org/about/seds/" class="mn-has-sub">
+								About <i class="fa fa-angle-down"></i>
+							</a>
+							<ul class="mn-sub mn-has-multi">
+								<li class="mn-sub-multi">
+									<ul>
+										<li>
+											<a href="https://www.sedsucsd.org/about/seds/">About SEDS</a>
+										</li>
+										<li>
+											<a href="https://www.sedsucsd.org/about/gallery/">Gallery</a>
+										</li>
+										<li>
+											<a href="https://news.sedsucsd.org">News</a>
+										</li>
+										<li>
+											<a href="https://www.sedsucsd.org/about/officers/">Officers</a>
+										</li>
+										<li>
+											<a href="https://www.sedsucsd.org/about/contact/">Contact</a>
+										</li>
+									</ul>
+								</li>
+							</ul>
+						</li>
+						<li>
+							<a href="https://sedsucsd.org/teams/colossus" class="mn-has-sub">
+								Teams <i class="fa fa-angle-down"></i>
+							</a>
+							<ul class="mn-sub mn-has-multi">
+								<li class="mn-sub-multi">
+									<ul>
+										<li>
+											<a href="https://www.sedsucsd.org/teams/aurora/">Aurora</a>
+										</li>
+										<li>
+											<a href="https://www.sedsucsd.org/teams/business/">Business</a>
+										</li>
+										<li>
+											<a href="https://www.sedsucsd.org/teams/colossus/">Colossus SFS</a>
+										</li>
+										<li>
+											<a href="https://www.sedsucsd.org/teams/propulsion/">Propulsion</a>
+										</li>
+										<li>
+											<a href="https://www.sedsucsd.org/teams/triteia/">Triteia CubeSat</a>
+										</li>
+										<li>
+											<a href="https://www.sedsucsd.org/teams/vulcan/">Vulcan-I</a>
+										</li>
+										<li>
+											<a href="https://www.sedsucsd.org/teams/vulcan2/">Vulcan-II</a>
+										</li>
+										<li>
+											<a href="https://www.sedsucsd.org/teams/alumni/">Alumni</a>
+										</li>
+									</ul>
+								</li>
+							</ul>
+						</li>
+						<li>
+							<a href="https://sedsucsd.org/projects/colossus/" class="mn-has-sub">
+								Projects <i class="fa fa-angle-down"></i>
+							</a>
+							<ul class="mn-sub mn-has-multi">
+								<li class="mn-sub-multi">
+									<ul>
+										<li>
+											<a href="https://www.sedsucsd.org/projects/aurora/">Aurora</a>
+										</li>
+										<li>
+											<a href="https://www.sedsucsd.org/projects/colossus/" class="active">Colossus SFS</a>
+										</li>
+										<li>
+											<a href="https://www.sedsucsd.org/projects/engines/">Engines</a>
+										</li>
+										<li>
+											<a href="https://www.sedsucsd.org/projects/triteia/">Triteia CubeSat</a>
+										</li>
+										<li>
+											<a href="https://www.sedsucsd.org/projects/vulcan/">Vulcan-I</a>
+										</li>
+									</ul>
+								</li>
+							</ul>
+						</li>
+						<li>
+							<a href="https://www.sedsucsd.org/sponsors/" class="mn">Sponsors</a>
+						</li>
+						<li>
+							<a href="https://www.sedsucsd.org/donate/" class="mn">Donate</a>
+						</li>
+					</ul>
+				</div>
+				<!-- End Main Menu -->
 
-                    </div>
-                    <div class="mobile-nav">
-                        <i class="fa fa-bars"></i>
-                    </div>
+			</div>
+		</nav>
+		<!-- End Navigation panel -->
 
-                    <!-- Main Menu -->
-                    <div class="inner-nav desktop-nav">
-                        <ul class="clearlist">
+		<section class="page-section bg-dark-alfa-70 parallax-0" data-background="../../assets/images/projects/colossus/intro.jpg" style="background-image: url(../../assets/images/projects/colossus/intro.jpg); background-position: 50% 0px; height: 100vh;">
+			<div class="container relative alt-font" data-0="position: relative; left:-5px;" data-800="position: relative; left: -600px;">
+				<div class="row">
+					<div class="col-md-8 col-md-offset-3" style="margin-top: 30vh;">
+						<img src="../../assets/images/projects/colossus/logo.png" alt="logo" class="fit-width">
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-md-12 center mt-40">
+						<span style="font-size: 26px;">The All-New Static Fire System</span>
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-md-12 center mt-30">
+						<span style="font-size: 26px;">Avaliable for rent (operation provided) Spring 2018</span>
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-md-12 center mt-20">
+						<a class="link btn btn-mod btn-border-w btn-medium btn-round mb-xxs-10 bold" href="mailto:colossus@sedsucsd.org" data-mode="1" style="font-size: 14px;">Obtain a quote</a>
+					</div>
+				</div>
+			</div>
+		</section>
 
-                            <li>
-                                <a href="https://sedsucsd.org" class="mn">Home</a>
-                            </li>
+		<section class="page-section" id="about">
+			<div class="container relative">
+				<h1 class="font-condensed align-left mt-10 mb-20 mb-sm-20">About Colossus</h1>
 
-                            <li>
-                                <a href="https://sedsucsd.org/about/seds/" class="mn-has-sub">About <i class="fa fa-angle-down"></i></a>
-                                <ul class="mn-sub mn-has-multi">
-                                    <li class="mn-sub-multi">
-                                        <ul>
-                                            <li>
-                                                <a href="https://www.sedsucsd.org/about/seds/">About SEDS</a>
-                                            </li>
-                                            <li>
-                                                <a href="https://www.sedsucsd.org/about/gallery/">Gallery</a>
-                                            </li>
-                                            <li>
-                                                <a href="https://news.sedsucsd.org">News</a>
-                                            </li>
-                                            <li>
-                                                <a href="https://www.sedsucsd.org/about/officers/">Officers</a>
-                                            </li>
-                                            <li>
-                                                <a href="https://www.sedsucsd.org/about/contact/">Contact</a>
-                                            </li>
-                                        </ul>
-                                    </li>
-                                </ul>
-                            </li>
-
-                            <li>
-                                <a href="https://sedsucsd.org/teams/colossus" class="mn-has-sub">Teams <i class="fa fa-angle-down"></i></a>
-                                <ul class="mn-sub mn-has-multi">
-                                    <li class="mn-sub-multi">
-                                        <ul>
-                                            <li>
-                                                <a href="https://www.sedsucsd.org/teams/aurora/">Aurora</a>
-                                            </li>
-                                            <li>
-                                                <a href="https://www.sedsucsd.org/teams/business/">Business</a>
-                                            </li>
-                                            <li>
-                                                <a href="https://www.sedsucsd.org/teams/colossus/">Colossus SFS</a>
-                                            </li>
-                                            <li>
-                                                <a href="https://www.sedsucsd.org/teams/propulsion/">Propulsion</a>
-                                            </li>
-                                            <li>
-                                                <a href="https://www.sedsucsd.org/teams/triteia/">Triteia CubeSat</a>
-                                            </li>
-                                            <li>
-                                                <a href="https://www.sedsucsd.org/teams/vulcan/">Vulcan-I</a>
-                                            </li>
-                                            <li>
-                                                <a href="https://www.sedsucsd.org/teams/vulcan2/">Vulcan-II</a>
-                                            </li>
-                                            <li>
-                                                <a href="https://www.sedsucsd.org/teams/alumni/">Alumni</a>
-                                            </li>
-                                        </ul>
-                                    </li>
-                                </ul>
-                            </li>
-
-                            <li>
-                                <a href="https://sedsucsd.org/projects/colossus/" class="mn-has-sub">Projects <i class="fa fa-angle-down"></i></a>
-                                <ul class="mn-sub mn-has-multi">
-                                    <li class="mn-sub-multi">
-                                        <ul>
-                                            <li>
-                                                <a href="https://www.sedsucsd.org/projects/aurora/">Aurora</a>
-                                            </li>
-                                            <li>
-                                                <a href="https://www.sedsucsd.org/projects/colossus/" class="active">Colossus SFS</a>
-                                            </li>
-                                            <li>
-                                                <a href="https://www.sedsucsd.org/projects/engines/">Engines</a>
-                                            </li>
-                                            <li>
-                                                <a href="https://www.sedsucsd.org/projects/triteia/">Triteia CubeSat</a>
-                                            </li>
-                                            <li>
-                                                <a href="https://www.sedsucsd.org/projects/vulcan/">Vulcan-I</a>
-                                            </li>
-                                        </ul>
-                                    </li>
-                                </ul>
-                            </li>
-
-                             <li>
-                                <a href="https://www.sedsucsd.org/sponsors/" class="mn">Sponsors</a>
-                            </li>
-
-                             <li>
-                                <a href="https://www.sedsucsd.org/donate/" class="mn">Donate</a>
-                            </li>
-                        </ul>
-                    </div>
-                    <!-- End Main Menu -->
-
-                </div>
-            </nav>
-            <!-- End Navigation panel -->
-
-			<section class="page-section bg-dark-alfa-70 parallax-0" data-background="../../assets/images/projects/colossus/intro.jpg" style="background-image: url(../../assets/images/projects/colossus/intro.jpg); background-position: 50% 0px; height: 100vh;">
-                <div class="container relative alt-font" data-0="position: relative; left:-5px;" data-800="position: relative; left: -600px;">
+				<div class="section-text">
 					<div class="row">
-						<div class="col-md-8 col-md-offset-3" style="margin-top: 30vh;">
-							<img src="../../assets/images/projects/colossus/logo.png" alt="logo" class="fit-width">
+						<div class="col-md-3 hidden-sm hidden-xs">
+							<img src="../../assets/images/projects/colossus/patch.png" alt="patch" class="fit-width">
+						</div>
+						<div class="col-md-9 col-sm-12 mb-sm-100 mb-xs-60">
+							Colossus is a newly designed static fire test stand. Designed to be built on a trailer, it will be extremely mobile, eliminating hours of prep spent on previous systems.
+							<br><br>
+							NASA engineers have graciously provided us with invaluable resources and advice for redesigning the system. Our end goal is to create a flexible system that will be able to accommodate engines of various sizes and thrusts, allowing other organizations to utilize Colossus for testing.
 						</div>
 					</div>
+
+				</div>
+			</div>
+		</section>
+
+		<section class="page-section">
+			<div class="container relative">
+				<h1 class="font-condensed align-left mt-10 mb-20 mb-sm-20">
+					Tech Specs
+				</h1>
+
+				<div class="section-text">
 					<div class="row">
-						<div class="col-md-12 center mt-40">
-							<span style="font-size: 26px;">The All-New Static Fire System</span>
+						<div class="col-md-2 pr-0 col-sm-2">
+							<img src="../../assets/images/projects/colossus/engine-5000.png" alt="5000">
+						</div>
+						<div class="col-md-4 col-sm-4">
+							<div style="margin-top: 15px;">Structure designed to withstand 5000lbf of thrust</div>
+						</div>
+						<div class="col-md-2 pr-0 col-sm-2">
+							<img src="../../assets/images/projects/colossus/engine-2700.png" alt="2700">
+						</div>
+						<div class="col-md-4 col-sm-4">
+							<div style="margin-top: 15px;">Current plumbing sizing configuration allows for 2700lbs</div>
 						</div>
 					</div>
-					<div class="row">
-						<div class="col-md-12 center mt-30">
-							<span style="font-size: 26px;">Avaliable for rent (operation provided) Spring 2018</span>
+					<div class="row mt-30">
+						<div class="col-md-2 pr-0 col-sm-2">
+							<img src="../../assets/images/projects/colossus/pressure.png" alt="pressure" width="60%" style="margin: 0 auto; display: block;">
+						</div>
+						<div class="col-md-4 col-sm-4">
+							<div style="margin-top: 30px;">Maximum pressure of 1350psi</div>
+						</div>
+						<div class="col-md-2 pr-0 col-sm-2">
+							<img src="../../assets/images/projects/colossus/flow.png" alt="flow" width="77%;" style="margin-top: -7px;">
+						</div>
+						<div class="col-md-4 col-sm-4">
+							<div style="margin-top: 29.5px;">Maximum mass flow rate of 4gal/s</div>
 						</div>
 					</div>
-					<div class="row">
-						<div class="col-md-12 center mt-20">
-                             <a class="link btn btn-mod btn-border-w btn-medium btn-round mb-xxs-10 bold" href="mailto:colossus@sedsucsd.org" data-mode="1" style="font-size: 14px;">Obtain a quote</a>
+					<div class="row mt-30">
+						<div class="col-md-2 pr-0 col-sm-2 col-md-offset-3">
+							<img src="../../assets/images/projects/colossus/cryo.png" alt="cryo" width="60%" style="float: right; display: block;">
+						</div>
+						<div class="col-md-4 col-sm-4">
+							<div style="margin-top: 15px;">Cryogenic compatible on both the LOx and propellant side</div>
 						</div>
 					</div>
 				</div>
-			</section>
 
-			<section class="page-section" id="about">
-                <div class="container relative">
-					<h1 class="font-condensed align-left mt-10 mb-20 mb-sm-20">
-                        About Colossus
-					</h1>
+				<div class="section-text">
+					<h1 class="font-condensed align-left mt-10 mb-20 mb-sm-20">Data Acquisition System (DAQ)</h1>
 
-                    <div class="section-text">
-                        <div class="row">
-							<div class="col-md-3 hidden-sm hidden-xs">
-								<img src="../../assets/images/projects/colossus/patch.png" alt="patch" class="fit-width">
-							</div>
-                            <div class="col-md-9 col-sm-12 mb-sm-100 mb-xs-60">
-								Colossus is a newly designed Static Fire Test stand. Designed to be built on a trailer, it will be extremely mobile, eliminating hours of prep spent on previous systems.
-								<br><br>
-								NASA engineers have graciously provided us with invaluable resources and advice for redesigning the system. Our end goal is to create a flexible system that will be able to accommodate engines of various sizes and thrusts, allowing other organizations to utilize Colossus for testing.
-                            </div>
-                        </div>
-
-                    </div>
-                </div>
-            </section>
-
-			<section class="page-section">
-				<div class="container relative">
-					<h1 class="font-condensed align-left mt-10 mb-20 mb-sm-20">
-                        Tech Specs
-					</h1>
-
-					<div class="section-text">
-						<div class="row">
-							<div class="col-md-2 pr-0 col-sm-2">
-								<img src="../../assets/images/projects/colossus/engine-5000.png" alt="5000">
-							</div>
-							<div class="col-md-4 col-sm-4">
-								<div style="margin-top: 15px;">Structure designed to withstand 5000lbf of thrust</div>
-							</div>
-							<div class="col-md-2 pr-0 col-sm-2">
-								<img src="../../assets/images/projects/colossus/engine-2700.png" alt="2700">
-							</div>
-							<div class="col-md-4 col-sm-4">
-								<div style="margin-top: 15px;">Current plumbing sizing configuration allows for 2700lbs</div>
-							</div>
-						</div>
-                        <div class="row mt-30">
-							<div class="col-md-2 pr-0 col-sm-2">
-								<img src="../../assets/images/projects/colossus/pressure.png" alt="pressure" width="60%" style="margin: 0 auto; display: block;">
-							</div>
-							<div class="col-md-4 col-sm-4">
-								<div style="margin-top: 30px;">Maximum pressure of 1350psi</div>
-							</div>
-							<div class="col-md-2 pr-0 col-sm-2">
-								<img src="../../assets/images/projects/colossus/flow.png" alt="flow" width="77%;" style="margin-top: -7px;">
-							</div>
-							<div class="col-md-4 col-sm-4">
-								<div style="margin-top: 29.5px;">Maximum mass flow rate of 4gal/s</div>
-							</div>
-						</div>
-						<div class="row mt-30">
-							<div class="col-md-2 pr-0 col-sm-2 col-md-offset-3">
-								<img src="../../assets/images/projects/colossus/cryo.png" alt="cryo" width="60%" style="float: right; display: block;">
-							</div>
-							<div class="col-md-4 col-sm-4">
-								<div style="margin-top: 15px;">Cryogenic compatible on both the LOx and propellant side</div>
+					<div class="row">
+						<div class="col-md-4 col-sm-6">
+							<img src="../../assets/images/projects/colossus/pt-outline.png" alt="presure transducer">
+							<img src="../../assets/images/projects/colossus/pt-outline.png" alt="presure transducer">
+							<img src="../../assets/images/projects/colossus/pt-outline.png" alt="presure transducer">
+							<img src="../../assets/images/projects/colossus/pt-outline.png" alt="presure transducer">
+							<img src="../../assets/images/projects/colossus/pt-outline.png" alt="presure transducer">
+							<img src="../../assets/images/projects/colossus/pt-outline.png" alt="presure transducer">
+							<img src="../../assets/images/projects/colossus/pt-outline.png" alt="presure transducer">
+							<img src="../../assets/images/projects/colossus/pt-outline.png" alt="presure transducer">
+							<img src="../../assets/images/projects/colossus/pt-outline.png" alt="presure transducer">
+							<img src="../../assets/images/projects/colossus/pt-outline.png" alt="presure transducer">
+							<img src="../../assets/images/projects/colossus/pt-outline.png" alt="presure transducer">
+							<img src="../../assets/images/projects/colossus/pt-outline.png" alt="presure transducer">
+							<img src="../../assets/images/projects/colossus/pt-outline.png" alt="presure transducer">
+							<img src="../../assets/images/projects/colossus/pt-outline.png" alt="presure transducer">
+							<img src="../../assets/images/projects/colossus/pt-outline.png" alt="presure transducer">
+							<img src="../../assets/images/projects/colossus/pt-outline.png" alt="presure transducer">
+							<img src="../../assets/images/projects/colossus/pt-outline.png" alt="presure transducer">
+							<img src="../../assets/images/projects/colossus/pt-outline.png" alt="presure transducer">
+							<img src="../../assets/images/projects/colossus/pt-outline.png" alt="presure transducer">
+							<img src="../../assets/images/projects/colossus/pt-outline.png" alt="presure transducer">
+							<img src="../../assets/images/projects/colossus/pt-outline.png" alt="presure transducer">
+							<img src="../../assets/images/projects/colossus/pt-outline.png" alt="presure transducer">
+							<div class="row">
+								<div class="col-md-2 col-md-offset-3 col-sm-2 col-xs-2" style="font-size: 52px;">22</div>
+								<div class="col-md-5 col-md-offset-1 col-sm-10 col-xs-10" style="margin-top: 14px;">
+									<div class="row"><div class="col-md-12">Pressure</div></div>
+									<div class="row"><div class="col-md-12">Transducers</div>
+								</div>
 							</div>
 						</div>
 					</div>
 
-                    <div class="section-text">
-						<h1 class="font-condensed align-left mt-10 mb-20 mb-sm-20">
-							Data Acquisition System (DAQ)
-						</h1>
+					<div class="col-md-4 col-sm-6">
+						<img src="../../assets/images/projects/colossus/thermocouple.png" alt="thermocouple">
+						<img src="../../assets/images/projects/colossus/thermocouple.png" alt="thermocouple">
+						<img src="../../assets/images/projects/colossus/thermocouple.png" alt="thermocouple">
+						<img src="../../assets/images/projects/colossus/thermocouple.png" alt="thermocouple">
+						<img src="../../assets/images/projects/colossus/thermocouple.png" alt="thermocouple">
+						<img src="../../assets/images/projects/colossus/thermocouple.png" alt="thermocouple">
+						<img src="../../assets/images/projects/colossus/thermocouple.png" alt="thermocouple">
+						<img src="../../assets/images/projects/colossus/thermocouple.png" alt="thermocouple">
+						<img src="../../assets/images/projects/colossus/thermocouple.png" alt="thermocouple">
+						<img src="../../assets/images/projects/colossus/thermocouple.png" alt="thermocouple">
+						<div class="filler"> &nbsp; </div>
+						<div class="filler"> &nbsp; </div>
+						<div class="filler"> &nbsp; </div>
+						<div class="filler"> &nbsp; </div>
+						<div class="filler"> &nbsp; </div>
+						<div class="filler"> &nbsp; </div>
+						<div class="filler"> &nbsp; </div>
+						<div class="filler"> &nbsp; </div>
+						<div class="filler"> &nbsp; </div>
+						<div class="filler"> &nbsp; </div>
+						<div class="filler"> &nbsp; </div>
+						<div class="filler"> &nbsp; </div>
+						<div class="row" style="margin-top: -11px;">
+							<div class="col-md-2 col-md-offset-3 col-sm-2 col-xs-2" style="font-size: 52px;">10</div>
+							<div class="col-md-5 col-md-offset-1 col-sm-10 col-xs-10" style="margin-top: 28px;">Thermocouples</div>
+						</div>
+					</div>
 
-                        <div class="row">
-							<div class="col-md-4 col-sm-6">
-								<img src="../../assets/images/projects/colossus/pt-outline.png" alt="presure transducer">
-								<img src="../../assets/images/projects/colossus/pt-outline.png" alt="presure transducer">
-								<img src="../../assets/images/projects/colossus/pt-outline.png" alt="presure transducer">
-								<img src="../../assets/images/projects/colossus/pt-outline.png" alt="presure transducer">
-								<img src="../../assets/images/projects/colossus/pt-outline.png" alt="presure transducer">
-								<img src="../../assets/images/projects/colossus/pt-outline.png" alt="presure transducer">
-								<img src="../../assets/images/projects/colossus/pt-outline.png" alt="presure transducer">
-								<img src="../../assets/images/projects/colossus/pt-outline.png" alt="presure transducer">
-								<img src="../../assets/images/projects/colossus/pt-outline.png" alt="presure transducer">
-								<img src="../../assets/images/projects/colossus/pt-outline.png" alt="presure transducer">
-								<img src="../../assets/images/projects/colossus/pt-outline.png" alt="presure transducer">
-								<img src="../../assets/images/projects/colossus/pt-outline.png" alt="presure transducer">
-								<img src="../../assets/images/projects/colossus/pt-outline.png" alt="presure transducer">
-								<img src="../../assets/images/projects/colossus/pt-outline.png" alt="presure transducer">
-								<img src="../../assets/images/projects/colossus/pt-outline.png" alt="presure transducer">
-								<img src="../../assets/images/projects/colossus/pt-outline.png" alt="presure transducer">
-								<img src="../../assets/images/projects/colossus/pt-outline.png" alt="presure transducer">
-								<img src="../../assets/images/projects/colossus/pt-outline.png" alt="presure transducer">
-								<img src="../../assets/images/projects/colossus/pt-outline.png" alt="presure transducer">
-								<img src="../../assets/images/projects/colossus/pt-outline.png" alt="presure transducer">
-								<img src="../../assets/images/projects/colossus/pt-outline.png" alt="presure transducer">
-								<img src="../../assets/images/projects/colossus/pt-outline.png" alt="presure transducer">
+					<div class="col-md-4 col-sm-6">
+						<img src="../../assets/images/projects/colossus/load-cell.png" alt="load cell">
+						<img src="../../assets/images/projects/colossus/load-cell.png" alt="load cell">
+						<img src="../../assets/images/projects/colossus/load-cell.png" alt="loadcell">
+
+						<div class="filler"> &nbsp; </div>
+
+						<div class="row" style="margin-top: -2px;">
+							<div class="col-md-2 col-md-offset-3 col-sm-2 col-xs-2" style="font-size: 52px;">3</div>
+							<div class="col-md-5 col-md-offset-1 col-sm-10 col-xs-10" style="margin-top: 14px;">
 								<div class="row">
-									<div class="col-md-2 col-md-offset-3 col-sm-2 col-xs-2" style="font-size: 52px;">
-									22
-									</div>
-									<div class="col-md-5 col-md-offset-1 col-sm-10 col-xs-10" style="margin-top: 14px;">
-										<div class="row">
-											<div class="col-md-12">
-												Pressure
-											</div>
-										</div>
-										<div class="row">
-											<div class="col-md-12">
-												Transducers
-											</div>
-										</div>
-									</div>
+									<div class="col-md-12">Load</div>
+								</div>
+								<div class="row">
+									<div class="col-md-12">Cells</div>
 								</div>
 							</div>
-
-							<div class="col-md-4 col-sm-6">
-								<img src="../../assets/images/projects/colossus/thermocouple.png" alt="thermocouple">
-								<img src="../../assets/images/projects/colossus/thermocouple.png" alt="thermocouple">
-								<img src="../../assets/images/projects/colossus/thermocouple.png" alt="thermocouple">
-								<img src="../../assets/images/projects/colossus/thermocouple.png" alt="thermocouple">
-								<img src="../../assets/images/projects/colossus/thermocouple.png" alt="thermocouple">
-								<img src="../../assets/images/projects/colossus/thermocouple.png" alt="thermocouple">
-								<img src="../../assets/images/projects/colossus/thermocouple.png" alt="thermocouple">
-								<img src="../../assets/images/projects/colossus/thermocouple.png" alt="thermocouple">
-								<img src="../../assets/images/projects/colossus/thermocouple.png" alt="thermocouple">
-								<img src="../../assets/images/projects/colossus/thermocouple.png" alt="thermocouple">
-								<div class="filler"> &nbsp; </div>
-								<div class="filler"> &nbsp; </div>
-								<div class="filler"> &nbsp; </div>
-								<div class="filler"> &nbsp; </div>
-								<div class="filler"> &nbsp; </div>
-								<div class="filler"> &nbsp; </div>
-								<div class="filler"> &nbsp; </div>
-								<div class="filler"> &nbsp; </div>
-								<div class="filler"> &nbsp; </div>
-								<div class="filler"> &nbsp; </div>
-								<div class="filler"> &nbsp; </div>
-								<div class="filler"> &nbsp; </div>
-
-								<div class="row" style="margin-top: -11px;">
-									<div class="col-md-2 col-md-offset-3 col-sm-2 col-xs-2" style="font-size: 52px;">
-									10
-									</div>
-									<div class="col-md-5 col-md-offset-1 col-sm-10 col-xs-10" style="margin-top: 28px;">
-										Thermocouples
-									</div>
-								</div>
-							</div>
-
-							<div class="col-md-4 col-sm-6">
-								<img src="../../assets/images/projects/colossus/load-cell.png" alt="load cell">
-								<img src="../../assets/images/projects/colossus/load-cell.png" alt="load cell">
-								<img src="../../assets/images/projects/colossus/load-cell.png" alt="loadcell">
-
-								<div class="filler"> &nbsp; </div>
-
-								<div class="row" style="margin-top: -2px;">
-									<div class="col-md-2 col-md-offset-3 col-sm-2 col-xs-2" style="font-size: 52px;">
-									3
-									</div>
-									<div class="col-md-5 col-md-offset-1 col-sm-10 col-xs-10" style="margin-top: 14px;">
-										<div class="row">
-											<div class="col-md-12">
-												Load
-											</div>
-										</div>
-										<div class="row">
-											<div class="col-md-12">
-												Cells
-											</div>
-										</div>
-									</div>
-								</div>
-							</div>
-                        </div>
-					</div>
-				</div>
-			</section>
-
-
-			<section class="page-section" data-background="../../assets/images/projects/colossus/section-bg-engine.jpg" style="background-image: url(../../assets/images/projects/colossus/intro.jpg); background-position: 50% 0px; height: 750px;">
-              <section data-background="../../assets/images/projects/colossus/engine-mount.jpg" style="height: 100%;">
-				<div class="container relative" style="padding-top: 90px;">
-					<!-- Mobile -->
-					<div class="hidden-md hidden-lg hidden-xl mobile-bg">
-						<div class="part mt-40">Exchangeable Engine Interface</div>
-						<div class="description">The rocket engine to be test will be mounted here.</div>
-					</div>
-
-					<!-- Desktop -->
-					<div class="hidden-sm hidden-xs">
-						<div class="part mt-40">Exchangeable Engine Interface</div>
-						<div class="description">The rocket engine to be tested will be mounted here.</div>
-					</div>
-				</div>
-			  </section>
-            </section>
-
-			<section class="page-section" data-background="../../assets/images/projects/colossus/section-bg-shield.jpg" style="background-image: url(../../assets/images/projects/colossus/section-bg-shield.jpg); background-position: 50% 0px; height: 750px;">
-				<div class="container relative" style="padding-top: 90px;">
-					<!-- Mobile -->
-					<div class="hidden-md hidden-lg hidden-xl mobile-bg">
-						<div class="part mt-40">Blast Shield</div>
-						<div class="description">Protects the system from the intense conditions that may be created by the engine.</div>
-					</div>
-
-					<div class="hidden-sm hidden-xs">
-						<div class="part mt-40">Blast Shield</div>
-						<div class="description">Protects the system from the intense conditions that may be created by the engine.</div>
-					</div>
-				</div>
-            </section>
-
-			<section class="page-section" data-background="../../assets/images/projects/colossus/section-bg-control.jpg" style="background-image: url(../../assets/images/projects/colossus/section-bg-shield.jpg); background-position: 50% 0px; height: 750px;">
-				<div class="container relative" style="padding-top: 90px;">
-					<div class="hidden-md hidden-lg hidden-xl mobile-bg">
-						<div class="part mt-40">Onboard Control Panel</div>
-						<div class="description">
-							Computer-controlled automated hot-fire sequence with continuous safety checks and manual override.
-							<br>
-							Ultra-high speed/accuracy pressure, temperature, and force measurement logging with live data viewing.
-						</div>
-					</div>
-
-					<div class="hidden-sm hidden-xs">
-						<div class="part mt-40">Onboard Control Panel</div>
-						<div class="description">
-							Computer-controlled automated hot-fire sequence with continuous safety checks and manual override.
-							<br>
-							Ultra-high speed/accuracy pressure, temperature, and force measurement logging with live data viewing.
 						</div>
 					</div>
 				</div>
-            </section>
+			</div>
+		</div>
+	</section>
 
-			<section class="page-section" data-background="../../assets/images/projects/colossus/section-bg-tanks.jpg" style="background-image: url(../../assets/images/projects/colossus/section-bg-tanks.jpg); background-position: 50% 0px; height: 750px;">
-				<div class="container relative" style="padding-top: 90px;">
-					<div class="hidden-md hidden-lg hidden-xl mobile-bg">
-						<div class="part mt-40">Pressurized Propellant Tanks</div>
-						<div class="description">
-							Ability to pressurize up to 1350PSI.
-							<br>
-							Bi-cryogenic compatibility (LOX/RP, LOX/CH4, LOX/LNG, N2O/Alcohol, LOX/LH2, etc.)
-							<br>
-							8 gallons of propellant and oxidizer capacity each.
-						</div>
-					</div>
 
-					<div class="hidden-sm hidden-xs">
-						<div class="part mt-40">Pressurized Propellant Tanks</div>
-						<div class="description">
-							Ability to pressurize up to 1350PSI.
-							<br>
-							Bi-cryogenic compatibility (LOX/RP, LOX/CH4, LOX/LNG, N2O/Alcohol, LOX/LH2, etc.)
-							<br>
-							8 gallons of propellant and oxidizer capacity each.
-						</div>
-					</div>
+	<section class="page-section" data-background="../../assets/images/projects/colossus/section-bg-engine.jpg" style="background-image: url(../../assets/images/projects/colossus/intro.jpg); background-position: 50% 0px; height: 750px;">
+		<section data-background="../../assets/images/projects/colossus/engine-mount.jpg" style="height: 100%;">
+			<div class="container relative" style="padding-top: 90px;">
+				<!-- Mobile -->
+				<div class="hidden-md hidden-lg hidden-xl mobile-bg">
+					<div class="part mt-40">Exchangeable Engine Interface</div>
+					<div class="description">The rocket engine to be test will be mounted here.</div>
 				</div>
-            </section>
 
-			<section class="page-section" data-background="../../assets/images/projects/colossus/section-bg-curie.jpg" style="background-image: url(../../assets/images/projects/colossus/section-bg-curie.jpg); background-position: 50% 0px; height: 750px;">
-				<div class="container relative" style="padding-top: 90px;">
-					<div class="hidden-md hidden-lg hidden-xl mobile-bg">
-						<div class="part mt-40">Plumbing System</div>
-						<div class="description">
-							Pressure vessels designed and manufactured to ASME standards and certified by ASME inspector.
-							<br>
-							Insulated 1" diameter main propellant lines.
-							<br>
-							Comprehensive automated valve pneumatic actuation system.
-						</div>
-					</div>
-
-					<div class="hidden-sm hidden-xs">
-						<div class="part mt-40">Plumbing System</div>
-						<div class="description">
-							Pressure vessels designed and manufactured to ASME standards and certified by ASME inspector.
-							<br>
-							Insulated 1" diameter main propellant lines.
-							<br>
-							Comprehensive automated valve pneumatic actuation system.
-						</div>
-					</div>
+				<!-- Desktop -->
+				<div class="hidden-sm hidden-xs">
+					<div class="part mt-40">Exchangeable Engine Interface</div>
+					<div class="description">The rocket engine to be tested will be mounted here.</div>
 				</div>
-            </section>
+			</div>
+		</section>
+	</section>
 
-             <section class="small-section bg-dark pb-60" style="background-color: #000000;">
-                <div class="container relative">
-                    <div class="align-center">
-                        <h3 class="banner-heading font-alt"></h3>
-                        <div>
-                            <a href="../../assets/files/colossus_v2.pdf" style="font-size: 16px;" target="blank" class="btn btn-mod btn-w btn-medium btn-round">View the Design Proposal</a>
-                        </div>
-                    </div>
-                </div>
-            </section>
+	<section class="page-section" data-background="../../assets/images/projects/colossus/section-bg-shield.jpg" style="background-image: url(../../assets/images/projects/colossus/section-bg-shield.jpg); background-position: 50% 0px; height: 750px;">
+		<div class="container relative" style="padding-top: 90px;">
+			<!-- Mobile -->
+			<div class="hidden-md hidden-lg hidden-xl mobile-bg">
+				<div class="part mt-40">Blast Shield</div>
+				<div class="description">Protects the system from the intense conditions that may be created by the engine.</div>
+			</div>
+			<div class="hidden-sm hidden-xs">
+				<div class="part mt-40">Blast Shield</div>
+				<div class="description">Protects the system from the intense conditions that may be created by the engine.</div>
+			</div>
+		</div>
+	</section>
 
-             <!-- Call Action Section -->
-            <section class="small-section bg-dark pt-20 pb-40" style="background-color: #0E76BC;">
-                <div class="container relative">
-                    <div class="align-center">
-                        <h3>Questions, concerns, or just curious?</h3>
-                        <div>
-                            <a href="https://sedsucsd.org/about/contact" class="btn btn-mod btn-w btn-medium btn-round">Contact Us</a>
-                        </div>
-                    </div>
-                </div>
-            </section>
-            <!-- End Call Action Section -->
+	<section class="page-section" data-background="../../assets/images/projects/colossus/section-bg-control.jpg" style="background-image: url(../../assets/images/projects/colossus/section-bg-shield.jpg); background-position: 50% 0px; height: 750px;">
+		<div class="container relative" style="padding-top: 90px;">
+			<div class="hidden-md hidden-lg hidden-xl mobile-bg">
+				<div class="part mt-40">Onboard Control Panel</div>
+				<div class="description">
+					Computer-controlled automated hot-fire sequence with continuous safety checks and manual override.
+					<br>
+					Ultra-high speed/accuracy pressure, temperature, and force measurement logging with live data viewing.
+				</div>
+			</div>
 
-            <footer class="page-section bg-dark footer pb-60">
-                <div class="container">
-                    <!-- Social Links -->
-                    <div class="footer mb-40 mb-xs-30">
+			<div class="hidden-sm hidden-xs">
+				<div class="part mt-40">Onboard Control Panel</div>
+				<div class="description">
+					Computer-controlled automated hot-fire sequence with continuous safety checks and manual override.
+					<br>
+					Ultra-high speed/accuracy pressure, temperature, and force measurement logging with live data viewing.
+				</div>
+			</div>
+		</div>
+	</section>
 
-                        <a class="footer-social animate" href="http://www.facebook.com/sedsucsd" title="Facebook" target="_blank"><i class="fa fa-facebook"></i></a>
-                        <a class="footer-social animate" href="http://instagram.com/seds_ucsd" title="Instagram" target="_blank"><i class="fa fa-instagram"></i></a>
-                        <a class="footer-social animate" href="http://twitter.com/SEDS_UCSD" title="Twitter" target="_blank"><i class="fa fa-twitter"></i></a>
-                        <p class="font-s-14">Stay connected for the latest updates</p>
-                    </div>
-                    <!-- End Social Links -->
-                    <!-- Footer Text -->
-                    <div class="footer-text">
-                        <!-- Copyright -->
-                        <div class="footer-copy font-alt">
-                           &copy; 2018 SEDS UC San Diego
-                        </div>
-                        <!-- End Copyright -->
-                        <div class="muted">
-                            Designed by Albert Lin.
-                        </div>
-                    </div>
-                    <!-- End Footer Text -->
-                 </div>
-            </footer>
-        </div>
-        <!-- End Page Wrap -->
+	<section class="page-section" data-background="../../assets/images/projects/colossus/section-bg-tanks.jpg" style="background-image: url(../../assets/images/projects/colossus/section-bg-tanks.jpg); background-position: 50% 0px; height: 750px;">
+		<div class="container relative" style="padding-top: 90px;">
+			<div class="hidden-md hidden-lg hidden-xl mobile-bg">
+				<div class="part mt-40">Pressurized Propellant Tanks</div>
+				<div class="description">
+					Ability to pressurize up to 1350PSI.
+					<br>
+					Bi-cryogenic compatibility (LOX/RP, LOX/CH4, LOX/LNG, N2O/Alcohol, LOX/LH2, etc.)
+					<br>
+					8 gallons of propellant and oxidizer capacity each.
+				</div>
+			</div>
+			<div class="hidden-sm hidden-xs">
+				<div class="part mt-40">Pressurized Propellant Tanks</div>
+				<div class="description">
+					Ability to pressurize up to 1350PSI.
+					<br>
+					Bi-cryogenic compatibility (LOX/RP, LOX/CH4, LOX/LNG, N2O/Alcohol, LOX/LH2, etc.)
+					<br>
+					8 gallons of propellant and oxidizer capacity each.
+				</div>
+			</div>
+		</div>
+	</section>
 
+	<section class="page-section" data-background="../../assets/images/projects/colossus/section-bg-curie.jpg" style="background-image: url(../../assets/images/projects/colossus/section-bg-curie.jpg); background-position: 50% 0px; height: 750px;">
+		<div class="container relative" style="padding-top: 90px;">
+			<div class="hidden-md hidden-lg hidden-xl mobile-bg">
+				<div class="part mt-40">Plumbing System</div>
+				<div class="description">
+					Pressure vessels designed and manufactured to ASME standards and certified by ASME inspector.
+					<br>
+					Insulated 1" diameter main propellant lines.
+					<br>
+					Comprehensive automated valve pneumatic actuation system.
+				</div>
+			</div>
+			<div class="hidden-sm hidden-xs">
+				<div class="part mt-40">Plumbing System</div>
+				<div class="description">
+					Pressure vessels designed and manufactured to ASME standards and certified by ASME inspector.
+					<br>
+					Insulated 1" diameter main propellant lines.
+					<br>
+					Comprehensive automated valve pneumatic actuation system.
+				</div>
+			</div>
+		</div>
+	</section>
 
-        <!-- JS -->
-        <script type="text/javascript" src="../../assets/js/jquery-1.11.2.min.js"></script>
-        <script type="text/javascript" src="../../assets/js/jquery.easing.1.3.js"></script>
-        <script type="text/javascript" src="../../assets/js/bootstrap.min.js"></script>
-        <!--<script type="text/javascript" src="../../assets/js/SmoothScroll.js"></script>-->
-        <script type="text/javascript" src="../../assets/js/jquery.scrollTo.min.js"></script>
-        <script type="text/javascript" src="../../assets/js/jquery.localScroll.min.js"></script>
-        <script type="text/javascript" src="../../assets/js/jquery.viewport.mini.js"></script>
-        <!--<script type="text/javascript" src="../../assets/js/jquery.countTo.js"></script>-->
-        <script type="text/javascript" src="../../assets/js/jquery.appear.js"></script>
-        <script type="text/javascript" src="../../assets/js/jquery.sticky.js"></script>
-        <script type="text/javascript" src="../../assets/js/jquery.parallax-1.1.3.js"></script>
-        <script type="text/javascript" src="../../assets/js/jquery.fitvids.js"></script>
-        <script type="text/javascript" src="../../assets/js/owl.carousel.min.js"></script>
-        <script type="text/javascript" src="../../assets/js/isotope.pkgd.min.js"></script>
-        <script type="text/javascript" src="../../assets/js/imagesloaded.pkgd.min.js"></script>
-        <script type="text/javascript" src="../../assets/js/jquery.magnific-popup.min.js"></script>
-        <script type="text/javascript" src="../../assets/js/wow.min.js"></script>
-        <script type="text/javascript" src="../../assets/js/masonry.pkgd.min.js"></script>
-        <!--<script type="text/javascript" src="../../assets/js/jquery.simple-text-rotator.min.js"></script>-->
-        <script type="text/javascript" src="../../assets/js/all.js"></script>
-        <!--<script type="text/javascript" src="../../assets/js/contact-form.js"></script>-->
-        <!--<script type="text/javascript" src="../../assets/js/jquery.ajaxchimp.min.js"></script>-->
-        <!--<script type="text/javascript" src="../../assets/js/jquery.mb.YTPlayer.js"></script>-->
-        <!--[if lt IE 10]><script type="text/javascript" src="../../assets/js/placeholder.js"></script><![endif]-->
+	<section class="small-section bg-dark pb-60" style="background-color: #000000;">
+		<div class="container relative">
+			<div class="align-center">
+				<h3 class="banner-heading font-alt"></h3>
+				<div>
+					<a href="../../assets/files/colossus_v2.pdf" style="font-size: 16px;" target="blank" class="btn btn-mod btn-w btn-medium btn-round">View the Design Proposal</a>
+				</div>
+			</div>
+		</div>
+	</section>
 
-		<!-- Skroller -->
-		<script type="text/javascript" src="../../assets/js/skrollr/dist/skrollr.min.js"></script>
-		<script type="text/javascript">
-			var s = skrollr.init();
+	<!-- Call Action Section -->
+	<section class="small-section bg-dark pt-20 pb-40" style="background-color: #0E76BC;">
+		<div class="container relative">
+			<div class="align-center">
+				<h3>Questions, concerns, or just curious?</h3>
+				<div>
+					<a href="https://sedsucsd.org/about/contact" class="btn btn-mod btn-w btn-medium btn-round">Contact Us</a>
+				</div>
+			</div>
+		</div>
+	</section>
+	<!-- End Call Action Section -->
 
-			if (s.isMobile()) {
-				s.destroy();
-			}
-		</script>
-    </body>
+	<footer class="page-section bg-dark footer pb-60">
+		<div class="container">
+			<!-- Social Links -->
+			<div class="footer mb-40 mb-xs-30">
+				<a class="footer-social animate" href="http://www.facebook.com/sedsucsd" title="Facebook" target="_blank"><i class="fa fa-facebook"></i></a>
+				<a class="footer-social animate" href="http://instagram.com/seds_ucsd" title="Instagram" target="_blank"><i class="fa fa-instagram"></i></a>
+				<a class="footer-social animate" href="http://twitter.com/SEDS_UCSD" title="Twitter" target="_blank"><i class="fa fa-twitter"></i></a>
+				<p class="font-s-14">Stay connected for the latest updates</p>
+			</div>
+			<!-- End Social Links -->
+			<!-- Footer Text -->
+			<div class="footer-text">
+				<!-- Copyright -->
+				<div class="footer-copy font-alt">
+					&copy; 2018 SEDS UC San Diego
+				</div>
+				<!-- End Copyright -->
+				<div class="muted">
+					Designed by Albert Lin.
+				</div>
+				div>
+				<!-- End Footer Text -->
+			</div>
+		</footer>
+	</div>
+	<!-- End Page Wrap -->
+
+	<!-- JS -->
+	<script type="text/javascript" src="../../assets/js/jquery-1.11.2.min.js"></script>
+	<script type="text/javascript" src="../../assets/js/jquery.easing.1.3.js"></script>
+	<script type="text/javascript" src="../../assets/js/bootstrap.min.js"></script>
+	<!--<script type="text/javascript" src="../../assets/js/SmoothScroll.js"></script>-->
+	<script type="text/javascript" src="../../assets/js/jquery.scrollTo.min.js"></script>
+	<script type="text/javascript" src="../../assets/js/jquery.localScroll.min.js"></script>
+	<script type="text/javascript" src="../../assets/js/jquery.viewport.mini.js"></script>
+	<!--<script type="text/javascript" src="../../assets/js/jquery.countTo.js"></script>-->
+	<script type="text/javascript" src="../../assets/js/jquery.appear.js"></script>
+	<script type="text/javascript" src="../../assets/js/jquery.sticky.js"></script>
+	<script type="text/javascript" src="../../assets/js/jquery.parallax-1.1.3.js"></script>
+	<script type="text/javascript" src="../../assets/js/jquery.fitvids.js"></script>
+	<script type="text/javascript" src="../../assets/js/owl.carousel.min.js"></script>
+	<script type="text/javascript" src="../../assets/js/isotope.pkgd.min.js"></script>
+	<script type="text/javascript" src="../../assets/js/imagesloaded.pkgd.min.js"></script>
+	<script type="text/javascript" src="../../assets/js/jquery.magnific-popup.min.js"></script>
+	<script type="text/javascript" src="../../assets/js/wow.min.js"></script>
+	<script type="text/javascript" src="../../assets/js/masonry.pkgd.min.js"></script>
+	<!--<script type="text/javascript" src="../../assets/js/jquery.simple-text-rotator.min.js"></script>-->
+	<script type="text/javascript" src="../../assets/js/all.js"></script>
+	<!--<script type="text/javascript" src="../../assets/js/contact-form.js"></script>-->
+	<!--<script type="text/javascript" src="../../assets/js/jquery.ajaxchimp.min.js"></script>-->
+	<!--<script type="text/javascript" src="../../assets/js/jquery.mb.YTPlayer.js"></script>-->
+	<!--[if lt IE 10]><script type="text/javascript" src="../../assets/js/placeholder.js"></script><![endif]-->
+
+	<!-- Skroller -->
+	<script type="text/javascript" src="../../assets/js/skrollr/dist/skrollr.min.js"></script>
+	<script type="text/javascript">
+		var s = skrollr.init();
+		if (s.isMobile()) { s.destroy(); }
+	</script>
+
+</body>
 </html>

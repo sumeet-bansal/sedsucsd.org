@@ -56,6 +56,10 @@ This is a refresh of the SEDS UCSD site. It's a facelist with cleaner, more mode
 + deploy script
 + update officers page
 + [templatize everything](https://medium.com/@AmyScript/how-to-reduce-reuse-and-recycle-your-code-389e6742e4ac)
+	+ head
+	+ navbar
+	+ footer
+	+ `/about/gallery`
 + make public, add to [SEDS@UCSD GH org](https://github.com/SEDS-Software)
 + update Colossus page
 	+ look into Sketchfab model embed
@@ -65,7 +69,4 @@ This is a refresh of the SEDS UCSD site. It's a facelist with cleaner, more mode
 + update members page
 	+ change the LinkedIn icons to the font-awesome SVGs
 + fix `/projects/engines` height attributes in engine tables and Ignus-1 text getting cut off
-+ standardize style
-	+ trailing whitespace
-	+ those carriage returns
-	+ spaces to tabs (or at least not a mix of both)
++ add some photo viewer to `/about/gallery`?
