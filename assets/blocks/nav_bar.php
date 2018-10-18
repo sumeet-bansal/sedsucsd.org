@@ -84,15 +84,6 @@
 						<li class="mn-sub-multi">
 							<ul>
 								<li>
-									<?php if ($_SERVER['REQUEST_URI'] == "/teams/aurora/") {
-										echo '<a href="/teams/aurora/" class="active">Aurora</a>';
-									}
-									else {
-										echo '<a href="/teams/aurora/">Aurora</a>';
-									}
-									?>
-								</li>
-								<li>
 									<?php if ($_SERVER['REQUEST_URI'] == "/teams/business/") {
 										echo '<a href="/teams/business/" class="active">Business</a>';
 									}
@@ -156,15 +147,6 @@
 					<ul class="mn-sub mn-has-multi">
 						<li class="mn-sub-multi">
 							<ul>
-								<li>
-									<?php if ($_SERVER['REQUEST_URI'] == "/projects/aurora/") {
-										echo '<a href="/projects/aurora/" class="active">Aurora</a>';
-									}
-									else {
-										echo '<a href="/projects/aurora/">Aurora</a>';
-									}
-									?>
-								</li>
 								<li>
 									<?php if ($_SERVER['REQUEST_URI'] == "/projects/colossus/") {
 										echo '<a href="/projects/colossus/" class="active">Colossus SFS</a>';

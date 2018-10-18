@@ -23,7 +23,6 @@ This is a refresh of the SEDS UCSD site. It's a facelist with cleaner, more mode
 + donate
 + launch
 + projects/
-	+ aurora
 	+ colossus
 	+ engines
 	+ triteia
@@ -37,7 +36,6 @@ This is a refresh of the SEDS UCSD site. It's a facelist with cleaner, more mode
 + sponsors
 + teams/
 	+ alumni
-	+ aurora
 	+ business
 	+ colossus
 	+ propulsion
