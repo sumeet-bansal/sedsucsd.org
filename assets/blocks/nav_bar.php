@@ -129,6 +129,15 @@
 									?>
 								</li>
 								<li>
+									<?php if ($_SERVER['REQUEST_URI'] == "/teams/vulcan2/") {
+										echo '<a href="/teams/vulcan2/" class="active">Vulcan-1I</a>';
+									}
+									else {
+										echo '<a href="/teams/vulcan2/">Vulcan-2</a>';
+									}
+									?>
+								</li>
+								<li>
 									<?php if ($_SERVER['REQUEST_URI'] == "/teams/alumni/") {
 										echo '<a href="/teams/alumni/" class="active">Alumni</a>';
 									}
@@ -180,6 +189,15 @@
 									}
 									else {
 										echo '<a href="/projects/vulcan/">Vulcan-1</a>';
+									}
+									?>
+								</li>
+								<li>
+									<?php if ($_SERVER['REQUEST_URI'] == "/projects/vulcan2/") {
+										echo '<a href="/projects/vulcan2/" class="active">Vulcan-2</a>';
+									}
+									else {
+										echo '<a href="/projects/vulcan2/">Vulcan-2</a>';
 									}
 									?>
 								</li>
