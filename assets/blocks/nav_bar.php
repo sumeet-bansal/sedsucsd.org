@@ -121,16 +121,16 @@
 								</li>
 								<li>
 									<?php if ($_SERVER['REQUEST_URI'] == "/teams/vulcan/") {
-										echo '<a href="/teams/vulcan/" class="active">Vulcan-1</a>';
+										echo '<a href="/teams/vulcan/" class="active">Vulcan-I</a>';
 									}
 									else {
-										echo '<a href="/teams/vulcan/">Vulcan-1</a>';
+										echo '<a href="/teams/vulcan/">Vulcan-I</a>';
 									}
 									?>
 								</li>
 								<li>
 									<?php if ($_SERVER['REQUEST_URI'] == "/teams/vulcan2/") {
-										echo '<a href="/teams/vulcan2/" class="active">Vulcan-1I</a>';
+										echo '<a href="/teams/vulcan2/" class="active">Vulcan-II</a>';
 									}
 									else {
 										echo '<a href="/teams/vulcan2/">Vulcan-2</a>';
@@ -185,10 +185,10 @@
 								</li>
 								<li>
 									<?php if ($_SERVER['REQUEST_URI'] == "/projects/vulcan/") {
-										echo '<a href="/projects/vulcan/" class="active">Vulcan-1</a>';
+										echo '<a href="/projects/vulcan/" class="active">Vulcan-I</a>';
 									}
 									else {
-										echo '<a href="/projects/vulcan/">Vulcan-1</a>';
+										echo '<a href="/projects/vulcan/">Vulcan-I</a>';
 									}
 									?>
 								</li>
