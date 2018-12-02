@@ -175,6 +175,18 @@
 									?>
 								</li>
 								<li>
+									<?php if ($_SERVER['REQUEST_URI'] == "/projects/engines/") {
+										echo '<a href="/projects/engines/" class="active">Engines</a>';
+									}
+									else {
+										echo '<a href="/projects/engines/">Engines</a>';
+									}
+									?>
+								</li>
+								<li>
+									<a href="https://spacevision.sedsucsd.org/">SpaceVision</a>
+								</li>
+								<li>
 									<?php if ($_SERVER['REQUEST_URI'] == "/projects/triteia/") {
 										echo '<a href="/projects/triteia/" class="active">Triteia Cubesat</a>';
 									}
