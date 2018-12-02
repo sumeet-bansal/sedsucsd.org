@@ -16,6 +16,7 @@
 			<a href="http://www.facebook.com/sedsucsd" title="Facebook" target="_blank"><i class="fa fa-facebook"></i></a>
 			<a href="http://instagram.com/seds.ucsd" title="Instagram" target="_blank"><i class="fa fa-instagram"></i></a>
 			<a href="http://twitter.com/SEDS_UCSD" title="Twitter" target="_blank"><i class="fa fa-twitter"></i></a>
+			<a class="footer-social animate" href="https://www.linkedin.com/company/seds-ucsd" title="LinkedIn" target="_blank"><i class="fa fa-linkedin"></i></a>
 		</div>
 		<!-- End Social Links -->
 		<!-- Footer Text -->
