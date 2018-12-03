@@ -53,13 +53,7 @@
 									?>
 								</li>
 								<li>
-									<?php if ($_SERVER['REQUEST_URI'] == "/about/gallery/") {
-									echo '<a href="/about/gallery/" class="active">Gallery</a>';
-									}
-									else {
-										echo '<a href="/about/gallery/">Gallery</a>';
-									}
-									?>
+									<a href="https://www.flickr.com/photos/sedsucsd/">Gallery</a>
 								</li>
 								<li>
 									<a href="https://news.sedsucsd.org">News</a>
