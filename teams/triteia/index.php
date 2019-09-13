@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en-US">
 <head>
-	<title>Vulcan-I Team | SEDS UCSD</title>
+	<title>Triteia Team | SEDS UCSD</title>
 	<meta name="description" content="">
 	<meta name="keywords" content="">
 	<meta charset="utf-8">
@@ -42,138 +42,16 @@
 	<div class="page" id="top">
 
 		<!-- Navigation panel -->
-		<nav class="main-nav dark transparent stick-fixed">
-			<div class="full-wrapper relative clearfix">
-				<!-- Logo ( * your text or image into link tag *) -->
-				<div class="nav-logo-wrap local-scroll">
-					<a href="https://sedsucsd.org" class="logo" style="max-width: 250px;">
-						<img src="../../assets/images/nav-logo.png" alt="" style="height: 75%; display: inline;" />
-					</a>
-				</div>
-				<div class="mobile-nav">
-					<i class="fa fa-bars"></i>
-				</div>
-
-				<!-- Main Menu -->
-				<div class="inner-nav desktop-nav">
-					<ul class="clearlist">
-						<li>
-							<a href="https://sedsucsd.org" class="mn">Home</a>
-						</li>
-						<li>
-							<a href="https://sedsucsd.org/about/seds/" class="mn-has-sub">
-								About <i class="fa fa-angle-down"></i>
-							</a>
-							<ul class="mn-sub mn-has-multi">
-								<li class="mn-sub-multi">
-									<ul>
-										<li>
-											<a href="https://www.sedsucsd.org/about/seds/">About SEDS</a>
-										</li>
-										<li>
-											<a href="https://www.flickr.com/photos/sedsucsd/">Gallery</a>
-										</li>
-										<li>
-											<a href="https://news.sedsucsd.org">News</a>
-										</li>
-										<li>
-											<a href="https://www.sedsucsd.org/about/officers/">Officers</a>
-										</li>
-										<li>
-											<a href="https://www.sedsucsd.org/about/contact/">Contact</a>
-										</li>
-									</ul>
-								</li>
-							</ul>
-						</li>
-						<li>
-							<a href="https://sedsucsd.org/teams/colossus" class="mn-has-sub">
-								Teams <i class="fa fa-angle-down"></i>
-							</a>
-							<ul class="mn-sub mn-has-multi">
-								<li class="mn-sub-multi">
-									<ul>
-										<li>
-											<a href="https://www.sedsucsd.org/teams/argo/">Argo</a>
-										</li>
-										<li>
-											<a href="https://www.sedsucsd.org/teams/business/">Business</a>
-										</li>
-										<li>
-											<a href="https://www.sedsucsd.org/teams/colossus/">Colossus SFS</a>
-										</li>
-										<li>
-											<a href="https://www.sedsucsd.org/teams/propulsion/">Propulsion</a>
-										</li>
-										<li>
-											<a href="https://www.sedsucsd.org/teams/triteia/">Triteia CubeSat</a>
-										</li>
-										<li>
-											<a href="https://www.sedsucsd.org/teams/vulcan/" class="active">Vulcan-I</a>
-										</li>
-										<li>
-											<a href="https://www.sedsucsd.org/teams/vulcan2/">Vulcan-II</a>
-										</li>
-										<li>
-											<a href="https://www.sedsucsd.org/teams/alumni/">Alumni</a>
-										</li>
-									</ul>
-								</li>
-							</ul>
-						</li>
-						<li>
-							<a href="https://sedsucsd.org/projects/colossus/" class="mn-has-sub">
-								Projects <i class="fa fa-angle-down"></i>
-							</a>
-							<ul class="mn-sub mn-has-multi">
-								<li class="mn-sub-multi">
-									<ul>
-										<li>
-											<a href="https://www.sedsucsd.org/projects/argo/">Argo</a>
-										</li>
-										<li>
-											<a href="https://www.sedsucsd.org/projects/colossus/">Colossus SFS</a>
-										</li>
-										<li>
-											<a href="https://www.sedsucsd.org/projects/engines/">Engines</a>
-										</li>
-										<li>
-											<a href="https://spacevision.sedsucsd.org/">SpaceVision</a>
-										</li>
-										<li>
-											<a href="https://www.sedsucsd.org/projects/triteia/">Triteia CubeSat</a>
-										</li>
-										<li>
-											<a href="https://www.sedsucsd.org/projects/vulcan/">Vulcan-I</a>
-										</li>
-										<li>
-											<a href="https://www.sedsucsd.org/projects/vulcan2/">Vulcan-II</a>
-										</li>
-									</ul>
-								</li>
-							</ul>
-						</li>
-						<li>
-							<a href="https://www.sedsucsd.org/sponsors/" class="mn">Sponsors</a>
-						</li>
-						<li>
-							<a href="https://www.sedsucsd.org/donate/" class="mn">Donate</a>
-						</li>
-					</ul>
-				</div>
-				<!-- End Main Menu -->
-
-			</div>
-		</nav>
+		<?php include '../../assets/blocks/navbar.php'?>
 		<!-- End Navigation panel -->
 
 		<!-- Head Section -->
-		<section class="page-section bg-dark bg-dark-alfa-70" data-background="../../assets/images/team/vulcan_header.jpg">
+		<section class="page-section bg-dark bg-dark-alfa-70" data-background="../../assets/images/team/triteia_header.jpg">
 			<div class="divider"> &nbsp; </div>
 			<div class="relative container align-left">
 				<div class="row">
 					<div class="col-md-6">
-						<h1 class="hs-line-11 font-alt mb-20 mb-xs-0">Vulcan-I Team</h1>
+						<h1 class="hs-line-11 font-alt mb-20 mb-xs-0">Triteia Team</h1>
 						<div class="hs-line-4 font-alt">
 							<br> &nbsp; <br>
 						</div>
@@ -190,41 +68,61 @@
 				<div class="row multi-columns-row alt-features-grid">
 
 					<!-- Logo Item -->
-					<a class="col-sm-4 col-md-3 col-lg-3 linkedinlink" href="https://www.linkedin.com/in/kennethbenedictos" target="blank">
+					<a class="col-sm-4 col-md-3 col-lg-3 linkedinlink" href="https://www.linkedin.com/in/kristinagcaoili" target="blank">
 						<div class="alt-features-item align-left">
 							<div class="alt-features-icon">
-								<img src="../../assets/images/members/kenneth_benedictos.jpg" alt="kenneth">
+								<img src="../../assets/images/members/kristin_agcaoili.jpg" alt="kristin">
 							</div>
 							<div class="officer_name">
-								Kenneth Benedictos
+								Kristin Agcaoili
 								<img src="../../assets/images/misc/linkedin.png" alt="linkedin" class="linkedin">
 							</div>
-							<div class="officer_role">Raceway Lead</div>
+							<div class="officer_role">Ground Station Engineer</div>
 						</div>
 					</a>
 
 					<div class="col-sm-4 col-md-3 col-lg-3">
 						<div class="alt-features-item align-left">
 							<div class="alt-features-icon">
-								<img src="../../assets/images/members/nixon_carruthers.jpg" alt="nixon">
+								<img src="../../assets/images/members/shane_aldas.jpg" alt="shane">
 							</div>
-							<div class="officer_name">Nixon Carruthers</div>
-							<div class="officer_role">  </div>
+							<div class="officer_name">Shane Aldas</div>
+							<div class="officer_role">Solar Panel Design</div>
 						</div>
 					</div>
 
-					<a class="col-sm-4 col-md-3 col-lg-3 linkedinlink" href="https://www.linkedin.com/pub/mark-chang/85/a/931" target="blank">
+					<a class="col-sm-4 col-md-3 col-lg-3 linkedinlink" href="http://www.linkedin.com/in/dianaalsindy" target="blank">
 						<div class="alt-features-item align-left">
 							<div class="alt-features-icon">
-								<img src="../../assets/images/members/mark_chang.jpg" alt="mark">
+								<img src="../../assets/images/members/diana_alsindy.jpg" alt="diana">
 							</div>
 							<div class="officer_name">
-								Mark Chang
+								Diana Alsindy
 								<img src="../../assets/images/misc/linkedin.png" alt="linkedin" class="linkedin">
 							</div>
-							<div class="officer_role">Pneumatics Lead</div>
+							<div class="officer_role">Propulsions</div>
 						</div>
 					</a>
+
+					<div class="col-sm-4 col-md-3 col-lg-3">
+						<div class="alt-features-item align-left">
+							<div class="alt-features-icon">
+								<img src="../../assets/images/members/eddie_carrera.jpg" alt="eddie">
+							</div>
+							<div class="officer_name">Eddie Carrera</div>
+							<div class="officer_role">Communications</div>
+						</div>
+					</div>
+
+					<div class="col-sm-4 col-md-3 col-lg-3">
+						<div class="alt-features-item align-left">
+							<div class="alt-features-icon">
+								<img src="../../assets/images/members/aaron_coffman.jpg" alt="aaron">
+							</div>
+							<div class="officer_name">Aaron Coffman</div>
+							<div class="officer_role">Power Systems</div>
+						</div>
+					</div>
 
 					<a class="col-sm-4 col-md-3 col-lg-3 linkedinlink" href="https://www.linkedin.com/profile/view?id=AAIAABd7VYsBIOx9QFIe6wpW1Z0J1d79HHQi6pU&trk=nav_responsive_tab_profile_pic" target="blank">
 						<div class="alt-features-item align-left">
@@ -235,174 +133,142 @@
 								Darren Charrier
 								<img src="../../assets/images/misc/linkedin.png" alt="linkedin" class="linkedin">
 							</div>
-							<div class="officer_role">Injector Plate Design</div>
+							<div class="officer_role">Operation Manager</div>
 						</div>
 					</a>
 
 					<div class="col-sm-4 col-md-3 col-lg-3">
 						<div class="alt-features-item align-left">
 							<div class="alt-features-icon">
-								<img src="../../assets/images/members/rohit_ghosh.jpg" alt="rohit">
+								<img src="../../assets/images/members/ryan_collins.jpg" alt="ryan">
 							</div>
-							<div class="officer_name">Rohit Ghosh</div>
-							<div class="officer_role">Ignition Sequencing</div>
+							<div class="officer_name">Ryan Collins</div>
+							<div class="officer_role">Control Systems </div>
 						</div>
 					</div>
 
 					<div class="col-sm-4 col-md-3 col-lg-3">
 						<div class="alt-features-item align-left">
 							<div class="alt-features-icon">
-								<img src="../../assets/images/members/justin_herrera.jpg" alt="justin">
+								<img src="../../assets/images/members/darren_deng.jpg" alt="darren">
 							</div>
-							<div class="officer_name">Justin Herrera</div>
-							<div class="officer_role">  </div>
+							<div class="officer_name">Darren Deng</div>
+							<div class="officer_role">Structures</div>
 						</div>
 					</div>
 
-					<div class="col-sm-4 col-md-3 col-lg-3">
+					<a class="col-sm-4 col-md-3 col-lg-3 linkedinlink" href="http://www.linkedin.com/in/crellis86" target="blank">
 						<div class="alt-features-item align-left">
 							<div class="alt-features-icon">
-								<img src="../../assets/images/members/justin_ho.jpg" alt="justin">
-							</div>
-							<div class="officer_name">Justin Ho</div>
-							<div class="officer_role">  </div>
-						</div>
-					</div>
-
-					<div class="col-sm-4 col-md-3 col-lg-3">
-						<div class="alt-features-item align-left">
-							<div class="alt-features-icon">
-								<img src="../../assets/images/members/kevin_hoo.jpg" alt="kevin">
-							</div>
-							<div class="officer_name">Kevin Hoo</div>
-							<div class="officer_role">  </div>
-						</div>
-					</div>
-
-					<div class="col-sm-4 col-md-3 col-lg-3">
-						<div class="alt-features-item align-left">
-							<div class="alt-features-icon">
-								<img src="../../assets/images/members/reilly_jensen.jpg" alt="reilly">
-							</div>
-							<div class="officer_name">Reilly Jensen</div>
-							<div class="officer_role">  </div>
-						</div>
-					</div>
-
-					<a class="col-sm-4 col-md-3 col-lg-3 linkedinlink" href="https://www.linkedin.com/in/jessedavidlang" target="blank">
-						<div class="alt-features-item align-left">
-							<div class="alt-features-icon">
-								<img src="../../assets/images/members/jesse_lang.jpg" alt="jesse">
+								<img src="../../assets/images/members/christopher_ellis.jpg" alt="christopher">
 							</div>
 							<div class="officer_name">
-								Jesse Lang
+								Christopher R. Ellis
 								<img src="../../assets/images/misc/linkedin.png" alt="linkedin" class="linkedin">
 							</div>
-							<div class="officer_role">Project Lead</div>
+							<div class="officer_role">Power Systems Lead</div>
 						</div>
 					</a>
 
 					<div class="col-sm-4 col-md-3 col-lg-3">
 						<div class="alt-features-item align-left">
 							<div class="alt-features-icon">
-								<img src="../../assets/images/members/austin_lee.jpg" alt="austin">
+								<img src="../../assets/images/members/jeremy_halligan.jpg" alt="jeremy">
 							</div>
-							<div class="officer_name">Austin Lee</div>
-							<div class="officer_role">Recovery Bay Lead</div>
+							<div class="officer_name">Jeremy Halligan</div>
+							<div class="officer_role">Embedded Systems</div>
 						</div>
 					</div>
 
 					<div class="col-sm-4 col-md-3 col-lg-3">
 						<div class="alt-features-item align-left">
 							<div class="alt-features-icon">
-								<img src="../../assets/images/members/hannah_munguia.jpg" alt="hannah">
+								<img src="../../assets/images/members/faris_hamdi.jpg" alt="faris">
 							</div>
-							<div class="officer_name">Hannah Munguia</div>
-							<div class="officer_role">  </div>
+							<div class="officer_name">Faris Hamdi</div>
+							<div class="officer_role">Program Manager</div>
 						</div>
 					</div>
-
-					<a class="col-sm-4 col-md-3 col-lg-3 linkedinlink" href="https://www.linkedin.com/in/dennisren" target="blank">
-						<div class="alt-features-item align-left">
-							<div class="alt-features-icon">
-								<img src="../../assets/images/members/dennis_ren.jpg" alt="dennis">
-							</div>
-							<div class="officer_name">
-								Dennis Ren
-								<img src="../../assets/images/misc/linkedin.png" alt="linkedin" class="linkedin">
-							</div>
-							<div class="officer_role">Electronics Lead</div>
-						</div>
-					</a>
-
-
-
-					<a class="col-sm-4 col-md-3 col-lg-3 linkedinlink" href="https://www.linkedin.com/in/johnmarcozzi" target="blank">
-						<div class="alt-features-item align-left">
-							<div class="alt-features-icon">
-								<img src="../../assets/images/members/john_marcozzi.jpg" alt="john">
-							</div>
-							<div class="officer_name">
-								John Marcozzi
-								<img src="../../assets/images/misc/linkedin.png" alt="linkedin" class="linkedin">
-							</div>
-							<div class="officer_role">Pneumatics</div>
-						</div>
-					</a>
 
 					<div class="col-sm-4 col-md-3 col-lg-3">
 						<div class="alt-features-item align-left">
 							<div class="alt-features-icon">
-								<img src="../../assets/images/members/briana_puktianie.jpg" alt="briana">
+								<img src="../../assets/images/members/lance_huang.jpg" alt="lance">
 							</div>
-							<div class="officer_name">Briana Puktianie</div>
-							<div class="officer_role">Pneumatics</div>
-						</div>
-					</div>
-
-					<a class="col-sm-4 col-md-3 col-lg-3 linkedinlink" href="https://www.linkedin.com/in/jansen-quiros-0853aa117" target="blank">
-						<div class="alt-features-item align-left">
-							<div class="alt-features-icon">
-								<img src="../../assets/images/members/jansen_quiros.jpg" alt="jansen">
-							</div>
-							<div class="officer_name">
-								Jansen Quiros
-								<img src="../../assets/images/misc/linkedin.png" alt="linkedin" class="linkedin">
-							</div>
+							<div class="officer_name">Lance Huang</div>
 							<div class="officer_role"></div>
 						</div>
-					</a>
-
-					<a class="col-sm-4 col-md-3 col-lg-3 linkedinlink" href="https://www.linkedin.com/in/deenahsanchez" target="blank">
-						<div class="alt-features-item align-left">
-							<div class="alt-features-icon">
-								<img src="../../assets/images/members/deenah_sanchez.jpg" alt="deenah">
-							</div>
-							<div class="officer_name">
-								Deenah Sanchez
-								<img src="../../assets/images/misc/linkedin.png" alt="linkedin" class="linkedin">
-							</div>
-							<div class="officer_role">Pneumatics</div>
-						</div>
-					</a>
+					</div>
 
 					<div class="col-sm-4 col-md-3 col-lg-3">
 						<div class="alt-features-item align-left">
 							<div class="alt-features-icon">
-								<img src="../../assets/images/members/aaron_spanner.jpg" alt="aaron">
+								<img src="../../assets/images/members/thomas_lee.jpg" alt="thomas">
 							</div>
-							<div class="officer_name">Aaron Spanner</div>
-							<div class="officer_role">  </div>
+							<div class="officer_name">Thomas Lee</div>
+							<div class="officer_role">Communications Engineer</div>
 						</div>
 					</div>
 
 					<div class="col-sm-4 col-md-3 col-lg-3">
 						<div class="alt-features-item align-left">
 							<div class="alt-features-icon">
-								<img src="../../assets/images/members/zoe_warp.jpg" alt="zoe">
+								<img src="../../assets/images/members/annie_lin.jpg" alt="annie">
 							</div>
-							<div class="officer_name">Zoe Warp</div>
-							<div class="officer_role"></div>
+							<div class="officer_name">Annie Lin</div>
+							<div class="officer_role">Catalyst Pack Specialist</div>
+						</div>
+					</div>
+
+					<div class="col-sm-4 col-md-3 col-lg-3">
+						<div class="alt-features-item align-left">
+							<div class="alt-features-icon">
+								<img src="../../assets/images/members/chris_marshall.jpg" alt="chris">
+							</div>
+							<div class="officer_name">Chris Marshall</div>
+							<div class="officer_role">Power Conditioning</div>
+						</div>
+					</div>
+
+					<div class="col-sm-4 col-md-3 col-lg-3">
+						<div class="alt-features-item align-left">
+							<div class="alt-features-icon">
+								<img src="../../assets/images/members/harley_norton.jpg" alt="harley">
+							</div>
+							<div class="officer_name">Harley Norton</div>
+							<div class="officer_role">Astrodynamics Lead</div>
+						</div>
+					</div>
+
+					<a class="col-sm-4 col-md-3 col-lg-3 linkedinlink" href="https://www.linkedin.com/in/edwinr1" target="blank">
+						<div class="alt-features-item align-left">
+							<div class="alt-features-icon">
+								<img src="../../assets/images/members/edwin_romero.jpg" alt="edwin">
+							</div>
+							<div class="officer_name">
+								Edwin Romero
+								<img src="../../assets/images/misc/linkedin.png" alt="linkedin" class="linkedin">
+							</div>
+						</div>
+					</a>
+
+					<div class="col-sm-4 col-md-3 col-lg-3">
+						<div class="alt-features-item align-left">
+							<div class="alt-features-icon">
+								<img src="../../assets/images/members/anya_ustinova.jpg" alt="anya">
+							</div>
+							<div class="officer_name">Anya Ustinova</div>
+							<div class="officer_role">Structural Lead</div>
+						</div>
+					</div>
+
+					<div class="col-sm-4 col-md-3 col-lg-3">
+						<div class="alt-features-item align-left">
+							<div class="alt-features-icon">
+								<img src="../../assets/images/members/aram_yesayan.jpg" alt="aram">
+							</div>
+							<div class="officer_name">Aram Yesayan</div>
+							<div class="officer_role">Communications Lead</div>
 						</div>
 					</div>
 
@@ -410,11 +276,13 @@
 					<div class="col-sm-4 col-md-3 col-lg-3">
 						<div class="alt-features-item align-left">
 							<div class="officer_name">Not Pictured</div>
-							<div class="officer_role">Bryan Dierking</div>
-							<div class="officer_role">Clint Luna</div>
-							<div class="officer_role">Zach Thomas</div>
-							<div class="officer_role">Kimberly Weed</div>
-							<div class="officer_role">Gregory Wong</div>
+							<div class="officer_role">Michael Bagherpour</div>
+							<div class="officer_role">Ryan Huang</div>
+							<div class="officer_role">Eric Lin</div>
+							<div class="officer_role">Jack Shi</div>
+							<div class="officer_role">Amarprit Singh</div>
+							<div class="officer_role">James Smith</div>
+							<div class="officer_role">Samuel Sunarjo</div>
 						</div>
 					</div>
 
@@ -429,7 +297,7 @@
 			<div class="container relative">
 				<div class="row">
 					<div class="col-md-12 col-sm-12">
-						<img src="../../assets/images/team/vulcan.jpg" alt="team">
+						<img src="../../assets/images/team/triteia.jpg" alt="team">
 					</div>
 				</div>
 			</div>

@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en-US">
     <head>
-        <title>Code of Conduct | SpaceVision 2018 | SEDS UCSD</title>
+        <title>Registration | SpaceVision 2018 | SEDS UCSD</title>
         <meta name="description" content="">
         <meta name="keywords" content="">
         <meta charset="utf-8">
@@ -45,61 +45,21 @@
         <div class="page" id="top">
 
         <!-- Navigation panel -->
-		<nav class="main-nav dark stick-fixed" id="sv-nav">
-			<div class="full-wrapper relative clearfix">
-				<!-- Logo ( * your text or image into link tag *) -->
-				<div class="nav-logo-wrap local-scroll">
-					<a href="https://sedsucsd.org" class="logo font-alt" style="max-width: 250px; text-transform: none;">
-						<img src="../../assets/images/nav-logo.png" alt="" style="height: 67%; display: inline;" />
-						SpaceVision 2018
-					</a>
-
-				</div>
-				<div class="mobile-nav">
-					<i class="fa fa-bars"></i>
-				</div>
-
-				<!-- Main Menu -->
-				<div class="inner-nav desktop-nav">
-					<ul class="clearlist">
-
-						<li>
-							<a href="https://sedsucsd.org/spacevision/" class="mn">Home</a>
-						</li>
-
-						<li>
-							<a href="https://www.sedsucsd.org/spacevision/registration/" class="mn">Registration</a>
-						</li>
-						<li>
-							<a href="https://www.sedsucsd.org/spacevision/program" class="mn">Program</a>
-						</li>
-						<li>
-							<a href="https://www.sedsucsd.org/spacevision/travel/" class="mn">Travel/Lodging</a>
-						</li>
-						<li>
-							<a href="https://www.sedsucsd.org/spacevision/code-of-conduct/" class="mn active">Code of Conduct</a>
-						</li>
-						<li>
-							<a href="https://www.sedsucsd.org/spacevision/sponsors/" class="mn">Sponsors</a>
-						</li>
-						<li>
-							<a href="https://www.sedsucsd.org/spacevision/contact/" class="mn">Contact</a>
-						</li>
-					</ul>
-				</div>
-				<!-- End Main Menu -->
-			</div>
-		</nav>
+		<?php include '../../assets/blocks/navbar.php'?>
 		<!-- End Navigation panel -->
 
 
 			<!-- Head Section -->
-            <section class="page-section bg-dark bg-dark-alfa-10 pb-0" style="background: url('../images/bg3.jpg') fixed left no-repeat; height: 30vh; background-size: cover;">
+            <section class="page-section bg-dark bg-dark-alfa-10 pb-0" style="background: url('../images/bg3.jpg') fixed left no-repeat; height: 100vh; background-size: cover;">
             	<div class="container">
             		<div class="row">
             			<div class="col-md-12">
-            				<div class="font-alt font-s-44 align-left mt-40 mb-20 mb-sm-20">
-                             Code of Conduct
+            				<div class="font-alt font-s-44 center mt-40 mb-20 mb-sm-20">
+                            Registration
+                            </div>
+
+                            <div class="font-alt font-s-32 center mt-40 mb-20 mb-sm-20">
+                            Stay tuned for updates
                             </div>
 
                         </div>
@@ -109,7 +69,7 @@
             </section>
             <!-- End Head Section -->
 
-			<!-- Section -->
+			<!-- Section -
             <section class="page-section">
                 <div class="container relative">
 
@@ -151,7 +111,7 @@
 
 
             </section>
-            <!-- End Section -->
+            End Section -->
 
 
 

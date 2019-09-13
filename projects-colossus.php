@@ -9,7 +9,7 @@
 	<!--[if IE]><meta http-equiv='X-UA-Compatible' content='IE=edge,chrome=1'><![endif]-->
 	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0" />
 	<link rel="shortcut icon" href="https://sedsucsd.org/assets/images/misc/icon.png">
-	<meta http-equiv="refresh" content="8; url=https://www.sedsucsd.org/projects/triteia/">
+	<meta http-equiv="refresh" content="8; url=https://www.sedsucsd.org/projects/colossus/">
 
 	<!-- CSS -->
 	<link rel="stylesheet" href="assets/css/bootstrap.min.css">
@@ -40,126 +40,7 @@
 	<div class="page" id="top">
 
 		<!-- Navigation panel -->
-		<nav class="main-nav dark transparent stick-fixed">
-			<div class="full-wrapper relative clearfix">
-				<!-- Logo ( * your text or image into link tag *) -->
-				<div class="nav-logo-wrap local-scroll">
-					<a href="https://sedsucsd.org" class="logo" style="max-width: 250px;">
-						<img src="assets/images/nav-logo.png" alt="" style="height: 75%; display: inline;" />
-					</a>
-				</div>
-				<div class="mobile-nav">
-					<i class="fa fa-bars"></i>
-				</div>
-
-				<!-- Main Menu -->
-				<div class="inner-nav desktop-nav">
-					<ul class="clearlist">
-						<li>
-							<a href="https://sedsucsd.org" class="mn">Home</i></a>
-						</li>
-						<li>
-							<a href="https://sedsucsd.org/about/seds/" class="mn-has-sub">
-								About <i class="fa fa-angle-down"></i>
-							</a>
-							<ul class="mn-sub mn-has-multi">
-								<li class="mn-sub-multi">
-									<ul>
-										<li>
-											<a href="https://www.sedsucsd.org/about/seds/">About SEDS</a>
-										</li>
-										<li>
-											<a href="https://www.flickr.com/photos/sedsucsd/">Gallery</a>
-										</li>
-										<li>
-											<a href="https://news.sedsucsd.org">News</a>
-										</li>
-										<li>
-											<a href="https://www.sedsucsd.org/about/officers/">Officers</a>
-										</li>
-										<li>
-											<a href="https://www.sedsucsd.org/about/contact/">Contact</a>
-										</li>
-									</ul>
-								</li>
-							</ul>
-						</li>
-						<li>
-							<a href="https://sedsucsd.org/teams/colossus" class="mn-has-sub">
-								Teams <i class="fa fa-angle-down"></i>
-							</a>
-							<ul class="mn-sub mn-has-multi">
-								<li class="mn-sub-multi">
-									<ul>
-										<li>
-											<a href="https://www.sedsucsd.org/teams/argo/">Argo</a>
-										</li>
-										<li>
-											<a href="https://www.sedsucsd.org/teams/business/">Business</a>
-										</li>
-										<li>
-											<a href="https://www.sedsucsd.org/teams/colossus/">Colossus SFS</a>
-										</li>
-										<li>
-											<a href="https://www.sedsucsd.org/teams/propulsion/">Propulsion</a>
-										</li>
-										<li>
-											<a href="https://www.sedsucsd.org/teams/triteia/">Triteia CubeSat</a>
-										</li>
-										<li>
-											<a href="https://www.sedsucsd.org/teams/vulcan/">Vulcan-I</a>
-										</li>
-										<li>
-											<a href="https://www.sedsucsd.org/teams/vulcan2/">Vulcan-II</a>
-										</li>
-										<li>
-											<a href="https://www.sedsucsd.org/teams/alumni/">Alumni</a>
-										</li>
-									</ul>
-								</li>
-							</ul>
-						</li>
-						<li>
-							<a href="https://sedsucsd.org/projects/colossus/" class="mn-has-sub">
-								Projects <i class="fa fa-angle-down"></i>
-							</a>
-							<ul class="mn-sub mn-has-multi">
-								<li class="mn-sub-multi">
-									<ul>
-										<li>
-											<a href="https://www.sedsucsd.org/projects/argo/">Argo</a>
-										</li>
-										<li>
-											<a href="https://www.sedsucsd.org/projects/colossus/">Colossus SFS</a>
-										</li>
-										<li>
-											<a href="https://www.sedsucsd.org/projects/engines/">Engines</a>
-										</li>
-										<li>
-											<a href="https://www.sedsucsd.org/projects/triteia/">Triteia CubeSat</a>
-										</li>
-										<li>
-											<a href="https://www.sedsucsd.org/projects/vulcan/">Vulcan-I</a>
-										</li>
-										<li>
-											<a href="https://www.sedsucsd.org/projects/vulcan2/">Vulcan-II</a>
-										</li>
-									</ul>
-								</li>
-							</ul>
-						</li>
-						<li>
-							<a href="https://www.sedsucsd.org/sponsors/" class="mn">Sponsors</a>
-						</li>
-						<li>
-							<a href="https://www.sedsucsd.org/donate/" class="mn">Donate</a>
-						</li>
-					</ul>
-				</div>
-				<!-- End Main Menu -->
-
-			</div>
-		</nav>
+		<?php include 'assets/blocks/navbar.php'?>
 		<!-- End Navigation panel -->
 
 		<!-- Home Section -->
@@ -175,7 +56,7 @@
 									This page has been moved. Please update your links.
 								</p>
 								<h3 class="font-condensed mb-0"  style="font-weight: 500;">
-									<a href="https://sedsucsd.org/projects/triteia">https://www.sedsucsd.org/projects/triteia</a>
+									<a href="https://sedsucsd.org/projects/colossus">https://www.sedsucsd.org/projects/colossus</a>
 								</h3>
 								<h3 class="mb-10 mt-10 font-condensed" style="font-weight: 300;">You will automatically be redirected.</h3>
 							</div>

@@ -50,51 +50,7 @@
 	<div class="page" id="top">
 
 		<!-- Navigation panel -->
-		<nav class="main-nav dark stick-fixed" id="sv-nav">
-			<div class="full-wrapper relative clearfix">
-				<!-- Logo ( * your text or image into link tag *) -->
-				<div class="nav-logo-wrap local-scroll">
-					<a href="https://sedsucsd.org" class="logo font-alt" style="max-width: 250px; text-transform: none;">
-						<img src="../assets/images/nav-logo.png" alt="" style="height: 67%; display: inline;" />
-						SpaceVision 2018
-					</a>
-
-				</div>
-				<div class="mobile-nav">
-					<i class="fa fa-bars"></i>
-				</div>
-
-				<!-- Main Menu -->
-				<div class="inner-nav desktop-nav">
-					<ul class="clearlist">
-
-						<li>
-							<a href="https://sedsucsd.org/spacevision/" class="mn">Home</a>
-						</li>
-
-						<li>
-							<a href="https://www.sedsucsd.org/spacevision/registration/" class="mn">Registration</a>
-						</li>
-						<li>
-							<a href="https://www.sedsucsd.org/spacevision/program" class="mn">Program</a>
-						</li>
-						<li>
-							<a href="https://www.sedsucsd.org/spacevision/travel/" class="mn">Travel/Lodging</a>
-						</li>
-						<li>
-							<a href="https://www.sedsucsd.org/spacevision/code-of-conduct/" class="mn">Code of Conduct</a>
-						</li>
-						<li>
-							<a href="https://www.sedsucsd.org/spacevision/sponsors/" class="mn">Sponsors</a>
-						</li>
-						<li>
-							<a href="https://www.sedsucsd.org/spacevision/contact/" class="mn">Contact</a>
-						</li>
-					</ul>
-				</div>
-				<!-- End Main Menu -->
-			</div>
-		</nav>
+		<?php include '../../assets/blocks/navbar.php'?>
 		<!-- End Navigation panel -->
 
 
