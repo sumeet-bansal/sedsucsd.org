@@ -326,7 +326,7 @@
 				<div class="section-text mb-50 mb-sm-20">
 					<div class="row">
 						<div class="col-md-4 col-sm-4">
-							<img src="http://www.nasa.gov/sites/default/files/styles/side_image/public/thumbnails/image/cubequest_challenge_moon_in_front.jpeg?itok=B52Ewg3B" alt="cubequest">
+							<img src="https://www.nasa.gov/sites/default/files/styles/side_image/public/thumbnails/image/cubequest_challenge_moon_in_front.jpeg?itok=B52Ewg3B" alt="cubequest">
 						</div>
 						<div class="col-md-8 col-sm-8 mb-sm-50 mb-xs-30">
 							The Cube Quest Challenge, sponsored by NASA’s Space Technology Mission Directorate Centennial Challenge Program, offered a total of $5 million to teams that meet the challenge objectives of designing, building and delivering flight-qualified, small satellites capable of advanced operations near and beyond the moon.
