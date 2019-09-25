@@ -100,7 +100,7 @@
 	<div class="page" id="top">
 
 		<!-- Navigation panel -->
-	  <?php include '../../assets/blocks/navbar.php'?>
+	  <?php include '../assets/blocks/navbar.php'?>
 		<!-- End Navigation panel -->
 
 		<!-- Head Section -->
@@ -110,7 +110,7 @@
 				<div class="row">
 					<div class="col-md-6">
 						<h1 class="hs-line-11 font-alt mb-20 mb-xs-0">Apply</h1>
-						<div class="hs-line-4 font-alt"><br>2019 Spring Recruitment<br></div>
+						<div class="hs-line-4 font-alt"><br>2019 Fall Recruitment<br></div>
 					</div>
 					<div class="col-md-2 mt-15">
 						&nbsp;
@@ -125,10 +125,10 @@
 			<div class="relative container align-left">
 				<div class="row">
 					<div class="col-md-8 col-md-offset-2">
-						<h1>Applications for Spring 2019 have closed.<br><br>Please check back later.</h1>
-						<!-- h4>If you are experiencing any errors, please email your resume to <a href="mailto:sedsucsd@gmail.com">seds.ucsd@gmail.com</a>.</h4>
+						<!-- h1>Applications for Spring 2019 have closed.<br><br>Please check back later.</h1 -->
+						<h4>If you are experiencing any errors, please email your resume to <a href="mailto:sedsucsd@gmail.com">seds.ucsd@gmail.com</a>.</h4>
 						<h4>You must be a student at UC San Diego to apply. View our available positions <a href="https://docs.google.com/document/d/1vQm3oa8DEa5LxnRnRXy8RkxWiol0CqG52lUjsFlkvyg/">here</a>.</h4>
-						<br>
+						<!-- br>
 						<h4><i>Mixer 1: Tuesday [10/2] 5:00-6:30 PM, EBU-II Room 305</i></h4>
 						<h4><i>Mixer 2: Wednesday [10/3] 5:00-6:30 PM, EBU-II Room 305</i></h4>
 						<h4><i>Mixer 3: Thursday [10/4] 6:30-8:00 PM, EBU-II Room 305</i></h4 -->
