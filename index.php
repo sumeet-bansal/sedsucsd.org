@@ -78,7 +78,7 @@
 								</h3>
 							</div>
 							<div class="col-md-6 font-right">
-								<p class="mb-10 font-condensed" style="font-size: 36px; font-weight: 500;">Recruitment Spring 2019</p>
+								<p class="mb-10 font-condensed" style="font-size: 36px; font-weight: 500;">Recruitment Fall 2019</p>
 								<h3 class="mb-10 font-condensed" style="font-weight: 300;">
 									<a href="https://docs.google.com/document/d/1vQm3oa8DEa5LxnRnRXy8RkxWiol0CqG52lUjsFlkvyg/">Available Positions</a>
 								</h3>
