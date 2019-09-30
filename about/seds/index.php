@@ -73,7 +73,7 @@
 				<div class="section-text mb-10">
 					<div class="row">
 						<div class="col-md-8 col-sm-6 mb-sm-50 mb-xs-30">
-							SEDS UCSD draws its members from an multi-disciplinary group, motivated to advance the new space movement. We are united by the thought that the next logical step in human civilization is not only to explore, but to evolve into a space-faring civilization.
+							SEDS UCSD draws its members from an interdisciplinary group, motivated to advance the new space movement. We are united by the thought that the next logical step in human civilization is not only to explore, but to evolve into a space-faring civilization.
 							<br><br>
 							SEDS UCSD was founded in the 2012 by Deepak Atyam, Joshua Benedictos, Kenneth Benedictos, and Benjamin Liu. Together, they created Tri-D, the first 3D printed rocket engine by a student organization.
 						</div>
