@@ -52,7 +52,7 @@
                       <a href="https://www.flickr.com/photos/sedsucsd/">Gallery</a>
                     </li>
                     <li>
-                      <a href="https://news.sedsucsd.org">News</a>
+                      <a href="https://news.google.com/search?q=SEDS%20UCSD&hl=en-US&gl=US&ceid=US%3Aen">News</a>
                     </li>
                     <li>
                       <?php if ($_SERVER['REQUEST_URI'] == "/about/officers/") {
