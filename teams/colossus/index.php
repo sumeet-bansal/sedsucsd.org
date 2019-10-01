@@ -69,39 +69,19 @@
 					<div class="col-sm-4 col-md-3 col-lg-3">
 						<div class="alt-features-item align-left">
 							<div class="alt-features-icon">
-								<img src="../../assets/images/members/cyrus_cowley.jpg" alt="matt">
+								<img src="../../assets/images/members/alex_coleman.jpg" alt="matt">
 							</div>
-							<div class="officer_name">Cyrus Cowley</div>
-							<div class="officer_role">Electronics &amp; Software Engineer</div>
+							<div class="officer_name">Alex Coleman</div>
+							<div class="officer_role">Project Manager</div>
 						</div>
 					</div>
 
 					<div class="col-sm-4 col-md-3 col-lg-3">
 						<div class="alt-features-item align-left">
 							<div class="alt-features-icon">
-								<img src="../../assets/images/members/fernando_garcia.jpg" alt="fernando">
+								<img src="../../assets/images/members/breana_guerrero.jpg" alt="fernando">
 							</div>
-							<div class="officer_name">Fernando Lopez Garcia</div>
-							<div class="officer_role">Electronics &amp; Software Engineer</div>
-						</div>
-					</div>
-
-					<div class="col-sm-4 col-md-3 col-lg-3">
-						<div class="alt-features-item align-left">
-							<div class="alt-features-icon">
-								<img src="../../assets/images/members/jack_najarian.jpg" alt="jack">
-							</div>
-							<div class="officer_name">Jack Najarian</div>
-							<div class="officer_role">Electronics &amp; Systems Engineer</div>
-						</div>
-					</div>
-
-					<div class="col-sm-4 col-md-3 col-lg-3">
-						<div class="alt-features-item align-left">
-							<div class="alt-features-icon">
-								<img src="../../assets/images/members/jorge_nunez.jpg" alt="jorge">
-							</div>
-							<div class="officer_name">Jorge Nunez</div>
+							<div class="officer_name">Breana Guerrero</div>
 							<div class="officer_role">Propellant Feed Systems Lead</div>
 						</div>
 					</div>
@@ -109,50 +89,40 @@
 					<div class="col-sm-4 col-md-3 col-lg-3">
 						<div class="alt-features-item align-left">
 							<div class="alt-features-icon">
-								<img src="../../assets/images/members/james_roses.jpg" alt="james">
+								<img src="../../assets/images/members/patrick_finn.jpg" alt="jack">
 							</div>
-							<div class="officer_name">James Roses</div>
-							<div class="officer_role">Member</div>
+							<div class="officer_name">Patrick Finn</div>
+							<div class="officer_role">Structural Engineering Lead</div>
 						</div>
 					</div>
 
 					<div class="col-sm-4 col-md-3 col-lg-3">
 						<div class="alt-features-item align-left">
 							<div class="alt-features-icon">
-								<img src="../../assets/images/members/harker_russell.jpg" alt="harker">
+								<img src="../../assets/images/members/alex_lazaroiu.jpg" alt="jorge">
 							</div>
-							<div class="officer_name">Harker Russell</div>
-							<div class="officer_role">Electronics &amp; Software Lead</div>
+							<div class="officer_name">Alex Lazaroiu</div>
+							<div class="officer_role">Electrical Engineering Lead</div>
 						</div>
 					</div>
 
 					<div class="col-sm-4 col-md-3 col-lg-3">
 						<div class="alt-features-item align-left">
 							<div class="alt-features-icon">
-								<img src="../../assets/images/members/matthew_santos.jpg" alt="matt">
+								<img src="../../assets/images/members/tyler_collins.jpg" alt="james">
 							</div>
-							<div class="officer_name">Matt Santos</div>
-							<div class="officer_role">Electronics &amp; Software Engineer</div>
+							<div class="officer_name">Tyler Collins</div>
+							<div class="officer_role">Test Conductor</div>
 						</div>
 					</div>
 
 					<div class="col-sm-4 col-md-3 col-lg-3">
 						<div class="alt-features-item align-left">
 							<div class="alt-features-icon">
-								<img src="../../assets/images/members/cristian_sharp.jpg" alt="cristian">
+								<img src="../../assets/images/members/trisha_nguyen.jpg" alt="harker">
 							</div>
-							<div class="officer_name">Cristian Sharp</div>
-							<div class="officer_role">Electronics &amp; Software Engineer</div>
-						</div>
-					</div>
-
-					<div class="col-sm-4 col-md-3 col-lg-3">
-						<div class="alt-features-item align-left">
-							<div class="alt-features-icon">
-								<img src="../../assets/images/members/surya_vohra.jpg" alt="surya">
-							</div>
-							<div class="officer_name">Surya Vohra</div>
-							<div class="officer_role">Propellant Feed Systems Engineer</div>
+							<div class="officer_name">Trisha Nguyen</div>
+							<div class="officer_role">Structural Engineer</div>
 						</div>
 					</div>
 
@@ -163,18 +133,9 @@
 
 					<div class="col-sm-4 col-md-3 col-lg-3">
 						<div class="alt-features-item align-left mt-0 pt-0">
-							<div class="officer_role">Breana Guerrero</div>
-							<div class="officer_role">Patrick Finn</div>
-							<div class="officer_role">Alex Coleman</div>
-							<div class="officer_role">Tyler Collins</div>
-						</div>
-					</div>
-					<div class="col-sm-4 col-md-3 col-lg-3">
-						<div class="alt-features-item align-left mt-0 pt-0">
-							<div class="officer_role">Tina Kafel</div>
-							<div class="officer_role">Alex Lazaroiu</div>
-							<div class="officer_role">Heather Huntley</div>
-							<div class="officer_role">Bennett Ngan</div>
+							<div class="officer_role">Victoria Alanis</div>
+							<div class="officer_role">Nicholas Compton</div>
+							<div class="officer_role">Justin Oshiro</div>
 						</div>
 					</div>
 				</div>
@@ -184,29 +145,42 @@
 
 					<div class="col-sm-4 col-md-3 col-lg-3">
 						<div class="alt-features-item align-left mt-0 pt-0">
+							<div class="officer_role">Cyrus Cowley</div>
+							<div class="officer_role">Fernando Lopez Garcia</div>
+							<div class="officer_role">Jack Najarian</div>
+							<div class="officer_role">Jorge Nunez</div>
+							<div class="officer_role">James Roses</div>
+							<div class="officer_role">Harker Russell</div>
+							<div class="officer_role">Matt Santos</div>
+							<div class="officer_role">Cristian Sharp</div>
+						</div>
+					</div>
+					<div class="col-sm-4 col-md-3 col-lg-3">
+						<div class="alt-features-item align-left mt-0 pt-0">
+							<div class="officer_role">Andrew Wang</div>
+						  <div class="officer_role">Surya Vohra</div>
 							<div class="officer_role">Sumeet Bansal</div>
 							<div class="officer_role">Michael Diestra</div>
 							<div class="officer_role">Tanner Hanson</div>
 							<div class="officer_role">Alexandra Hernandez</div>
 							<div class="officer_role">Kevin Hoo</div>
 							<div class="officer_role">Maxwell Owen Kelly</div>
-							<div class="officer_role">Sai Kothi</div>
 						</div>
 					</div>
 					<div class="col-sm-4 col-md-3 col-lg-3">
 						<div class="alt-features-item align-left mt-0 pt-0">
+						  <div class="officer_role">Sai Kothi</div>
 							<div class="officer_role">John Marcozzi</div>
 							<div class="officer_role">Ryan Murase</div>
 							<div class="officer_role">Phat Phung</div>
 							<div class="officer_role">Peter Nguyen</div>
 							<div class="officer_role">Deenah Sanchez</div>
 							<div class="officer_role">Matthew Sparrow</div>
-							<div class="officer_role">Andrew Wang</div>
+	 						<div class="officer_role">Philby Wang</div>
 						</div>
 					</div>
 					<div class="col-sm-4 col-md-3 col-lg-3">
 						<div class="alt-features-item align-left mt-0 pt-0">
-							<div class="officer_role">Philby Wang</div>
 							<div class="officer_role">Jonathan Kavner</div>
 							<div class="officer_role">Scott Brown</div>
 							<div class="officer_role">Gaurav Parmar</div>
