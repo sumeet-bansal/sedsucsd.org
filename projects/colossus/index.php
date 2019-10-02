@@ -82,12 +82,12 @@
 				</div>
 				<div class="row">
 					<div class="col-md-12 center mt-40">
-						<span style="font-size: 26px;">The All-New Static Fire System</span>
+						<span style="font-size: 26px;">The Complete Static Fire System</span>
 					</div>
 				</div>
 				<div class="row">
 					<div class="col-md-12 center mt-30">
-						<span style="font-size: 26px;">Available for rent (operation provided) Spring 2018</span>
+						<span style="font-size: 26px;">Now Available for Rent (Operation Provided)</span>
 					</div>
 				</div>
 				<div class="row">
@@ -101,6 +101,9 @@
 		<section class="page-section" id="about">
 			<div class="container relative">
 				<div class="section-text">
+					<div class="row text-center">
+						<iframe width="560" height="315" src="https://www.youtube.com/embed/ddH0S3rseSs?start=17" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+					</div>
 					<div class="row">
 						<div class="col-md-3 hidden-sm hidden-xs">
 							<img src="../../assets/images/projects/colossus/patch.png" alt="patch" class="fit-width">
@@ -147,7 +150,7 @@
 							<img src="../../assets/images/projects/colossus/flow.png" alt="flow" width="77%;" style="margin-top: -7px;">
 						</div>
 						<div class="col-md-4 col-sm-4">
-							<div style="margin-top: 29.5px;">Maximum mass flow rate of 4gal/s</div>
+							<div style="margin-top: 29.5px;">Maximum volumetric flow rate of 4gal/s</div>
 						</div>
 					</div>
 					<div class="row mt-30">
