@@ -174,6 +174,15 @@
                       ?>
                     </li>
                     <li>
+                      <?php if ($_SERVER['REQUEST_URI'] == "/projects/bombardier/") {
+                        echo '<a href="/projects/bombardier/" class="active">Bombardier</a>';
+                      }
+                      else {
+                        echo '<a href="/projects/bombardier/">Bombardier</a>';
+                      }
+                      ?>
+                    </li>
+                    <li>
                       <?php if ($_SERVER['REQUEST_URI'] == "/projects/colossus/") {
                         echo '<a href="/projects/colossus/" class="active">Colossus SFS</a>';
                       }
