@@ -92,6 +92,15 @@
                       ?>
                     </li>
                     <li>
+                      <?php if ($_SERVER['REQUEST_URI'] == "/teams/bombardier/") {
+                        echo '<a href="/teams/bombardier/" class="active">Bombardier</a>';
+                      }
+                      else {
+                        echo '<a href="/teams/bombardier/">Bombardier</a>';
+                      }
+                      ?>
+                    </li>
+                    <li>
                       <?php if ($_SERVER['REQUEST_URI'] == "/teams/business/") {
                         echo '<a href="/teams/business/" class="active">Business</a>';
                       }
