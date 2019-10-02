@@ -108,7 +108,7 @@
 							<h3 class="font-condensed mt-10 mb-20 mb-sm-20">Fig. 1: Distribution Plate</h3>
 						</div>
 						<div class="col-md-4"></div>
-						<div class="col-md-4 hidden-sm hidden-xs">
+						<div class="col-md-4">
 							<img src="../../assets/images/projects/bombardier/bombardier-distribution-plate.png" alt="bombardier" class="fit-width">
 						</div>
 					</div>
@@ -117,7 +117,7 @@
 							<h3 class="font-condensed mt-10 mb-20 mb-sm-20">Fig. 2: First Prototype Catalyst Chamber</h3>
 						</div>
 						<div class="col-md-4"></div>
-						<div class="col-md-4 hidden-sm hidden-xs">
+						<div class="col-md-4">
 							<img src="../../assets/images/projects/bombardier/bombardier-first-prototype-catalyst-chamber.png" alt="bombardier" class="fit-width">
 						</div>
 					</div>
@@ -126,7 +126,7 @@
 							<h3 class="font-condensed mt-10 mb-20 mb-sm-20">Fig. 2: First Prototype Nozzle</h3>
 						</div>
 						<div class="col-md-4"></div>
-						<div class="col-md-4 hidden-sm hidden-xs">
+						<div class="col-md-4">
 							<img src="../../assets/images/projects/bombardier/bombardier-first-prototype-nozzle.png" alt="bombardier" class="fit-width">
 						</div>
 					</div>
