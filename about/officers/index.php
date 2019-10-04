@@ -59,7 +59,7 @@
 				<div class="row">
 					<div class="col-md-8">
 						<h1 class="hs-line-11 font-alt mb-20 mb-xs-0">The Officers</h1>
-						<div class="hs-line-4 font-alt">2018-2019 <br></div>
+						<div class="hs-line-4 font-alt">2019-2020 <br></div>
 					</div>
 				</div>
 			</div>
@@ -86,71 +86,34 @@
 						</div>
 						<div class="row">
 							<div class="officer_info col-lg-12 col-md-12 col-sm-12">
-								Surya is a 3rd-year Environmental Engineering, Pre-Law student from Los Angeles. She wears a number of hats within SEDS, from President to SpaceVision 2018 Chair to Propulsion Engineer to former VP of Operations, but she loves them all equally. When she's not busy helping run SEDS or attending a conference, you can usually find her at a stand-up show or with a camera in hand.
-							</div>
+								Surya is a 4th-year Mechanical Engineering & Entrepreneurship student and aspiring Mission Manager. She has worn a
+								number of hats within SEDS, from Propulsion Engineer to VP Ops to 2018 SpaceVision Chair, but she loves them all equally.
+								She probably holds a record for most Slack messages sent from the floor of a boxing studio.
 						</div>
 					</div>
 				</div>
+			</div>
 
 				<div class="row mb-50 officer">
 					<!-- Wrapper for each person -->
 					<!--Image -->
 					<div class="col-lg-4 col-md-4 col-sm-4">
-						<img src="../../assets/images/members/jack_najarian.jpg" alt="jack">
+						<img src="../../assets/images/members/patrick_finn.jpg" alt="jack">
 					</div>
 					<!-- Name/Position/Bio -->
 					<div class="col-lg-8 col-md-8 col-sm-8 member-info">
 						<div target="blank">
-							<div class="officer_name col-lg-12 col-md-12 col-sm-12 pt-0 pl-0">Jack Najarian</div>
+							<div class="officer_name col-lg-12 col-md-12 col-sm-12 pt-0 pl-0">Patrick Finn</div>
 						</div>
 						<div class="row">
 							<div class="officer_role col-lg-12 col-md-12 col-sm-12 bold">VP of Engineering</div>
 						</div>
 						<div class="row">
 							<div class="officer_info col-lg-12 col-md-12 col-sm-12">
-								Jack is a 4th year Electrical Engineering student. He is from Los Angeles, but his family originally immigrated from Lebanon. He joined SEDS late in his freshman year where he worked on the electronics of Vulcan-I. Soon after he transitioned into Colossus as one of two systems engineers for Colossus with a focus on Electronics and Instrumentation. Next he became the President for 2017-2018 where he led the team to a successful static firing of of their third 3D printed engine. Now he has taken on the role of Vice President of Engineering so he can develop his technical leadership skills more.
-							</div>
-						</div>
-					</div>
-				</div>
-
-				<div class="row mb-50 officer">
-					<!-- Wrapper for each person -->
-					<!--Image -->
-					<div class="col-lg-4 col-md-4 col-sm-4">
-						<img src="../../assets/images/members/guinevere_berg.jpg" alt="guinevere">
-					</div>
-					<!-- Name/Position/Bio -->
-					<div class="col-lg-8 col-md-8 col-sm-8 member-info">
-						<div target="blank">
-							<div class="officer_name col-lg-12 col-md-12 col-sm-12 pt-0 pl-0">Guinevere Berg</div>
-						</div>
-						<div class="row">
-							<div class="officer_role col-lg-12 col-md-12 col-sm-12 bold">VP of Operations</div>
-						</div>
-						<div class="row">
-							<div class="officer_info col-lg-12 col-md-12 col-sm-12">
-								Guinevere is a fourth-year mechanical engineering major and member of the SEDS propulsion team. She joined SEDS because she is passionate about space exploration and engineering. Originally from Seattle, Guinevere has lived in three states and three countries and loves to travel whenever she has the time (and funds).
-							</div>
-						</div>
-					</div>
-				</div>
-
-				<div class="row mb-50 officer">
-					<!-- Wrapper for each person -->
-					<!--Image -->
-					<div class="col-lg-4 col-md-4 col-sm-4">
-						<img src="../../assets/images/members/max_kelly.jpg" alt="max">
-					</div>
-					<!-- Name/Position/Bio -->
-					<div class="col-lg-8 col-md-8 col-sm-8 member-info">
-						<div class="officer_name col-lg-12 col-md-12 col-sm-12 pt-0 pl-0">Maxwell Kelly</div>
-						<div class="row">
-							<div class="officer_role col-lg-12 col-md-12 col-sm-12 bold">Director of Internal Affairs</div>
-						</div>
-						<div class="row">
-							<div class="officer_info col-lg-12 col-md-12 col-sm-12">
-								Max is a 3rd year Media student. After two years of engineering work with the Colossus and propulsion teams, he now creates video content to share SEDS's accomplishments with the world. He also works as the Head of Internal to make sure everyone in SEDS is getting the most out of being a part of the team. When he's not pointing his camera at SEDS members, you can find him catching the latest release at the movie theater or working on his own projects.
+								Patrick is a 2nd year transfer Mechanical Engineering student. He has been a structural engineer on Colossus for
+								1 year and has helped start a monopropellant engine research project within the org. Patrick aims to expand SEDS
+								engineering project goals to align with the advancing aerospace industry and create new opportunities for growth.
+								In his free time, he attempts to ride and work on motorcycles.
 							</div>
 						</div>
 					</div>
@@ -159,19 +122,21 @@
 				<div class="row mb-50 officer">
 					<!--Image -->
 					<div class="col-lg-4 col-md-4 col-sm-4">
-						<img src="../../assets/images/members/tzinti_medina.jpg" alt="tzinti">
+						<img src="../../assets/images/members/vesal_razavimaleki.jpg" alt="tzinti">
 					</div>
 					<!-- Name/Position/Bio -->
 					<div class="col-lg-8 col-md-8 col-sm-8 member-info">
 						<div>
-							<div class="officer_name col-lg-12 col-md-12 col-sm-12 pt-0 pl-0">Tzinti Aguirre-Medina</div>
+							<div class="officer_name col-lg-12 col-md-12 col-sm-12 pt-0 pl-0">Vesal Razavimaleki</div>
 						</div>
 						<div class="row">
-							<div class="officer_role col-lg-12 col-md-12 col-sm-12 bold">Director of Media and Marketing</div>
+							<div class="officer_role col-lg-12 col-md-12 col-sm-12 bold">Director of Engineering, Electrical</div>
 						</div>
 						<div class="row">
 							<div class="officer_info col-lg-12 col-md-12 col-sm-12">
-								Currently a 3rd year Speculative Design major, Tzinti joined SEDS during her first quarter at UCSD as an addition to the business division. Over the past two years she has been working as a graphics team member, using her background and knowledge in the arts to expand on the merchandise, social media content, and overall image of SEDS. When she's not designing mission patches or logos for the project teams in SEDS, Tzinti spends her time watching short documentaries, working as a co-general manager at KSDT radio station, creating playlists for her weekly radio show, and brainstorming personal art projects.
+								Vesal is a 3rd year Engineering Physics major. He has been a part of SEDS since his first year and helped
+								start a new cubesat project. Now, overseeing all electrical and avionics endeavors, Vesal intends to open
+								SEDS to more EE-oriented space projects. In his free time, Vesal occasionally sleeps.
 							</div>
 						</div>
 					</div>
@@ -181,17 +146,19 @@
 					<!-- Wrapper for each person -->
 					<!--Image -->
 					<div class="col-lg-4 col-md-4 col-sm-4">
-						<img src="../../assets/images/members/jon_kavner.jpg" alt="jon">
+						<img src="../../assets/images/members/alex_coleman.jpg" alt="jon">
 					</div>
 					<!-- Name/Position/Bio -->
 					<div class="col-lg-8 col-md-8 col-sm-8 member-info">
-						<div class="officer_name col-lg-12 col-md-12 col-sm-12 pt-0 pl-0">Jon Kavner</div>
+						<div class="officer_name col-lg-12 col-md-12 col-sm-12 pt-0 pl-0">Alex Coleman</div>
 						<div class="row">
 							<div class="officer_role col-lg-12 col-md-12 col-sm-12 bold">Colossus Project Manager</div>
 						</div>
 						<div class="row">
 							<div class="officer_info col-lg-12 col-md-12 col-sm-12">
-								Jon is the project manager for Colossus. He is a 4th year Bioengineering student.
+								Alex is a 4th year Mechanical Engineering major and has been in SEDS for over a year, always on Colossus.
+								He looks forward to helping the team add to Colossus’ numerous successes. Outside of SEDS, Alex enjoys
+								cooking and coffee runs with friends.
 							</div>
 						</div>
 					</div>
@@ -201,19 +168,21 @@
 					<!-- Wrapper for each person -->
 					<!--Image -->
 					<div class="col-lg-4 col-md-4 col-sm-4">
-						<img src="../../assets/images/members/scott_brown.jpg" alt="scott">
+						<img src="../../assets/images/members/tyler_collins.jpg" alt="scott">
 					</div>
 					<!-- Name/Position/Bio -->
 					<div class="col-lg-8 col-md-8 col-sm-8 member-info">
 						<div>
-							<div class="officer_name col-lg-12 col-md-12 col-sm-12 pt-0 pl-0">Scott Brown</div>
+							<div class="officer_name col-lg-12 col-md-12 col-sm-12 pt-0 pl-0">Tyler Collins</div>
 						</div>
 						<div class="row">
-							<div class="officer_role col-lg-12 col-md-12 col-sm-12 bold">Aquarius Project Manager</div>
+							<div class="officer_role col-lg-12 col-md-12 col-sm-12 bold">Bombardier Project Manager, Colossus Test Conductor</div>
 						</div>
 						<div class="row">
 							<div class="officer_info col-lg-12 col-md-12 col-sm-12">
-								Scott is a 4th year Aerospace Engineering student. He is currently the project manager for Aquarius.
+								Tyler is a second year transfer studying mechanical engineering. He is currently the test conductor for
+								Colossus and Bombardier is his brain child. If he's not thinking of ways to improve the system or solve
+								a problem, you can find him gardening, at the beach, or getting his adrenaline pumping in action sports.
 							</div>
 						</div>
 					</div>
@@ -223,19 +192,22 @@
 					<!-- Wrapper for each person -->
 					<!--Image -->
 					<div class="col-lg-4 col-md-4 col-sm-4">
-						<img src="../../assets/images/members/patrick_vo.jpg" alt="Patrick">
+						<img src="../../assets/images/members/maxwell_kelly.jpg" alt="Patrick">
 					</div>
 					<!-- Name/Position/Bio -->
 					<div class="col-lg-8 col-md-8 col-sm-8 member-info">
 						<div>
-							<div class="officer_name col-lg-12 col-md-12 col-sm-12 pt-0 pl-0">Patrick Vo</div>
+							<div class="officer_name col-lg-12 col-md-12 col-sm-12 pt-0 pl-0">Maxwell Kelly</div>
 						</div>
 						<div class="row">
-							<div class="officer_role col-lg-12 col-md-12 col-sm-12 bold">Propulsion Team Lead</div>
+							<div class="officer_role col-lg-12 col-md-12 col-sm-12 bold">Vice President, Business</div>
 						</div>
 						<div class="row">
 							<div class="officer_info col-lg-12 col-md-12 col-sm-12">
-								Patrick is a 4th year Aerospace Engineering student and joined SEDS fall quarter of his 3rd year. He is currently leading the development of additively manufactured liquid bipropellant engines, an augmented spark ignition system, and a hydrostatic test stand for SEDS UCSD projects.
+								Max is a 4th year Media student. After two years of engineering work with the Colossus and propulsion teams,
+								and a year as Director of Internal, he now creates video content to share SEDS' accomplishments with the world.
+								When he's not pointing his camera at SEDS members, you can find him catching the latest release at the movie
+								theater or working on his own projects.
 							</div>
 						</div>
 					</div>
@@ -250,9 +222,9 @@
 						</div>
 						<div class="row">
 							<div class="officer_info col-lg-12 col-md-12 col-sm-12">
-								Andrew Wang &mdash; Director of Engineering, Mechanical
+								Samantha Lee &mdash; VP of Operations
 								<br>
-								Kevin Hoo &mdash; Vulcan-II Project Manager
+								Elizabeth Nelson &mdash; Director of Internal Affairs
 							</div>
 						</div>
 					</div>
