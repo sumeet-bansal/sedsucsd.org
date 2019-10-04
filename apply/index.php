@@ -179,10 +179,8 @@
 									<select required class="fit-width" name="preferred">
 										<option value="Any">Any</option>
 										<option value="Business">Business</option>
-										<option value="Propulsion">Propulsion</option>
-										<option value="Aurora">Aurora</option>
 										<option value="Colossus">Colossus</option>
-										<option value="Vulcan-II">Vulcan-II</option>
+										<option value="Pythia">Pythia</option>
 									</select>
 								</div>
 
@@ -191,10 +189,8 @@
 									<select required class="fit-width" name="backup">
 										<option value="Any">Any</option>
 										<option value="Business">Business</option>
-										<option value="Propulsion">Propulsion</option>
-										<option value="Aurora">Aurora</option>
 										<option value="Colossus">Colossus</option>
-										<option value="Vulcan-II">Vulcan-II</option>
+										<option value="Pythia">Pythia</option>
 									</select>
 								</div>
 							</div>
