@@ -77,7 +77,7 @@
 									Engineering the future of space
 								</h3>
 							</div>
-							<div class="col-md-6 font-right">
+							<!-- <div class="col-md-6 font-right">
 								<p class="mb-10 font-condensed" style="font-size: 36px; font-weight: 500;">Recruitment Fall 2019</p>
 								<h3 class="mb-10 font-condensed" style="font-weight: 300;">
 									<a href="https://docs.google.com/document/d/1hY27-Gc77okjP1_lPWayP3fkTa1o6PV2BYRSVHwkdqs/edit">Available Positions</a>
@@ -88,7 +88,7 @@
 								<h3 class="mb-10 font-condensed">
 									<a href="/apply" id="apply-button">Apply</a>
 								</h3>
-							</div>
+							</div> -->
 						</div>
 
 					</div>
