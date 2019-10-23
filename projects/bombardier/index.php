@@ -105,29 +105,20 @@
 					</div>
 					<div class="row align-center">
 						<div class="mb-sm-100 mb-xs-60">
-							<h3 class="font-condensed mt-10 mb-20 mb-sm-20">Fig. 1: Distribution Plate</h3>
+							<h3 class="font-condensed mt-10 mb-20 mb-sm-20">Fig. 1: Prototype Reactor and Nozzle</h3>
 						</div>
 						<div class="col-md-4"></div>
 						<div class="col-md-4">
-							<img src="../../assets/images/projects/bombardier/bombardier-distribution-plate.png" alt="bombardier" class="fit-width">
+							<img src="../../assets/images/projects/bombardier/prototype-reactor-and-nozzle.png" alt="bombardier" class="fit-width">
 						</div>
 					</div>
 					<div class="row align-center">
 						<div class="mb-sm-100 mb-xs-60">
-							<h3 class="font-condensed mt-10 mb-20 mb-sm-20">Fig. 2: First Prototype Catalyst Chamber</h3>
+							<h3 class="font-condensed mt-10 mb-20 mb-sm-20"></h3>
 						</div>
 						<div class="col-md-4"></div>
 						<div class="col-md-4">
-							<img src="../../assets/images/projects/bombardier/bombardier-first-prototype-catalyst-chamber.png" alt="bombardier" class="fit-width">
-						</div>
-					</div>
-					<div class="row align-center">
-						<div class="mb-sm-100 mb-xs-60">
-							<h3 class="font-condensed mt-10 mb-20 mb-sm-20">Fig. 2: First Prototype Nozzle</h3>
-						</div>
-						<div class="col-md-4"></div>
-						<div class="col-md-4">
-							<img src="../../assets/images/projects/bombardier/bombardier-first-prototype-nozzle.png" alt="bombardier" class="fit-width">
+							<img src="../../assets/images/projects/bombardier/prototype-reactor-and-nozzle-2.png" alt="bombardier" class="fit-width">
 						</div>
 					</div>
 				</div>

@@ -95,6 +95,16 @@
 						</div>
 					</div>
 
+					<div class="col-sm-4 col-md-3 col-lg-3">
+						<div class="alt-features-item align-left">
+							<div class="alt-features-icon">
+								<img src="../../assets/images/members/vicente_lopez.jpg" alt="alex">
+							</div>
+							<div class="officer_name">Vicente Lopez</div>
+							<div class="officer_role">Propulsion Engineer</div>
+						</div>
+					</div>
+
 				</div>
 
 				<div class="officer_name mt-5">Not Pictured</div>
@@ -102,7 +112,6 @@
 
 					<div class="col-sm-4 col-md-3 col-lg-3">
 						<div class="alt-features-item align-left mt-0 pt-0">
-							<div class="officer_role">Vicente Lopez</div>
 							<div class="officer_role">Scott Hall</div>
 						</div>
 					</div>
