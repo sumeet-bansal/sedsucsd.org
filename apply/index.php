@@ -110,7 +110,7 @@
 				<div class="row">
 					<div class="col-md-6">
 						<h1 class="hs-line-11 font-alt mb-20 mb-xs-0">Apply</h1>
-						<div class="hs-line-4 font-alt"><br>2019 Fall Recruitment<br></div>
+						<div class="hs-line-4 font-alt"><br>Winter 2020 Recruitment<br></div>
 					</div>
 					<div class="col-md-2 mt-15">
 						&nbsp;
@@ -125,21 +125,20 @@
 			<div class="relative container align-left">
 				<div class="row">
 					<div class="col-md-8 col-md-offset-2">
-						<h1>Applications for Fall 2019 have closed.<br><br>Please check back later.</h1 -->
-						<!-- h4>If you are experiencing any errors, please email your resume to <a href="mailto:sedsucsd@gmail.com">seds.ucsd@gmail.com</a>.</h4>
-						<h4>You must be a student at UC San Diego to apply. View our available positions <a href="https://docs.google.com/document/d/1vQm3oa8DEa5LxnRnRXy8RkxWiol0CqG52lUjsFlkvyg/">here</a>.</h4>
+						<!-- h1>Applications for Winter 2020 have closed.<br><br>Please check back later.</h1 -->
+						<h4>If you are experiencing any errors, please email your resume to <a href="mailto:sedsucsd@gmail.com">seds.ucsd@gmail.com</a>.</h4>
+						<h4>You must be a student at UC San Diego to apply. View our available positions <a href="https://docs.google.com/document/d/1BI6iHIvxAAokzvHhbrX1mfqvn3O-F6uY_CU2Hpri4To">here</a>.</h4>
 						<br>
-						<h4><i>Mixer 1: Tuesday [10/2] 5:00-6:30 PM, EBU-II Room 305</i></h4>
-						<h4><i>Mixer 2: Wednesday [10/3] 5:00-6:30 PM, EBU-II Room 305</i></h4>
-						<h4><i>Mixer 3: Thursday [10/4] 6:30-8:00 PM, EBU-II Room 305</i></h4 -->
+						<h4><i>Mixer: Thursday, January 9th, 7-10 PM in EBU-II Room 105</i></h4>
+						<h4><i>Engineers on the Green: January 13th, 1-5 PM in Warren Mall</i></h4>
 					</div>
 				</div>
 
 				<div class="row">
 					<div class="col-md-8 col-md-offset-2">
-						<!-- h3>Apply for General Engineering positions</h3 -->
+						<h3>Apply for a position</h3>
 						<form class="font-s-16" action="https://artemis.sedsucsd.org/assets/operations/application/apply.php" method="POST" enctype="multipart/form-data">
-							<!-- <div class="row">
+							<<div class="row">
 								<div class="col-sm-6">
 									<label for="first">First Name:</label><br>
 									<input type="text" name="first" class="fit-width" placeholder="First" required>
@@ -148,9 +147,9 @@
 									<label for="last">Last Name:</label><br>
 									<input type="text" name="last" class="fit-width" placeholder="Last" required>
 								</div>
-							</div> -->
+							</div>
 
-							<!-- <div class="row mt-20">
+							<div class="row mt-20">
 								<div class="col-sm-6">
 									<label for="email">Email:</label><br>
 									<input type="text" name="email" class="fit-width" placeholder="email@domain.com" required>
@@ -158,44 +157,40 @@
 								<div class="col-sm-6 pt-20">
 									This should be an email you check frequently.
 								</div>
-							</div> -->
+							</div>
 
-							<!-- <div class="row mt-20">
+							<div class="row mt-20">
 								<div class="col-sm-6">
 									<label for="resume">Upload your resume (.pdf)</label><br>
 									<input required type="file" onchange="checkFile();" name="resume" id="upload" style="margin-top: 2px;">
 								</div>
-							</div> -->
+							</div>
 
-							<!-- <div class="row" id="error-block">
+							<div class="row" id="error-block">
 								<div class="col-sm-12">
 									<div class="fit-width font-s-16 mt-10" style="background-color: rgba(255,0,0,0.25); padding-left: 6px; border-radius: 4px;" id="error-message"></div>
 								</div>
-							</div> -->
+							</div>
 
-							<!-- <div class="row mt-20">
+							<div class="row mt-20">
 								<div class="col-sm-6">
 									<label for="email">Team you're interested in joining:</label><br>
 									<select required class="fit-width" name="preferred">
-										<option value="Any">Any</option>
 										<option value="Business">Business</option>
-										<option value="Colossus">Colossus</option>
-										<option value="Pythia">Pythia</option>
+										<option value="Colossus">Propulsion</option>
 									</select>
 								</div>
 
 								<div class="col-sm-6">
 									<label for="email">Choose a backup:</label><br>
 									<select required class="fit-width" name="backup">
-										<option value="Any">Any</option>
 										<option value="Business">Business</option>
-										<option value="Colossus">Colossus</option>
-										<option value="Pythia">Pythia</option>
+										<option value="Colossus">Propulsion</option>
 									</select>
 								</div>
-							</div> -->
+							</div>
 
-							<!-- <div class="row mt-20">
+							<div class="row mt-20">
 								<div class="col-sm-6">
 									<label for="reason">How did you hear about SEDS?</label><br>
 									<input type="text" name="reason" class="fit-width" placeholder="Heard from (person)." required>
@@ -212,13 +207,13 @@
 									<input type="checkbox" onclick="changeSubmit();" id="ensure" name="ensure" value="1" class="" style="width: 15px; height: 15px;" required>
 									I understand that I will not be able to change my information later. Any resume not in <strong>.pdf</strong> format will not be considered.
 								</div>
-							</div> -->
+							</div>
 
-							<!-- <div class="row mt-20">
+							<div class="row mt-20">
 								<div class="col-sm-4 col-sm-offset-4">
 									<input disabled type="submit" name="submit" class="fit-width" value="Submit" id="submit-button">
 								</div>
-							</div> -->
+							</div>
 
 						</form>
 					</div>

@@ -77,18 +77,17 @@
 									Engineering the future of space
 								</h3>
 							</div>
-							<!-- <div class="col-md-6 font-right">
-								<p class="mb-10 font-condensed" style="font-size: 36px; font-weight: 500;">Recruitment Fall 2019</p>
+							<div class="col-md-6 font-right">
+								<p class="mb-10 font-condensed" style="font-size: 36px; font-weight: 500;">Recruitment Winter 2020</p>
 								<h3 class="mb-10 font-condensed" style="font-weight: 300;">
-									<a href="https://docs.google.com/document/d/1hY27-Gc77okjP1_lPWayP3fkTa1o6PV2BYRSVHwkdqs/edit">Available Positions</a>
+									<a href="https://docs.google.com/document/d/1BI6iHIvxAAokzvHhbrX1mfqvn3O-F6uY_CU2Hpri4To">Available Positions</a>
 								</h3>
-								<h4 class="mb-10 font-condensed">Mixer 1: Tuesday [10/1] 6:00-8:00 PM, PFBH Room 291</h4>
-								<h4 class="mb-10 font-condensed">Mixer 2: Wednesday [10/2] 6:00-8:00 PM, PFBH Room 291</h4>
-								<h4 class="mb-10 font-condensed">Mixer 3: Thursday [10/3] 7:00-9:00 PM, PFBH Room 291</h4>
+								<h4 class="mb-10 font-condensed">Mixer: Thursday, January 9th, 7-10 PM in EBU-II Room 105</h4>
+								<h4 class="mb-10 font-condensed">Engineers on the Green: January 13th, 1-5 PM in Warren Mall</h4>
 								<h3 class="mb-10 font-condensed">
 									<a href="/apply" id="apply-button">Apply</a>
 								</h3>
-							</div> -->
+							</div>
 						</div>
 
 					</div>
