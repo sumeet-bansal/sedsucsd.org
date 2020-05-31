@@ -78,14 +78,14 @@
 								</h3>
 							</div>
 							<div class="col-md-6 font-right">
-								<p class="mb-10 font-condensed" style="font-size: 36px; font-weight: 500;">Recruitment Winter 2020</p>
+								<p class="mb-10 font-condensed" style="font-size: 36px; font-weight: 500;">Next Recruitment: Fall 2020</p>
 								<h3 class="mb-10 font-condensed" style="font-weight: 300;">
 									<a href="https://docs.google.com/document/d/1BI6iHIvxAAokzvHhbrX1mfqvn3O-F6uY_CU2Hpri4To">Available Positions</a>
 								</h3>
-								<h4 class="mb-10 font-condensed">Mixer: Thursday, January 9th, 7-10 PM in EBU-II Room 105</h4>
+								<!--<h4 class="mb-10 font-condensed">Mixer: Thursday, January 9th, 7-10 PM in EBU-II Room 105</h4>
 								<h4 class="mb-10 font-condensed">Engineers on the Green: January 13th, 1-5 PM in Warren Mall</h4>
 								<h3 class="mb-10 font-condensed">
-									<a href="/apply" id="apply-button">Apply</a>
+									<a href="/apply" id="apply-button">Apply</a> -->
 								</h3>
 							</div>
 						</div>
@@ -158,15 +158,15 @@
 					</div>
 					<div class="col-md-4 col-sm-4 col-xs-12 mb-50">
 						<h1 class="font-condensed align-left mb-20 mb-sm-20">
-							<a href="projects/argo/" style="text-decoration: none; color: #FFF">Argo</a>
+							<a href="projects/ventilator/" style="text-decoration: none; color: #FFF">Ventilator</a>
 						</h1>
-						<a href="projects/argo/">
-							<img src="assets/images/projects/argo/argo-concept.jpg" class="fit-width">
+						<a href="projects/ventilator/">
+							<img src="assets/images/projects/ventilator/ventilator_v1.2_jank.png" class="fit-width">
 						</a>
 						<div class="font-s-18 mt-20">
-							Argo, the first place winner of SEDS USA and SSPI's 2018 design competition, is a space-tug designed to provide safe, reliable, consistent, and cost-effective transportation of cargo from low Earth orbit to any cis-lunar or low-lunar orbits. Its cargo missions may range from satellite deployment to delivering of cargo to a base in lunar orbit.
+							Our Ventilator team is combatting the global COVID-19 pandemic. We are applying our engineering knowledge under supervision of medical professionals to develop alternative medical devices to aid patients suffering from respiratory distress.
 							<br><br>
-							<a href="projects/argo/" class="animate">Learn more...</a>
+							<a href="projects/ventilator/" class="animate">Learn more...</a>
 						</div>
 					</div>
 				</div>
@@ -201,11 +201,11 @@
 				<div class="footer-text">
 					<!-- Copyright -->
 					<div class="muted">
-						&copy; 2018 SEDS UC San Diego
+						&copy; 2020 SEDS UC San Diego
 					</div>
 					<!-- End Copyright -->
 					<div class="muted">
-						Designed by Albert Lin
+						Designed by Albert Lin; Updated by Sumeet Bansal and Cody Curry
 					</div>
 				</div>
 				<!-- End Footer Text -->

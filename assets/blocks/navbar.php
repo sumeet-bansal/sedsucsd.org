@@ -239,6 +239,15 @@
                       }
                       ?>
                     </li>
+                    <li>
+                      <?php if ($_SERVER['REQUEST_URI'] == "/projects/ventilator/") {
+                        echo '<a href="/projects/ventilator/" class="active">Ventilator</a>';
+                      }
+                      else {
+                        echo '<a href="/projects/ventilator/">Ventilator</a>';
+                      }
+                      ?>
+                    </li>
                   </ul>
                 </li>
               </ul>
