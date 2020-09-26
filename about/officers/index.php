@@ -74,21 +74,22 @@
 					<!-- Wrapper for each person -->
 					<!--Image -->
 					<div class="col-lg-4 col-md-4 col-sm-4">
-						<img src="../../assets/images/members/surya_vohra.jpg" alt="surya">
+						<img src="../../assets/images/members/patrick_finn.jpg" alt="Patrick Finn" title="Patrick Finn">
 					</div>
 					<!-- Name/Position/Bio -->
 					<div class="col-lg-8 col-md-8 col-sm-8 member-info">
 						<div target="blank">
-							<div class="officer_name col-lg-12 col-md-12 col-sm-12 pt-0 pl-0">Surya Vohra</div>
+							<div class="officer_name col-lg-12 col-md-12 col-sm-12 pt-0 pl-0">Patrick Finn</div>
 						</div>
 						<div class="row">
 							<div class="officer_role col-lg-12 col-md-12 col-sm-12 bold">President</div>
 						</div>
 						<div class="row">
 							<div class="officer_info col-lg-12 col-md-12 col-sm-12">
-								Surya is a 4th-year Mechanical Engineering & Entrepreneurship student and aspiring Mission Manager. She has worn a
-								number of hats within SEDS, from Propulsion Engineer to VP Ops to 2018 SpaceVision Chair, but she loves them all equally.
-								She probably holds a record for most Slack messages sent from the floor of a boxing studio.
+								Patrick is a 3nd year transfer Mechanical Engineering student. After serving as a structural engineer on Colossus for
+								1 year and starting a monopropellant engine research project within the org, he served as Vulcan-II's project lead prior
+                to launch. Patrick aims to expand SEDS engineering project goals to align with the advancing aerospace industry and create
+                new opportunities for growth.	In his free time, he likes to ride and work on motorcycles.
 						</div>
 					</div>
 				</div>
@@ -98,22 +99,19 @@
 					<!-- Wrapper for each person -->
 					<!--Image -->
 					<div class="col-lg-4 col-md-4 col-sm-4">
-						<img src="../../assets/images/members/patrick_finn.jpg" alt="jack">
+						<img src="../../assets/images/members/tristan_kinney.png" alt="Tristan Kinney" title="Tristan Kinney">
 					</div>
 					<!-- Name/Position/Bio -->
 					<div class="col-lg-8 col-md-8 col-sm-8 member-info">
 						<div target="blank">
-							<div class="officer_name col-lg-12 col-md-12 col-sm-12 pt-0 pl-0">Patrick Finn</div>
+							<div class="officer_name col-lg-12 col-md-12 col-sm-12 pt-0 pl-0">Tristan Kinney</div>
 						</div>
 						<div class="row">
 							<div class="officer_role col-lg-12 col-md-12 col-sm-12 bold">VP of Engineering</div>
 						</div>
 						<div class="row">
 							<div class="officer_info col-lg-12 col-md-12 col-sm-12">
-								Patrick is a 2nd year transfer Mechanical Engineering student. He has been a structural engineer on Colossus for
-								1 year and has helped start a monopropellant engine research project within the org. Patrick aims to expand SEDS
-								engineering project goals to align with the advancing aerospace industry and create new opportunities for growth.
-								In his free time, he attempts to ride and work on motorcycles.
+                TODO
 							</div>
 						</div>
 					</div>
@@ -122,7 +120,7 @@
 				<div class="row mb-50 officer">
 					<!--Image -->
 					<div class="col-lg-4 col-md-4 col-sm-4">
-						<img src="../../assets/images/members/vesal_razavimaleki.jpg" alt="tzinti">
+						<img src="../../assets/images/members/vesal_razavimaleki.jpg" alt="Vesal Razavimaleki" title="Vesal Razavimaleki">
 					</div>
 					<!-- Name/Position/Bio -->
 					<div class="col-lg-8 col-md-8 col-sm-8 member-info">
@@ -134,7 +132,7 @@
 						</div>
 						<div class="row">
 							<div class="officer_info col-lg-12 col-md-12 col-sm-12">
-								Vesal is a 3rd year Engineering Physics major. He has been a part of SEDS since his first year and helped
+								Vesal is a 4th year Engineering Physics major. He has been a part of SEDS since his first year and helped
 								start a new cubesat project. Now, overseeing all electrical and avionics endeavors, Vesal intends to open
 								SEDS to more EE-oriented space projects. In his free time, Vesal occasionally sleeps.
 							</div>
@@ -146,73 +144,77 @@
 					<!-- Wrapper for each person -->
 					<!--Image -->
 					<div class="col-lg-4 col-md-4 col-sm-4">
-						<img src="../../assets/images/members/alex_coleman.jpg" alt="jon">
+						<img src="../../assets/images/members/breana_guerrero.png" alt="Breana Guerrero" title="Breana Guerrero">
 					</div>
 					<!-- Name/Position/Bio -->
 					<div class="col-lg-8 col-md-8 col-sm-8 member-info">
-						<div class="officer_name col-lg-12 col-md-12 col-sm-12 pt-0 pl-0">Alex Coleman</div>
+						<div>
+							<div class="officer_name col-lg-12 col-md-12 col-sm-12 pt-0 pl-0">Breana Guerrero</div>
+						</div>
 						<div class="row">
-							<div class="officer_role col-lg-12 col-md-12 col-sm-12 bold">Colossus Project Manager</div>
+							<div class="officer_role col-lg-12 col-md-12 col-sm-12 bold">Vice President, Operations</div>
 						</div>
 						<div class="row">
 							<div class="officer_info col-lg-12 col-md-12 col-sm-12">
-								Alex is a 4th year Mechanical Engineering major and has been in SEDS for over a year, always on Colossus.
-								He looks forward to helping the team add to Colossus’ numerous successes. Outside of SEDS, Alex enjoys
-								cooking and coffee runs with friends.
+                Breana is a 4th year Environmental Systems major with a minor in Mechanical Engineering. She has been a propellant
+                feed system engineer on Colossus for 2 years and has helped start a lander project within the org. She looks forward
+                to helping both Colossus and the lander project reach many successes. During her free time, she enjoys late night
+                adventures with friends and graphic designing.
+                TODO
 							</div>
 						</div>
 					</div>
 				</div>
 
-				<div class="row mb-50 officer">
-					<!-- Wrapper for each person -->
-					<!--Image -->
-					<div class="col-lg-4 col-md-4 col-sm-4">
-						<img src="../../assets/images/members/tyler_collins.jpg" alt="scott">
-					</div>
-					<!-- Name/Position/Bio -->
-					<div class="col-lg-8 col-md-8 col-sm-8 member-info">
-						<div>
-							<div class="officer_name col-lg-12 col-md-12 col-sm-12 pt-0 pl-0">Tyler Collins</div>
-						</div>
-						<div class="row">
-							<div class="officer_role col-lg-12 col-md-12 col-sm-12 bold">Bombardier Project Manager, Colossus Test Conductor</div>
-						</div>
-						<div class="row">
-							<div class="officer_info col-lg-12 col-md-12 col-sm-12">
-								Tyler is a second year transfer studying mechanical engineering. He is currently the test conductor for
-								Colossus and Bombardier is his brain child. If he's not thinking of ways to improve the system or solve
-								a problem, you can find him gardening, at the beach, or getting his adrenaline pumping in action sports.
-							</div>
-						</div>
-					</div>
-				</div>
 
 				<div class="row mb-50 officer">
 					<!-- Wrapper for each person -->
 					<!--Image -->
 					<div class="col-lg-4 col-md-4 col-sm-4">
-						<img src="../../assets/images/members/maxwell_kelly.jpg" alt="Patrick">
+A						<img src="../../assets/images/members/vicente_lopez.jpg" alt="Vicente Lopez" title="Vicente Lopez">
 					</div>
 					<!-- Name/Position/Bio -->
 					<div class="col-lg-8 col-md-8 col-sm-8 member-info">
 						<div>
-							<div class="officer_name col-lg-12 col-md-12 col-sm-12 pt-0 pl-0">Maxwell Kelly</div>
+							<div class="officer_name col-lg-12 col-md-12 col-sm-12 pt-0 pl-0">Vicente Lopez</div>
 						</div>
 						<div class="row">
 							<div class="officer_role col-lg-12 col-md-12 col-sm-12 bold">Vice President, Business</div>
 						</div>
 						<div class="row">
 							<div class="officer_info col-lg-12 col-md-12 col-sm-12">
-								Max is a 4th year Media student. After two years of engineering work with the Colossus and propulsion teams,
-								and a year as Director of Internal, he now creates video content to share SEDS' accomplishments with the world.
-								When he's not pointing his camera at SEDS members, you can find him catching the latest release at the movie
-								theater or working on his own projects.
+              Vicente is a 4th year Mechanical Engineer. He is a propulsion engineer for Bombardier's hydrogen peroxide engine, and
+              served as the structures lead on Aquarius. This year, he hopes to advance SEDS UCSD's project development capabilities
+              while building innovative technologies in an environment aligned with the aerospace industry. When not building rockets,
+              he likes to swim, surf, and work on cars.
 							</div>
 						</div>
 					</div>
 				</div>
 
+				<div class="row mb-50 officer">
+					<!-- Wrapper for each person -->
+					<!--Image -->
+					<div class="col-lg-4 col-md-4 col-sm-4">
+A						<img src="../../assets/images/members/scott_hall.jpg" alt="Scott Hall" title="Scott Hall">
+					</div>
+					<!-- Name/Position/Bio -->
+					<div class="col-lg-8 col-md-8 col-sm-8 member-info">
+						<div>
+							<div class="officer_name col-lg-12 col-md-12 col-sm-12 pt-0 pl-0">Scott Hall</div>
+						</div>
+						<div class="row">
+							<div class="officer_role col-lg-12 col-md-12 col-sm-12 bold">Director of Internal Affairs</div>
+						</div>
+						<div class="row">
+							<div class="officer_info col-lg-12 col-md-12 col-sm-12">
+                Scott is a pretty cool guy who doesn't afraid of anything.
+							</div>
+						</div>
+					</div>
+				</div>
+
+        <!-- Uncomment for Not Pictured
 				<div class="row mb-50 officer">
 					<!-- Wrapper for each person -->
 					<!-- Name/Position/Bio -->
@@ -222,14 +224,14 @@
 						</div>
 						<div class="row">
 							<div class="officer_info col-lg-12 col-md-12 col-sm-12">
-								Samantha Lee &mdash; VP of Operations
+								Placeholder &mdash; Title
 								<br>
-								Elizabeth Nelson &mdash; Director of Internal Affairs
+								Placeholder &mdash; Title
 							</div>
 						</div>
 					</div>
 				</div>
-
+        Uncomment for Not Pictured -->
 			</div>
 		</section>
 		<!-- End About Section -->

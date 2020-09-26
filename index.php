@@ -80,7 +80,7 @@
 							<div class="col-md-6 font-right">
 								<p class="mb-10 font-condensed" style="font-size: 36px; font-weight: 500;">Next Recruitment: Fall 2020</p>
 								<h3 class="mb-10 font-condensed" style="font-weight: 300;">
-									<a href="https://docs.google.com/document/d/1BI6iHIvxAAokzvHhbrX1mfqvn3O-F6uY_CU2Hpri4To">Available Positions</a>
+									<a href="https://drive.google.com/file/d/1jq6T2BC05OYh4WlM4F3Ko4LxTw4z8fjZ/view?usp=sharing">Available Positions</a>
 								</h3>
 								<!--<h4 class="mb-10 font-condensed">Mixer: Thursday, January 9th, 7-10 PM in EBU-II Room 105</h4>
 								<h4 class="mb-10 font-condensed">Engineers on the Green: January 13th, 1-5 PM in Warren Mall</h4>

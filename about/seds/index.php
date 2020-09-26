@@ -88,12 +88,26 @@
 		</section>
 		<!-- End About Section -->
 
+    <!-- Team Photo 2019 -->
 		<section class="page-section pt-0 pb-20">
 			<div class="container relative">
 				<div class="section-text">
 					<div class="row">
 						<div class="col-md-12 col-sm-12 mb-sm-20 mb-xs-20 font-s-20">
-							<img src="../../assets/images/about/seds-team-picture.jpg" alt="team picture">
+							<img src="../../assets/images/about/seds_team_picture_2019.jpg" alt="team picture 2019" title="SEDS 2018 Group Photo">
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+
+    <!-- Team Photo 2018 -->
+		<section class="page-section pt-0 pb-20">
+			<div class="container relative">
+				<div class="section-text">
+					<div class="row">
+						<div class="col-md-12 col-sm-12 mb-sm-20 mb-xs-20 font-s-20">
+							<img src="../../assets/images/about/seds_team_picture_2018.jpg" alt="team picture 2018" title="SEDS 2018 Group Photo">
 						</div>
 					</div>
 				</div>
