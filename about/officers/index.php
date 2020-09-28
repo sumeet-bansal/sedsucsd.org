@@ -165,11 +165,11 @@
 					</div>
 				</div>
 
-
 				<div class="row mb-50 officer">
 					<!-- Wrapper for each person -->
 					<!--Image -->
 					<div class="col-lg-4 col-md-4 col-sm-4">
+						<img src="../../assets/images/members/scott_hall.jpg" alt="Scott Hall" title="Scott Hall">
 					</div>
 					<!-- Name/Position/Bio -->
 					<div class="col-lg-8 col-md-8 col-sm-8 member-info">
@@ -188,6 +188,7 @@
 							</div>
 						</div>
 					</div>
+				</div>
 				</div>
 
 				<div class="row mb-50 officer">
