@@ -169,7 +169,7 @@
 					<!-- Wrapper for each person -->
 					<!--Image -->
 					<div class="col-lg-4 col-md-4 col-sm-4">
-						<img src="../../assets/images/members/scott_hall.jpg" alt="Scott Hall" title="Scott Hall">
+						<img src="../../assets/images/members/vicente_lopez.jpg" alt="Vicente Lopez" title="Vicente Lopez">
 					</div>
 					<!-- Name/Position/Bio -->
 					<div class="col-lg-8 col-md-8 col-sm-8 member-info">
