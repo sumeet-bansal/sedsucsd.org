@@ -215,8 +215,6 @@
 
         <!-- Uncomment for Not Pictured
 				<div class="row mb-50 officer">
-					<!-- Wrapper for each person -->
-					<!-- Name/Position/Bio -->
 					<div class="col-lg-8 col-md-8 col-sm-8 member-info">
 						<div>
 							<div class="officer_name col-lg-12 col-md-12 col-sm-12 pt-0 pl-0">Not Pictured</div>
@@ -233,6 +231,7 @@
 			</div>
 		</section>
     Uncomment for Not Pictured -->
+
 		<!-- End About Section -->
 
 		<!-- Call Action Section -->
