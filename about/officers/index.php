@@ -99,7 +99,7 @@
 					<!-- Wrapper for each person -->
 					<!--Image -->
 					<div class="col-lg-4 col-md-4 col-sm-4">
-						<img src="../../assets/images/members/tristan_kinney.png" alt="Tristan Kinney" title="Tristan Kinney">
+						<img src="../../assets/images/members/tristan_kinney.jpg" alt="Tristan Kinney" title="Tristan Kinney">
 					</div>
 					<!-- Name/Position/Bio -->
 					<div class="col-lg-8 col-md-8 col-sm-8 member-info">
