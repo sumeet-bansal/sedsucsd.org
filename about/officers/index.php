@@ -111,7 +111,7 @@
 						</div>
 						<div class="row">
 							<div class="officer_info col-lg-12 col-md-12 col-sm-12">
-                TODO
+                Tristan is a 3nd year Mechanical Engineering student. Starting as Vulcan-II's structures engineer he soon founded the “Rocket Lander Test-bed” and serves as the project manager for the project along with co-leading the propulsion team with fellow officer Patrick Finn. He hopes to push the bounds of what SEDS is capable of by attempting to be the first students to ever propulsively land a rocket in order to highlight the importance of reusability and technology development in commercial space! When he is not building over-glorified ICBMs Tristan spends his time as a barista at M.O.M. coffee house in Muir and likes to collect vinyl and cassettes.
 							</div>
 						</div>
 					</div>
@@ -160,7 +160,6 @@
                 feed system engineer on Colossus for 2 years and has helped start a lander project within the org. She looks forward
                 to helping both Colossus and the lander project reach many successes. During her free time, she enjoys late night
                 adventures with friends and graphic designing.
-                TODO
 							</div>
 						</div>
 					</div>
