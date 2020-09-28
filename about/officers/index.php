@@ -230,9 +230,9 @@
 						</div>
 					</div>
 				</div>
-        Uncomment for Not Pictured -->
 			</div>
 		</section>
+    Uncomment for Not Pictured -->
 		<!-- End About Section -->
 
 		<!-- Call Action Section -->
@@ -268,6 +268,7 @@
 					<!-- End Copyright -->
 					<div class="muted">
 						Designed by Albert Lin.
+            Updated by Cody Curry.
 					</div>
 				</div>
 				<!-- End Footer Text -->
